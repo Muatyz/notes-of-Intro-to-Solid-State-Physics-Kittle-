@@ -1,0 +1,190 @@
+\documentclass[UTF8,a4paper,1pt]{ctexart}
+\usepackage[left=0cm, right=2cm, top=0.2cm, bottom=0.2cm]{geometry}
+%页边距
+\CTEXsetup[format={\Large\bfseries}]{section} %设置章标题居左
+%%%%%%%%%%%%%%%%%%%%%%%
+% -- text font --
+% compile using Xelatex
+%%%%%%%%%%%%%%%%%%%%%%%
+% -- 中文字体 --
+%\setmainfont{Microsoft YaHei}  % 微软雅黑
+%\setmainfont{YouYuan}  % 幼圆    
+%\setmainfont{NSimSun}  % 新宋体
+%\setmainfont{KaiTi}    % 楷体
+%\setmainfont{SimSun}   % 宋体
+%\setmainfont{SimHei}   % 黑体
+% -- 英文字体 --
+%\usepackage{times}
+%\usepackage{mathpazo}
+%\usepackage{fourier}
+%\usepackage{charter}
+
+%\usepackage{helvet}
+
+\usepackage{amsmath, amsfonts, amssymb} % math equations, symbols
+\usepackage[english]{babel}
+\usepackage{color}	% color content
+\usepackage{graphicx}	% import figures
+\usepackage{url}	% hyperlinks
+\usepackage{bm} 	% bold type for equations
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{zhnumber}
+\usepackage{longtable}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subfigure}
+\renewcommand\thesection{\zhnum{section}}
+\renewcommand\thesubsection{\arabic{section}}
+\renewcommand{\algorithmicrequire}{ \textbf{Input:}}
+% use Input in the format of Algorithm  
+\renewcommand{\algorithmicensure}{ \textbf{Initialize:}}
+% use Initialize in the format of Algorithm  
+\renewcommand{\algorithmicreturn}{ \textbf{Output:}}
+% use Output in the format of Algorithm
+%%简化编写公式难度
+\usepackage{braket} %量子算符宏包
+\usepackage{cancel}%表示项的消去 
+
+%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,%设置行号位置none不显示行号
+  %numberstyle=\tiny\courier, %设置行号大小
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  escapeinside=``,%逃逸字符(1左面的键)，用于显示中文例如在代码中`中文...`
+  tabsize=4,
+  extendedchars=false %解决代码跨页时，章节标题，页眉等汉字不显示的问题
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr} %设置页眉、页脚
+
+\lhead{}
+\chead{}
+%\rhead{\includegraphics[width=1.2cm]{fig/ZJU_BLUE.eps}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%  设置水印
+%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{draftwatermark}         % 所有页加水印
+%\usepackage[firstpage]{draftwatermark} % 只有第一页加水印
+% \SetWatermarkText{Water-Mark}           % 设置水印内容
+% \SetWatermarkText{\includegraphics{fig/ZJDX-WaterMark.eps}}         % 设置水印logo
+% \SetWatermarkLightness{0.9}             % 设置水印透明度 0-1
+% \SetWatermarkScale{1}                   % 设置水印大小 0-1    
+
+\usepackage{hyperref} %bookmarks
+\hypersetup{colorlinks, bookmarks, unicode} %unicode
+
+\begin{document}
+\begin{itemize}
+  \item \textbf{积分公式}.$\int_{-\infty}^{\infty}exp[ix^2]dx=\sqrt{\pi}exp[i\pi/4]$(Fresnel积分公式);
+  $\int_{-\infty}^{\infty}dxexp[-\alpha x^2+\beta x]=\sqrt{\frac{\pi}{\alpha}}exp[\frac{\beta^2}{4\alpha}]$,
+  $\int_{0}^{+\infty}x^{n}exp[-ax^{2}]dx=\frac{\Gamma(\frac{n+1}{2})}{2a^{\frac{n+1}{2}}}$,
+  $\int_{-\infty}^{+\infty}xexp[-\frac{1}{2}ax^2+bx]dx=\frac{b}{a}\sqrt{\frac{2\pi}{a}}exp[b^2/(2a)]$,
+  $\int_{-\infty}^{+\infty}x^{2}exp[-\frac{1}{2}ax^2+bx]dx=\frac{1}{a}(1+\frac{b^{2}}{a})\sqrt{\frac{2\pi}{a}}exp[b^{2}/(2a)]$;
+  $\int_{-\infty}^{+\infty}x^{2n}exp[-\frac{1}{2}ax^{2}]dx=\frac{(2n-1)!!}{a^{n}}\sqrt{\frac{2\pi}{a}}$(广义Guass积分式);
+  $\int_{0}^{+\infty}x^{2n+1}exp[-ax^{2}]dx=\frac{n!}{2a^{n+1}}$;
+  $(\frac{1}{\sqrt{2\pi\hbar}})^{3}\iiint exp[-\frac{i}{\hbar}\vec{p}'\cdot\vec{r}](p_{z}\frac{\partial}{\partial p_{y}}-p_{y}\frac{\partial}{\partial p_{z}})exp[\frac{i}{\hbar}\vec{p}\cdot\vec{r}]d\tau=
+  (p_{z}\frac{\partial}{\partial p_{y}}-p_{y}\frac{\partial}{\partial p_{z}})(\frac{1}{\sqrt{2\pi\hbar}})^{3}\iiint exp[\frac{i}{\hbar}(\vec{p}-\vec{p}')\cdot\vec{r}]d\tau
+  =(p_{z}\frac{\partial}{\partial p_{y}}-p_{y}\frac{\partial}{\partial p_{z}})\delta(\vec{p}-\vec{p}')$
+
+  \item \textbf{晶格}  (1)三斜(1;$a_1\neq a_2\neq a_3;\alpha\neq\beta\neq\gamma$);单斜(2;$a_1\neq a_2\neq a_3;\alpha=\gamma=\pi/2\neq\beta$);
+  正交(4;$a_1\neq a_2\neq a_3;\alpha=\beta=\gamma=\pi/2$);四角(2,$a_1=a_2\neq a_3;\alpha=\beta=\gamma=\pi/2$);
+  立方(3;$a_1=a_2=a_3;\alpha=\beta=\gamma=\pi/2$);三角(1,$a_1=a_2=a_3;\alpha=\beta=\gamma\neq\pi/2$);
+  六角(1;$a_1=a_2\neq a_3;\alpha=\beta=\pi/2,\gamma=2\pi/3$)(2)sc(简单立方);bcc(体心立方);fcc(面心立方);hcp(六角密堆积)
+  (3)常见结构:NaCl($Cl^{-}$面心\&角+$Na^{+}$边中\&体心);CsCl($Cs^{+}$体心+$Cl^{-}$角);
+  金刚石结构(fcc+$000\&\frac{1}{4}\frac{1}{4}\frac{1}{4}$);ZnS结构(Zn$000,0\frac{1}{2}\frac{1}{2},\frac{1}{2}0\frac{1}{2},\frac{1}{2}\frac{1}{2}0$;
+  S$\frac{1}{4}\frac{1}{4}\frac{1}{4},\frac{1}{4}\frac{3}{4}\frac{3}{4},\frac{3}{4}\frac{1}{4}\frac{3}{4},,\frac{3}{4}\frac{3}{4}\frac{1}{4}$)
+
+  \item \textbf{两种指标}设晶面截距为$a_1,a_2,a_3$(1)$(a_1^{-1},a_{2}^{-1},a_2^{-1})$;(2)$[a_1,a_2,a_3]$.上划线表示负号$[u\overline{v}w]$
+  \item \textbf{布拉格条件}$2d\sin{\theta}=n\lambda;\Delta\vec{k}=\vec{G};2\vec{k}\cdot\vec{G}=\vec{G}^2$;
+  \item \textbf{劳厄条件}$\vec{a_1}\cdot\Delta\vec{k}=2\pi v_1;\vec{a_2}\cdot\Delta\vec{k}=2\pi v_2;\vec{a_3}\cdot\Delta\vec{k}=2\pi v_3$;
+  \item \textbf{倒格子初基平移矢量}$\vec{b_1}=2\pi\frac{\vec{a_2}\times\vec{a_3}}{\vec{a_1}\cdot\vec{a_2}\times\vec{a_3}},
+  \vec{b_2}=2\pi\frac{\vec{a_3}\times\vec{a_1}}{\vec{a_1}\cdot\vec{a_2}\times\vec{a_3}},
+  \vec{b_3}=2\pi\frac{\vec{a_1}\times\vec{a_2}}{\vec{a_1}\cdot\vec{a_2}\times\vec{a_3}}$
+
+  \item \textbf{倒格矢}$\vec{G}=v_1\vec{b_1}+v_2\vec{b_2}+v_3\vec{b_3},v_{i}为\mathcal{Z}$
+  \item \textbf{几何结构因子}前提:方向为$\vec{k'}=\vec{k}+\Delta\vec{k}=\vec{k}+\vec{G}$,
+  $S_{G}=\sum_{j} f_{j}e^{-i\vec{r_{j}}\cdot\vec{G}}=\sum_{j}e^{-i2\pi(x_j v_1+y_j y_2+z_j v_3)}$,
+  其中$f_{j}=\int dVn_{j}(\vec{r})e^{-i\vec{G}\cdot\vec{r}}$
+  \item \textbf{第一布里渊区}倒格子的维格纳-塞茨原胞(1)sc$-\rangle$sc($2\pi/a$);bcc$-\rangle$棱形十二面体($2\pi/a\sqrt{2}$);
+  fcc$-\rangle$截角八面体(八面体的每个角都被切下,使得相邻三个面的正方形的边能围成正六边形)
+
+  \item \textbf{声子}
+  (1)单原子:$u_{s\pm 1}=ue^{isKa}exp^{\pm iKa}$色散关系:$w^2=(2C/M)(1-\cos{Ka})$;
+  $w^2=(4C/M)\sin^2{\frac{1}{2}Ka}$;群速:$v_{g}=\frac{dw}{dK}=\sqrt{\frac{Ca^2}{M}}\cos{\frac{1}{2}Ka}$;
+  长波极限($Ka<<1$):$w^2=(C/M)K^{2}a^{2}$
+  (2)双原子:原胞p个原子,3个声学支,3p-3个光学支.$M_1\frac{d^2 u_s}{dt^2}=C(v_s+v_{s-1}-2u_s);M_2\frac{d^2 v_s}{dt^2}=C(u_{s+1}+u_{s}-2v_s)$.
+  $u_s=ue^{isKa}e^{-iwt},v_s=ve^{isKa}e^{-iwt}$,行列式系数为0:$M_1 M_2 w^4-2C(M_1+M_2)w^2+2C^2(1-\cos{Ka})=0$;长波极限:
+  光学支$w^2=2C(\frac{1}{M_1}+\frac{1}{M_2})$,声学支$w^2=\frac{C}{2(M_1+M_2)}K^2 a^2$
+\end{itemize}
+
+% \begin{equation}
+% \begin{aligned}
+%   &A^2\int_{0}^{2\pi}\sin{x} ^4 dx = 1\\
+%   &\Longrightarrow A=\sqrt{\frac{4}{3\pi}},\\
+%   &\Psi(\phi,t=0)=A\sin ^2\phi = \frac{A}{2}-\frac{A}{2}\cos{2\phi},\\
+%   &\Psi(x,t=0) = \sum_{i}c_{i}\psi_{i}(x,t=0),\\
+%   &\Psi(x,t) = \sum_{i}c_{i}\psi_{i}(x,t=0)e^{-\frac{iE_{i}t}{\hbar}}\\\
+%   &\longrightarrow \Psi(x,t) = \frac{A}{2}e^{-\frac{iE_{0}t}{\hbar}}-
+%   \frac{A}{2}\cos(2\phi)e^{-\frac{iE_{2}t}{\hbar}}\\
+% \end{aligned}
+% \end{equation}
+
+  % \begin{table}[htbp]
+  %   \caption{布拉维格子及其倒格子的几何参数}
+  %   \centering
+  %   \begin{tabular}{c|c|c|c|c}
+  %   \hline
+  %   & 点群 & 简写 & 布拉维格子几何参数 & 倒格子几何参数 \\
+  %   \hline
+  %   \hline
+  %   立方晶系 & m3m & fcc & a & $\frac{2\pi}{a}$ \\
+  %   & & bcc & a & $\frac{2\pi}{a}\sqrt{\frac{2}{3}}$ \\
+  %   \hline
+  %   正交晶系 & mmm & & a, b, c & $\frac{2\pi}{a}$, $\frac{2\pi}{b}$, $\frac{2\pi}{c}$ \\
+  %   \hline
+  %   单斜晶系 & 2/m & & a, b, c, $\beta$ & $\frac{2\pi}{a}$, $\frac{2\pi}{b}$, $\frac{2\pi}{c}$, $\alpha^{},\beta^{},\gamma^{}$ \\
+  %   \hline
+  %   三斜晶系 & 1 & & a, b, c, $\alpha$, $\beta$, $\gamma$ & $\alpha^{},\beta^{} ,\gamma^{}$ \\
+  %   \hline
+  %   菱面体晶系 & m3m & & a, c & $\frac{2\pi}{a}$, $\frac{2\pi}{c}$ \\
+  %   \hline
+  %   正四面体晶系 & 23 & & a & $\frac{4\pi}{a}$ \\
+  %   \hline
+  %   正十二面体晶系 & m3 & & a & $\frac{4\pi}{a}$ \\
+  %   \hline
+  %   \end{tabular}
+  %   \end{table}
+
+
+
+\end{document}
