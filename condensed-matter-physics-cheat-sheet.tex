@@ -198,20 +198,51 @@
   电子热容$C_e=\frac{dU}{dT}=\int_{0}^{\infty}d\epsilon(\epsilon-\epsilon_F)\frac{df}{dT}D(\epsilon)\approx D(\epsilon_F)\int_0^{\infty}d\epsilon(\epsilon-\epsilon_F)\frac{df}{dT}$
   低温极限($\tau=k_B T,x=\frac{\epsilon-\epsilon_F}{\tau}$)$\int_{-\infty}^{+\infty}dxx^2\frac{e^x}{(e^x +1)^2}=\frac{\pi^2}{3},C_e=\frac{1}{3}\pi^2D(\epsilon_F)k_B^2T$
   ($D(\epsilon_F)=\frac{3N}{2\epsilon_F}$),$C_e=\frac{1}{2}\pi^2Nk_BT/T_F$.
+  (5)金属比热.$\frac{C}{T}=\gamma+AT^2$($\gamma$索末菲常量).
+  (6)电导率.$\vec{F}=-e(\vec{E}+\frac{1}{c}\vec{v}\times\vec{B})$.若$\vec{F}=-e\vec{E},\delta\vec{k}=-e\vec{E}t/\hbar,\vec{v}=\delta\vec{k}/m=-e\vec{E}\tau/m$.
+  电流密度$\vec{j}=nq\vec{v}=ne^2\tau\vec{E}/m$,($\vec{j}=\sigma\vec{E}$)$\sigma=\frac{ne^2\tau}{m},\rho=\sigma^{-1}$.
+  (7)磁场下运动.(CGS制)$\hbar(\frac{d}{dt}+\frac{1}{\tau})\delta\vec{k}=\vec{F}=-e(\vec{E}+\vec{v}\times\vec{E})$.若$\vec{B}\parallel\hat{z}$,
+  $\{v_x=-\frac{e\tau}{m}E_x-\omega_c\tau v_y,v_y=-\frac{e\tau}{m}E_y+\omega_c\tau v_x,v_z=-\frac{e\tau}{m}E_z\}$,回旋频率$\omega_c=\frac{eB}{mc}$
+  (8)霍尔效应.霍尔系数$R_H=\frac{E_y}{j_x B}=-\frac{1}{nec}$(CGS).
+  (9)金属热导率.$K_e=\frac{1}{3}Cvl=\frac{\pi^2}{3}\frac{nk_B^2T}{mv_F^2}v_Fl=\frac{\pi^2 n k_B^2 T\tau}{3m}$
+
+  \item \textbf{近自由电子模型}
+  (0)一维晶体.布拉格衍射条件$(\vec{k}+\vec{G})^2=\vec{k}^2\rightarrow k=\pm\frac{1}{2}G=\pm\frac{n\pi}{a}$(倒格矢$G=\frac{2\pi n}{a}$)
+  (1)驻波.与时间无关.$\psi(+)=e^{i\pi x/a}+e^{-i\pi x/a}=2\cos{\pi x/a},\psi(-)=e^{i\pi x/a}-e^{-i\pi x/a}=2i\sin{\pi x/a}$.
+  $\rho(+)=|\psi(+)|^2\propto\cos^2{\pi x/a},\rho(-)=|\psi(-)|^2\propto\sin^2{\pi x/a}$.
+  大小关系:$\langle\psi(-)|U|psi(-)\rangle<\langle e^{\mp i\pi x/a}|U|e^{\pm i\pi x/a}\rangle<\langle\psi(+)|U|psi(+)\rangle$.
+  若一维$\psi(x)=\sqrt{2}\cos{\pi x/a},\sqrt{2}\sin{\pi x/a}$,电子势能$U(x)=U\cos{2\pi x/a}$,则能隙$E_g=U(+)-U(-)=\int_{0}^{1}dx U(x)[|\psi(+)|^2-|\psi(-)|^2]=U$.
+  (2)布洛赫函数.若势周期,则$\psi_{\vec{k}}(\vec{r})=u_{\vec{k}}(\vec{r})e^{i\vec{k}\cdot\vec{r}}$(其中$u_{\vec{k}}(\vec{r})=u_{\vec{k}}(\vec{r}+\vec{T})$).
+  若非简并,$\psi(x+a)=C\psi(x),C=e^{i2\pi s/N}->\psi(x)=u_{\vec{k}}(x)e^{i2\pi sx/N}$.
+  (3)克勒尼希-彭尼模型Kölnig-Penney model(周期势阱).$-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2}+U(x)\psi=\epsilon\psi$.
+  $x\in(0,a):\psi=Ae^{iKx}+B^{-iKx},\epsilon=\frac{\hbar^2 K^2}{2m};x\in(-b,0):\psi=Ce^{Qx}+De^{-Qx},U_0-\epsilon=\frac{\hbar^2 Q^2}{2m}$.
+  函数连续+导数连续,有四阶系数行列式为0:$[(Q^2-K^2)/2QK]\sinh{Qb}\sin{Ka}+\cosh{Qb}\cos{Ka}=\cos{k(a+b)}$.
+  取极限$b=0,U_0=\infty(Q\gg K,Qb\ll 1)$,即为周期性$\delta$函数,$P=\frac{Q^2ba}{2}$结论化为$(P/Ka)\sin{Ka}+\cos{Ka}=\cos{ka}$.
+  (4)周期势下的电子波函数.$U(x)=\sum_{G}U_{G}e^{iGx}$,若为实则$U(x)=\sum_{G>0}2U_G\cos{Gx}$.$\psi=\sum_{k}C(k)e^{ikx}$.
+  波动方程$\sum_{k}\frac{\hbar^2}{2m}k^2C(k)e^{ikx}+\sum_{G}\sum_{k}U_G C(k)e^{i(k+G)x}=\epsilon\sum_{k}e^{ikx}$.
+  中心方程$(\lambda_k-\epsilon)C(k)+\sum_{G}U_GC(k-G)=0$(其中$\lambda_k=\frac{\hbar^2 k^2}{2m}$)
+  (5)求解行列式
+  $$
+  \left |\begin{array}{ccc}
+   \lambda_{k-g}-\epsilon & U & 0  \\
+   U & \lambda_{k}-\epsilon & U  \\
+   0 & U & \lambda_{k+g}-\epsilon   \\
+        \end{array}\right|
+  $$
+  每一个$k$每个$\epsilon$将在不同能带上.
+  (6)中心方程求解K-P方程(周期$\delta$势函数).$U(x)=Aa\sum_{s}\delta(x-sa),U_G=\int_0^{1}dxU(x)cos(Gx)=A.$
+  中心方程变为$(\lambda_k-\epsilon)C(k)+Af(k)=0$,其中$f(k)=\sum_{n}C(k-2\pi n/a)=f(k\pm 2\pi n/a)$.
+  从而有$\frac{mAa^2}{2\hbar^2}(Ka)^{-1}\sin{Ka}+\cos{Ka}=\cos{ka}$.
+  (7)布里渊区边界附近的近似解.
+  $k^2=(\frac{1}{2}G)^2,(k-G)^2=(\frac{1}{2}G-G)^2\rightarrow k=\pm\frac{1}{2}G$.
+  ($k=\frac{1}{2}G,\lambda=\hbar^2(\frac{1}{2}G)^2/2m$)$(\lambda-\epsilon)C(\pm\frac{1}{2}G)+UC(\mp\frac{1}{2}G)=0$.
+  行列式$|^{\lambda-\epsilon,U}_{U,\lambda-\epsilon}|=0$,解得$\epsilon=\lambda\pm U,E_g=2U$.
+  若在$\frac{1}{2}G$附近,则$(\lambda_k-\epsilon)C(k)+UC(k-G)=0,(\lambda_{k-G})C(k-G)+UC(k)=0(\lambda_k=\hbar^2k^2/2m)$,
+  系数行列式$|^{\lambda_k-\epsilon,U}_{U,\lambda_{k-G}-\epsilon}|=0\rightarrow\epsilon=\frac{1}{2}(\lambda_{k-G}+\lambda_k)\pm[\frac{1}{4}(\lambda_{k-G}-\lambda_k)^2+U^2]^\frac{1}{2}$
+  用小量$\widetilde{K}=k-\frac{1}{2}G$展开,有$\epsilon_{\widetilde{K}}\approx\frac{\hbar^2}{2m}(\frac{1}{4}G^2+\widetilde{K}^2)\pm U[1+2(\frac{\lambda}{U^2})(\frac{\hbar^2\widetilde{K}^2}{2m})]$.
+  (8)轨道数目.N原胞一维晶体:$k=\pm\frac{2n\pi}{L}$.每个原胞对应一个k+泡利定理$\rightarrow$每个能带2N个轨道.
+
 \end{itemize}
-
-
-% \begin{equation}
-% \begin{aligned}
-%   &A^2\int_{0}^{2\pi}\sin{x} ^4 dx = 1\\
-%   &\Longrightarrow A=\sqrt{\frac{4}{3\pi}},\\
-%   &\Psi(\phi,t=0)=A\sin ^2\phi = \frac{A}{2}-\frac{A}{2}\cos{2\phi},\\
-%   &\Psi(x,t=0) = \sum_{i}c_{i}\psi_{i}(x,t=0),\\
-%   &\Psi(x,t) = \sum_{i}c_{i}\psi_{i}(x,t=0)e^{-\frac{iE_{i}t}{\hbar}}\\\
-%   &\longrightarrow \Psi(x,t) = \frac{A}{2}e^{-\frac{iE_{0}t}{\hbar}}-
-%   \frac{A}{2}\cos(2\phi)e^{-\frac{iE_{2}t}{\hbar}}\\
-% \end{aligned}
-% \end{equation}
 
   % \begin{table}[htbp]
   %   \caption{布拉维格子及其倒格子的几何参数}
