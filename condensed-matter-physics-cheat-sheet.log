@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.30)  16 APR 2023 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.30)  17 APR 2023 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,7 +608,7 @@ File: UTF8.chr 2021/10/16 4.8.5
 )
 
 LaTeX Warning: Unused global option(s):
-    [1pt].
+    [3pt].
 
 (./condensed-matter-physics-cheat-sheet.aux)
 \openout1 = `condensed-matter-physics-cheat-sheet.aux'.
@@ -717,14 +717,14 @@ LaTeX Font Info:    ... okay on input line 106.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -777,36 +777,189 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 108.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (35.50557pt too wide) in paragraph at lines 108--118
-[]\C70/rm/bx/n/10.53937/79 ï \C70/rm/bx/n/10.53937/52 ^^F \C70/rm/bx/n/10.53937/51 l \C70/rm/bx/n/10.53937/5f ^^O\OT1/cmr/m/n/10.53937 .$[][] \OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 ix[]\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 = []\OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 i^^Y=\OT1/cmr/m/n/10.53937 4]$(Fresnel\C70/rm/m/n/10.53937/79 ï \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/51 l \C70/rm/m/n/10.53937/5f ^^O\OT1/cmr/m/n/10.53937 ); $[][] \OML/cmm/m/it/10.53937 dxexp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 x[] \OT1/cmr/m/n/10.53937 + \OML/cmm/m/it/10.53937 ^^Lx\OT1/cmr/m/n/10.53937 ] = []\OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [[]]$, $[][] \OML/cmm/m/it/10.53937 x[]exp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 ax[]\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 =
+Underfull \hbox (badness 1354) in paragraph at lines 108--118
+\C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/51 l \C70/rm/m/n/10.53937/5f ^^O\OT1/cmr/m/n/10.53937 ); $[][] \OML/cmm/m/it/10.53937 dxexp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 x[] \OT1/cmr/m/n/10.53937 + \OML/cmm/m/it/10.53937 ^^Lx\OT1/cmr/m/n/10.53937 ] = []\OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [[]]$,
  []
 
 
-Overfull \hbox (2.0501pt too wide) in paragraph at lines 108--118
-[][] \OML/cmm/m/it/10.53937 x[]exp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@[]\OML/cmm/m/it/10.53937 ax[]\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 = [][]$(\C70/rm/m/n/10.53937/5e ^^? \C70/rm/m/n/10.53937/4e I\OT1/cmr/m/n/10.53937 Guass\C70/rm/m/n/10.53937/79 ï \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/5f ^^O\OT1/cmr/m/n/10.53937 ); $[][] \OML/cmm/m/it/10.53937 x[]exp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@\OML/cmm/m/it/10.53937 ax[]\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 = []$; $([])[] [] [] [] \OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@[][] ^^A
+Underfull \hbox (badness 1275) in paragraph at lines 108--118
+\OML/cmm/m/it/10.53937 bx\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 = [][]\OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 b[]=\OT1/cmr/m/n/10.53937 (2\OML/cmm/m/it/10.53937 a\OT1/cmr/m/n/10.53937 )]$, $[][] \OML/cmm/m/it/10.53937 x[]exp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@[]\OML/cmm/m/it/10.53937 ax[] \OT1/cmr/m/n/10.53937 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--118
+\OML/cmm/m/it/10.53937 bx\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 = [](1 + [])[]\OML/cmm/m/it/10.53937 exp\OT1/cmr/m/n/10.53937 [\OML/cmm/m/it/10.53937 b[]=\OT1/cmr/m/n/10.53937 (2\OML/cmm/m/it/10.53937 a\OT1/cmr/m/n/10.53937 )]$;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--118
+[][] \OML/cmm/m/it/10.53937 x[]exp\OT1/cmr/m/n/10.53937 [\OMS/cmsy/m/n/10.53937 ^^@[]\OML/cmm/m/it/10.53937 ax[]\OT1/cmr/m/n/10.53937 ]\OML/cmm/m/it/10.53937 dx \OT1/cmr/m/n/10.53937 = [][]$(\C70/rm/m/n/10.53937/5e ^^?
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 119--126
+\C70/rm/m/n/10.53937/4e ¤\OT1/cmr/m/n/10.53937 (4;$\OML/cmm/m/it/10.53937 a[] \OMS/cmsy/m/n/10.53937 6\OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 a[] \OMS/cmsy/m/n/10.53937 6\OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 a[]\OT1/cmr/m/n/10.53937 ; \OML/cmm/m/it/10.53937  \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^L \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^M \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^Y=\OT1/cmr/m/n/10.53937 2$);\C70/rm/m/n/10.53937/56 Û
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 119--126
+\C70/rm/m/n/10.53937/65 ¹\OT1/cmr/m/n/10.53937 (3;$\OML/cmm/m/it/10.53937 a[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 a[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 a[]\OT1/cmr/m/n/10.53937 ; \OML/cmm/m/it/10.53937  \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^L \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^M \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ^^Y=\OT1/cmr/m/n/10.53937 2$);\C70/rm/m/n/10.53937/4e 	
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+\C70/rm/m/n/10.53937/53 U \C70/rm/m/n/10.53937/7a Ë \C70/rm/m/n/10.53937/65 ¹\OT1/cmr/m/n/10.53937 );bcc(\C70/rm/m/n/10.53937/4f S \C70/rm/m/n/10.53937/5f Ã \C70/rm/m/n/10.53937/7a Ë \C70/rm/m/n/10.53937/65 ¹\OT1/cmr/m/n/10.53937 );fcc(\C70/rm/m/n/10.53937/97 b \C70/rm/m/n/10.53937/5f Ã \C70/rm/m/n/10.53937/7a Ë \C70/rm/m/n/10.53937/65 ¹\OT1/cmr/m/n/10.53937 );hcp(\C70/rm/m/n/10.53937/51 m \C70/rm/m/n/10.53937/89 Ò
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 119--126
+\C70/rm/m/n/10.53937/5b Æ \C70/rm/m/n/10.53937/58 ^^F \C70/rm/m/n/10.53937/79 ï\OT1/cmr/m/n/10.53937 ) (3)\C70/rm/m/n/10.53937/5e 8 \C70/rm/m/n/10.53937/89 Á \C70/rm/m/n/10.53937/7e Ó \C70/rm/m/n/10.53937/67 „\OT1/cmr/m/n/10.53937 :NaCl($\OML/cmm/m/it/10.53937 Cl[]$\C70/rm/m/n/10.53937/97 b \C70/rm/m/n/10.53937/5f Ã\OT1/cmr/m/n/10.53937 &\C70/rm/m/n/10.53937/89 Ò\OT1/cmr/m/n/10.53937 +$\OML/cmm/m/it/10.53937 Na[]$\C70/rm/m/n/10.53937/8f ¹
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+\C70/rm/m/n/10.53937/4e -\OT1/cmr/m/n/10.53937 &\C70/rm/m/n/10.53937/4f S \C70/rm/m/n/10.53937/5f Ã\OT1/cmr/m/n/10.53937 );CsCl($\OML/cmm/m/it/10.53937 Cs[]$\C70/rm/m/n/10.53937/4f S \C70/rm/m/n/10.53937/5f Ã\OT1/cmr/m/n/10.53937 +$\OML/cmm/m/it/10.53937 Cl[]$\C70/rm/m/n/10.53937/89 Ò\OT1/cmr/m/n/10.53937 ); \C70/rm/m/n/10.53937/91 Ñ \C70/rm/m/n/10.53937/52 ^^Z \C70/rm/m/n/10.53937/77 ó \C70/rm/m/n/10.53937/7e Ó
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+\C70/rm/m/n/10.53937/67 „\OT1/cmr/m/n/10.53937 (fcc+$000&[][][]$);ZnS\C70/rm/m/n/10.53937/7e Ó \C70/rm/m/n/10.53937/67 „\OT1/cmr/m/n/10.53937 (Zn$000\OML/cmm/m/it/10.53937 ; \OT1/cmr/m/n/10.53937 0[][]\OML/cmm/m/it/10.53937 ; []\OT1/cmr/m/n/10.53937 0[]\OML/cmm/m/it/10.53937 ; [][]\OT1/cmr/m/n/10.53937 0$;
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 127--130
+[]\C70/rm/bx/n/10.53937/4e $ \C70/rm/bx/n/10.53937/79 Í \C70/rm/bx/n/10.53937/63 ^^G \C70/rm/bx/n/10.53937/68 ^^G \C70/rm/m/n/10.53937/8b ¾ \C70/rm/m/n/10.53937/66 v \C70/rm/m/n/10.53937/97 b \C70/rm/m/n/10.53937/62 * \C70/rm/m/n/10.53937/8d Ý \C70/rm/m/n/10.53937/4e :$\OML/cmm/m/it/10.53937 a[]; a[]; a[]$\OT1/cmr/m/n/10.53937 (1)$(\OML/cmm/m/it/10.53937 a[]; a[]; a[]\OT1/cmr/m/n/10.53937 )$;
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 133--136
+[]\C70/rm/bx/n/10.53937/50 ^^R \C70/rm/bx/n/10.53937/68 < \C70/rm/bx/n/10.53937/5b P \C70/rm/bx/n/10.53937/52 ^^] \C70/rm/bx/n/10.53937/57 ú \C70/rm/bx/n/10.53937/5e s \C70/rm/bx/n/10.53937/79 û \C70/rm/bx/n/10.53937/77 â \C70/rm/bx/n/10.53937/91 Ï$[] \OT1/cmr/m/n/10.53937 = 2\OML/cmm/m/it/10.53937 ^^Y[]; [] \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+[]\C70/rm/bx/n/10.53937/7b , \C70/rm/bx/n/10.53937/4e ^^@ \C70/rm/bx/n/10.53937/5e ^^C \C70/rm/bx/n/10.53937/91 Ì \C70/rm/bx/n/10.53937/6e 
+ \C70/rm/bx/n/10.53937/53 : \C70/rm/m/n/10.53937/50 ^^R \C70/rm/m/n/10.53937/68 < \C70/rm/m/n/10.53937/5b P \C70/rm/m/n/10.53937/76 „ \C70/rm/m/n/10.53937/7e ô \C70/rm/m/n/10.53937/68 < \C70/rm/m/n/10.53937/7e ³\OT1/cmr/m/n/10.53937 -\C70/rm/m/n/10.53937/58 ^ \C70/rm/m/n/10.53937/83 ( \C70/rm/m/n/10.53937/53 Ÿ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+\C70/rm/m/n/10.53937/80 Þ\OT1/cmr/m/n/10.53937 (1)sc$\OMS/cmsy/m/n/10.53937 ^^@i$\OT1/cmr/m/n/10.53937 sc($2\OML/cmm/m/it/10.53937 ^^Y=a$\OT1/cmr/m/n/10.53937 );bcc$\OMS/cmsy/m/n/10.53937 ^^@i$\C70/rm/m/n/10.53937/68 ñ \C70/rm/m/n/10.53937/5f b \C70/rm/m/n/10.53937/53 A \C70/rm/m/n/10.53937/4e Œ \C70/rm/m/n/10.53937/97 b \C70/rm/m/n/10.53937/4f S\OT1/cmr/m/n/10.53937 ($2\OML/cmm/m/it/10.53937 ^^Y=a[]$\OT1/cmr/m/n/10.53937 );
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 144--153
+[]\C70/rm/bx/n/10.53937/58 ð \C70/rm/bx/n/10.53937/5b P\OT1/cmr/bx/n/10.53937 -\C70/rm/bx/n/10.53937/63 / \C70/rm/bx/n/10.53937/52 ¨ \OT1/cmr/m/n/10.53937 (1)\C70/rm/m/n/10.53937/53 U Ÿ \C70/rm/m/n/10.53937/5b P\OT1/cmr/m/n/10.53937 :$\OML/cmm/m/it/10.53937 u[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ue[]exp[]$\C70/rm/m/n/10.53937/82 r
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 144--153
+\C70/rm/m/n/10.53937/65 c \C70/rm/m/n/10.53937/51 s \C70/rm/m/n/10.53937/7c û\OT1/cmr/m/n/10.53937 :$\OML/cmm/m/it/10.53937 w[] \OT1/cmr/m/n/10.53937 = (2\OML/cmm/m/it/10.53937 C=M\OT1/cmr/m/n/10.53937 )(1 \OMS/cmsy/m/n/10.53937 ^^@ [] []\OT1/cmr/m/n/10.53937 )$; $\OML/cmm/m/it/10.53937 w[] \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 144--153
+\OML/cmm/m/it/10.53937 u[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ue[]e[]; v[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ve[]e[]$\OT1/cmr/m/n/10.53937 ,\C70/rm/m/n/10.53937/88 L \C70/rm/m/n/10.53937/52 ^^W \C70/rm/m/n/10.53937/5f ^^O \C70/rm/m/n/10.53937/7c û \C70/rm/m/n/10.53937/65 p
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 154--163
+[]\C70/rm/bx/n/10.53937/70 í \C70/rm/bx/n/10.53937/5b f \C70/rm/bx/n/10.53937/57 ú \C70/rm/bx/n/10.53937/78 @ \OT1/cmr/m/n/10.53937 (0)\C70/rm/m/n/10.53937/5b š ¹ \C70/rm/m/n/10.53937/70 í \C70/rm/m/n/10.53937/5b ¹$\OML/cmm/m/it/10.53937 C[] \OT1/cmr/m/n/10.53937 = ([])[]$,\C70/rm/m/n/10.53937/58 ð \C70/rm/m/n/10.53937/5b P \C70/rm/m/n/10.53937/6e ) \C70/rm/m/n/10.53937/5e ¦
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+\C70/rm/m/n/10.53937/4e :$\OML/cmm/m/it/10.53937 ^^\ \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 k[]T$\OT1/cmr/m/n/10.53937 ,\C70/rm/m/n/10.53937/66 v \C70/rm/m/n/10.53937/68 < \C70/rm/m/n/10.53937/51 … \C70/rm/m/n/10.53937/80 ý$\OML/cmm/m/it/10.53937 U[] [][] [][]\OMS/cmsy/m/n/10.53937 h\OML/cmm/m/it/10.53937 n[]\OMS/cmsy/m/n/10.53937 i\U/msb/m/n/10.53937 ~\OML/cmm/m/it/10.53937 ![]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+\OT1/cmr/m/n/10.53937 (1)\C70/rm/m/n/10.53937/66 n \C70/rm/m/n/10.53937/67 ^^W \C70/rm/m/n/10.53937/51 K \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/5e ^^C$\OMS/cmsy/m/n/10.53937 h\OML/cmm/m/it/10.53937 n\OMS/cmsy/m/n/10.53937 i \OT1/cmr/m/n/10.53937 = []$ (2)$\OML/cmm/m/it/10.53937 U \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--163
+[][] [][] [] \OT1/cmr/m/n/10.53937 = [][] [] \OML/cmm/m/it/10.53937 d!D[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 !\OT1/cmr/m/n/10.53937 )[]$,
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 154--163
+\OML/cmm/m/it/10.53937 C[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 k[] [][] [] d!D[]\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 !\OT1/cmr/m/n/10.53937 )[]$($\OML/cmm/m/it/10.53937 x \OT1/cmr/m/n/10.53937 = \U/msb/m/n/10.53937 ~\OML/cmm/m/it/10.53937 !=^^\ \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--173
+[]\C70/rm/bx/n/10.53937/5f · \C70/rm/bx/n/10.53937/62 Ü \C70/rm/bx/n/10.53937/6a ! \C70/rm/bx/n/10.53937/57 ‹ \OT1/cmr/m/n/10.53937 (1)\C70/rm/m/n/10.53937/50 G \C70/rm/m/n/10.53937/8b ¾\OT1/cmr/m/n/10.53937 (\C70/rm/m/n/10.53937/6b Ï \C70/rm/m/n/10.53937/79 Í \C70/rm/m/n/10.53937/50 O \C70/rm/m/n/10.53937/63 / \C70/rm/m/n/10.53937/58 ð \C70/rm/m/n/10.53937/90 ^^_ \C70/rm/m/n/10.53937/60 R \C70/rm/m/n/10.53937/5b š\OT1/cmr/m/n/10.53937 ,$\OML/cmm/m/it/10.53937 ! \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 164--173
+\C70/rm/m/n/10.53937/6b b \C70/rm/m/n/10.53937/6c â \C70/rm/m/n/10.53937/77 â$\OML/cmm/m/it/10.53937 K[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 ![]=v \OT1/cmr/m/n/10.53937 = (6\OML/cmm/m/it/10.53937 ^^Y[][]\OT1/cmr/m/n/10.53937 )[]$, \C70/rm/m/n/10.53937/53 U \C70/rm/m/n/10.53937/50 O \C70/rm/m/n/10.53937/63 / \C70/rm/m/n/10.53937/60 ^^A \C70/rm/m/n/10.53937/51 …
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--173
+\C70/rm/m/n/10.53937/60 ; \C70/rm/m/n/10.53937/51 … \C70/rm/m/n/10.53937/80 ý$\OML/cmm/m/it/10.53937 U \OT1/cmr/m/n/10.53937 = 3\OML/cmm/m/it/10.53937 U[] \OT1/cmr/m/n/10.53937 = [] [][] \OML/cmm/m/it/10.53937 d![]$
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 164--173
+\OT1/cmr/m/n/10.53937 = [] [][] \OML/cmm/m/it/10.53937 dx[]$\OT1/cmr/m/n/10.53937 (\C70/rm/m/n/10.53937/51 v \C70/rm/m/n/10.53937/4e -$\OML/cmm/m/it/10.53937 x \OT1/cmr/m/n/10.53937 = \U/msb/m/n/10.53937 ~\OML/cmm/m/it/10.53937 !=^^\$\OT1/cmr/m/n/10.53937 ,$\OML/cmm/m/it/10.53937 x[] \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--173
+\OT1/cmr/m/n/10.53937 9\OML/cmm/m/it/10.53937 Nk[]T\OT1/cmr/m/n/10.53937 ([])[] [][] \OML/cmm/m/it/10.53937 dx[]$ \OT1/cmr/m/n/10.53937 (2)\C70/rm/m/n/10.53937/5f · \C70/rm/m/n/10.53937/62 Ü \C70/rm/m/n/10.53937/6a ! \C70/rm/m/n/10.53937/57 ‹ \C70/rm/m/n/10.53937/4f N \C70/rm/m/n/10.53937/6e ) \C70/rm/m/n/10.53937/67 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--185
+[]\C70/rm/bx/n/10.53937/58 ð \C70/rm/bx/n/10.53937/5b P \C70/rm/bx/n/10.53937/70 í \C70/rm/bx/n/10.53937/5b f \OT1/cmr/m/n/10.53937 (1)\C70/rm/bx/n/10.53937/60 ^^A \C70/rm/bx/n/10.53937/5b Æ \C70/rm/bx/n/10.53937/5e ¦$\OML/cmm/m/it/10.53937 D\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 !\OT1/cmr/m/n/10.53937 )$\C70/rm/m/n/10.53937/4e ^^@ \C70/rm/m/n/10.53937/82 , \C70/rm/m/n/10.53937/5f b ^^O\OT1/cmr/m/n/10.53937 :$\OML/cmm/m/it/10.53937 D\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 !\OT1/cmr/m/n/10.53937 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--185
+[] [][] []$ \OT1/cmr/m/n/10.53937 (2)\C70/rm/m/n/10.53937/97 ^ \C70/rm/m/n/10.53937/8c ^^P \C70/rm/m/n/10.53937/4f \ \C70/rm/m/n/10.53937/75 (\OT1/cmr/m/n/10.53937 ($\OML/cmm/m/it/10.53937 U\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x\OT1/cmr/m/n/10.53937 ) =
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 178--185
+[] \OML/cmm/m/it/10.53937 dxxe[] \U/msb/m/n/10.53937 u \OT1/cmr/m/n/10.53937 ([])([])\OML/cmm/m/it/10.53937 ^^L[]; [] dxe[] \U/msb/m/n/10.53937 u \OT1/cmr/m/n/10.53937 ([])[]$,
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 186--201
+[]\OT1/cmr/m/n/10.53937 ([])[]\OML/cmm/m/it/10.53937 ^^O[] \OT1/cmr/m/n/10.53937 = []$ (4)\C70/rm/m/n/10.53937/6b Ô \C70/rm/m/n/10.53937/70 í \C70/rm/m/n/10.53937/5b ¹\OT1/cmr/m/n/10.53937 .\C70/rm/m/n/10.53937/60 ; \C70/rm/m/n/10.53937/75 5 \C70/rm/m/n/10.53937/5b P \C70/rm/m/n/10.53937/51 … \C70/rm/m/n/10.53937/80 ý$\OML/cmm/m/it/10.53937 U[] \OMS/cmsy/m/n/10.53937 ^^Y
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 186--201
+\C70/rm/m/n/10.53937/75 5 \C70/rm/m/n/10.53937/5b P \C70/rm/m/n/10.53937/70 í \C70/rm/m/n/10.53937/5b ¹$\OML/cmm/m/it/10.53937 C[] \OT1/cmr/m/n/10.53937 = [] = [][] \OML/cmm/m/it/10.53937 d^^O\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 ^^O \OMS/cmsy/m/n/10.53937 ^^@ \OML/cmm/m/it/10.53937 ^^O[]\OT1/cmr/m/n/10.53937 )[]\OML/cmm/m/it/10.53937 D\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 ^^O\OT1/cmr/m/n/10.53937 ) \OMS/cmsy/m/n/10.53937 ^^Y
  []
 
 (c:/texlive/2022/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2021/12/12 v2.5.8 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
+] [2
+
 ] (./condensed-matter-physics-cheat-sheet.aux)
 Package rerunfilecheck Info: File `condensed-matter-physics-cheat-sheet.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19565 strings out of 478268
- 330579 string characters out of 5850345
- 745770 words of memory out of 5000000
- 37264 multiletter control sequences out of 15000+600000
- 496664 words of font info for 126 fonts, out of 8000000 for 9000
+ 19834 strings out of 478268
+ 334336 string characters out of 5850345
+ 801827 words of memory out of 5000000
+ 37478 multiletter control sequences out of 15000+600000
+ 506114 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,78p,1250b,360s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on condensed-matter-physics-cheat-sheet.pdf (1 page, 409882 bytes).
+ 75i,5n,78p,1250b,637s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on condensed-matter-physics-cheat-sheet.pdf (2 pages, 528811 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 2 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
+ 3 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
