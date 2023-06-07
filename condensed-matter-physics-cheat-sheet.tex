@@ -1,5 +1,5 @@
-\documentclass[UTF8,a4paper,1pt,twocolumn]{ctexart}
-\usepackage[left=0cm, right=2cm, top=0.2cm, bottom=0.2cm]{geometry}
+\documentclass[UTF8,a4paper,10pt,twocolumn]{ctexart}
+\usepackage[left=0.2cm, right=0.4cm, top=0.1cm, bottom=0.15cm]{geometry}
 %页边距
 \CTEXsetup[format={\Large\bfseries}]{section} %设置章标题居左
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -54,6 +54,7 @@
 \usepackage{braket} %量子算符宏包
 \usepackage{cancel}%表示项的消去 
 \usepackage{siunitx} %单位宏包
+\usepackage{microtype}%调整字间距，字间距的调整会影响到公式的间距
 
 %%%%%%%%%%%%%%%%%%
 \usepackage{listings}
@@ -105,226 +106,161 @@
 \hypersetup{colorlinks, bookmarks, unicode} %unicode
 
 \begin{document}
-\begin{itemize}
-  % \item \textbf{积分公式}.
-  % $\int_{-\infty}^{\infty}exp[ix^2]dx=\sqrt{\pi}exp[i\pi/4](\textbf{Fresnel积分公式})$;
-  % $\int_{-\infty}^{\infty}dxexp[-\alpha x^2+\beta x]=\sqrt{\frac{\pi}{\alpha}}exp[\frac{\beta^2}{4\alpha}]$,
-  % $\int_{0}^{+\infty}x^{n}exp[-ax^{2}]dx=\frac{\Gamma(\frac{n+1}{2})}{2a^{\frac{n+1}{2}}}$,
-  % $\int_{-\infty}^{+\infty}xexp[-\frac{1}{2}ax^2+bx]dx=\frac{b}{a}\sqrt{\frac{2\pi}{a}}exp[b^2/(2a)]$,
-  % $\int_{-\infty}^{+\infty}x^{2}exp[-\frac{1}{2}ax^2+bx]dx=\frac{1}{a}(1+\frac{b^{2}}{a})\sqrt{\frac{2\pi}{a}}exp[b^{2}/(2a)]$;
-  % $\int_{-\infty}^{+\infty}x^{2n}exp[-\frac{1}{2}ax^{2}]dx=\frac{(2n-1)!!}{a^{n}}\sqrt{\frac{2\pi}{a}}(\textbf{广义Guass积分式})$;
-  % $\int_{0}^{+\infty}x^{2n+1}exp[-ax^{2}]dx=\frac{n!}{2a^{n+1}}$;
-  % $(\frac{1}{\sqrt{2\pi\hbar}})^{3}\iiint exp[-\frac{i}{\hbar}\vec{p}'\cdot\vec{r}](p_{z}\frac{\partial}{\partial p_{y}}-p_{y}\frac{\partial}{\partial p_{z}})exp[\frac{i}{\hbar}\vec{p}\cdot\vec{r}]d\tau=
-  % (p_{z}\frac{\partial}{\partial p_{y}}-p_{y}\frac{\partial}{\partial p_{z}})(\frac{1}{\sqrt{2\pi\hbar}})^{3}\iiint exp[\frac{i}{\hbar}(\vec{p}-\vec{p}')\cdot\vec{r}]d\tau
-  % =(p_{z}\frac{\partial}{\partial p_{y}}-p_{y}\frac{\partial}{\partial p_{z}})\delta(\vec{p}-\vec{p}')$
 
-
-  \item \textbf{晶格}
-  (1)
-  三斜(1;$a_1\neq a_2\neq a_3;\alpha\neq\beta\neq\gamma$);
-  单斜(2;$a_1\neq a_2\neq a_3;\alpha=\gamma=\pi/2\neq\beta$);
-  正交(4;$a_1\neq a_2\neq a_3;\alpha=\beta=\gamma=\pi/2$);
-  四角(2,$a_1=a_2\neq a_3;\alpha=\beta=\gamma=\pi/2$);
-  立方(3;$a_1=a_2=a_3;\alpha=\beta=\gamma=\pi/2$);
-  三角(1,$a_1=a_2=a_3;\alpha=\beta=\gamma\neq\pi/2$);
-  六角(1;$a_1=a_2\neq a_3;\alpha=\beta=\pi/2,\gamma=2\pi/3$)
-  (2)sc(简单立方,$2r=a$);
-  bcc(体心立方,,$4r=\sqrt{3}a$,$\rho=2m_0/a^3,a=\sqrt[3]{2m_0/\rho}$);
-  fcc(面心立方,$4r=\sqrt{2}a$);
-  hcp(六角密堆积)
-  (3)常见结构:
-  NaCl(Cl面心\&角+Na边中\&体心);
-  CsCl(Cs体心+Cl角);
-  金刚石结构(fcc+$000\&\frac{1}{4}\frac{1}{4}\frac{1}{4}$);
-  ZnS结构(金刚石结构基础上的部分替换)(Zn$000,0\frac{1}{2}\frac{1}{2},\frac{1}{2}0\frac{1}{2},\frac{1}{2}\frac{1}{2}0$;
-  S$\frac{1}{4}\frac{1}{4}\frac{1}{4},\frac{1}{4}\frac{3}{4}\frac{3}{4},\frac{3}{4}\frac{1}{4}\frac{3}{4},\frac{3}{4}\frac{3}{4}\frac{1}{4}$)
-  eg1.$r_{Cs}=1.7,r_{Cl}=1.81.a=2(r_{Cs}+r_{Cl})/\sqrt{3},PF=\frac{4\pi(r_{Cs}^3+r_{Cl}^3)}{3a^3}\approx 0.682,\rho=\frac{m_{Cs}+m_{Cl}}{a^3}=4.2$
-  eg2.NaCl下的CsCl:$a=2(r_{Cs}+r_{Cl}),PF=\frac{4\pi(r_{Cs}^3+r_{Cl}^3)\cdot 4}{3a^3}\approx 0.525$
-
-
-  \item \textbf{两种指标}设晶面截距为$a_1,a_2,a_3$(1)$(a_1^{-1},a_{2}^{-1},a_2^{-1})$;
-  (2)$[a_1,a_2,a_3]$.上划线表示负号$[u\overline{v}w]$
-  
-  \item \textbf{布拉格条件}$2d\sin{\theta}=n\lambda;\Delta\vec{k}=\vec{G};2\vec{k}\cdot\vec{G}=\vec{G}^2$;\textbf{劳厄条件}$\vec{a_1}\cdot\Delta\vec{k}=2\pi v_1;\vec{a_2}\cdot\Delta\vec{k}=2\pi v_2;\vec{a_3}\cdot\Delta\vec{k}=2\pi v_3$;
-  
-  \item \textbf{倒格子初基平移矢量}
+\textbf{晶格}\textbf{(1)}三斜(1;$a_1\neq a_2\neq a_3;\alpha\neq\beta\neq\gamma$);单斜(2;$a_1\neq a_2\neq a_3$;$\alpha,\gamma=\pi/2\neq\beta$);正交(4;$a_1\neq a_2\neq a_3;\alpha=\beta=\gamma=\pi/2$);四角(2,$a_1=a_2\neq a_3;\alpha,\beta,\gamma=\pi/2$);立方(3;$a_1,a_2=a_3;\alpha,\beta,\gamma=\pi/2$);三角(1,$a_1,a_2=a_3;\alpha=\beta=\gamma\neq\pi/2$);六角(1;$a_1=a_2\neq a_3;\alpha=\beta=\pi/2,\gamma=2\pi/3$)
+  \textbf{(2)}sc(简单立方,$2r=a$);bcc(体心立方,,$4r=\sqrt{3}a$,$\rho=2m_0/a^3,a=\sqrt[3]{2m_0/\rho}$);fcc(面心立方,$4r=\sqrt{2}a$);hcp(六角密堆积)
+  \textbf{(3)常见结构}:NaCl(Cl面心\&角+Na边中\&体心);CsCl(Cs体心+Cl角);金刚石结构(fcc+$000\&\frac{1}{4}\frac{1}{4}\frac{1}{4}$);ZnS结构(金刚石结构基础上的部分替换)(Zn$000,0\frac{1}{2}\frac{1}{2},\frac{1}{2}0\frac{1}{2},\frac{1}{2}\frac{1}{2}0$;S$\frac{1}{4}\frac{1}{4}\frac{1}{4},\frac{1}{4}\frac{3}{4}\frac{3}{4},\frac{3}{4}\frac{1}{4}\frac{3}{4},\frac{3}{4}\frac{3}{4}\frac{1}{4}$)eg1.$r_{Cs}=1.7,r_{Cl}=1.81.a=2(r_{Cs}+r_{Cl})/\sqrt{3},PF=\frac{4\pi(r_{Cs}^3+r_{Cl}^3)}{3a^3}\approx 0.682,\rho=\frac{m_{Cs}+m_{Cl}}{a^3}=4.2$;eg2.NaCl下的CsCl:$a=2(r_{Cs}+r_{Cl}),PF=\frac{4\pi(r_{Cs}^3+r_{Cl}^3)\cdot 4}{3a^3}\approx 0.525$;\textbf{两种指标}设晶面截距为$a_1,a_2,a_3$(1)$(a_1^{-1}a_{2}^{-1}a_2^{-1})$;(2)$[a_1,a_2,a_3]$.上划线表示负号$[u\overline{v}w]$.\textbf{布拉格条件}$2d\sin{\theta}=n\lambda;\Delta\vec{k}=\vec{G};2\vec{k}\cdot\vec{G}=\vec{G}^2$;\textbf{劳厄条件}$\vec{a_1}\cdot\Delta\vec{k}=2\pi v_1;\vec{a_2}\cdot\Delta\vec{k}=2\pi v_2;\vec{a_3}\cdot\Delta\vec{k}=2\pi v_3$;\textbf{倒格子初基平移矢量}
   $\vec{b_1}=2\pi\frac{\vec{a_2}\times\vec{a_3}}{\vec{a_1}\cdot\vec{a_2}\times\vec{a_3}}$,
   $\vec{b_2}=2\pi\frac{\vec{a_3}\times\vec{a_1}}{\vec{a_1}\cdot\vec{a_2}\times\vec{a_3}}$,
   $\vec{b_3}=2\pi\frac{\vec{a_1}\times\vec{a_2}}{\vec{a_1}\cdot\vec{a_2}\times\vec{a_3}}$.
-  $\vec{b_i}\cdot\vec{a_j}=2\pi\delta_{ij}$
-  
-  \item \textbf{倒格矢}
-  $\vec{G}=v_1\vec{b_1}+v_2\vec{b_2}+v_3\vec{b_3},v_{i}为\mathcal{Z}$.
+  $\vec{b_i}\cdot\vec{a_j}=2\pi\delta_{ij}$;\textbf{倒格矢}
+  $\vec{G}=v_1\vec{b_1}+v_2\vec{b_2}+v_3\vec{b_3},v_{i}\in\mathcal{Z}$.
   倒格矢$\vec{G}_{h_1h_2h_3}$垂直于实空间晶面$(h_1h_2h_3)$.
-  面间距$d=\frac{2\pi }{|\vec{G}_{\vec{h}}|}$
-
-  \item \textbf{几何结构因子}前提:方向为$\vec{k'}=\vec{k}+\Delta\vec{k}=\vec{k}+\vec{G}$,
-  $S_{G}=\sum_{j} f_{j}e^{-i\vec{r_{j}}\cdot\vec{G}}=\sum_{j}f(j)e^{-i2\pi(x_j v_1+y_j y_2+z_j v_3)}$,
-  其中$f_{j}=\int dVn_{j}(\vec{r})e^{-i\vec{G}\cdot\vec{r}}$.
-  eg1.bcc$\&$$(0,0,0)+(\frac{1}{2},\frac{1}{2},\frac{1}{2}),S(v_1,v_2,v_3)=f(1+e^{-i\pi(v_1+v_2+v_3)})$;
-  eg2.fcc$\&$$(0,0,0)+(0,\frac{1}{2},\frac{1}{2})+(\frac{1}{2},0,\frac{1}{2})+(\frac{1}{2},\frac{1}{2},0)$,
-  $S(v_1,v_2,v_3)=f\{1+e^{-i\pi(v_2+v_3)}+e^{-i\pi(v_1+v_3)}+e^{-i\pi(v_1+v_2)}\}$
-  \item \textbf{原子形状因子}$f_j=\int dVn_j(\vec{r})e^{-i\vec{G}\cdot\vec{r}}$,球对称极限$f_j=4\pi\int drn_j(r)r^2\frac{\sin{Gr}}{Gr}$
-  
-  \item \textbf{第一布里渊区}倒格子的维格纳-塞茨原胞.晶格常数$a$
+  面间距$d=\frac{2\pi }{|\vec{G}_{\vec{h}}|}$\textbf{几何结构因子}前提:方向为$\vec{k'}=\vec{k}+\Delta\vec{k}=\vec{k}+\vec{G}$,
+  $S_{G}=\sum_{j} f_{j}e^{-i\vec{r_{j}}\cdot\vec{G}}=\sum_{j}f(j)e^{-i2\pi(x_j v_1+y_j v_2+z_j v_3)}$,
+  其中$f_{j}=\int dVn_{j}(\vec{r})e^{-i\vec{G}\cdot\vec{r}}$.eg1.bcc$\&$$(0,0,0)+(\frac{1}{2},\frac{1}{2},\frac{1}{2}),S(v_1,v_2,v_3)=f(1+e^{-i\pi(v_1+v_2+v_3)})$;eg2.fcc$\&$$(0,0,0)+(0,\frac{1}{2},\frac{1}{2})+(\frac{1}{2},0,\frac{1}{2})+(\frac{1}{2},\frac{1}{2},0)$,$S(v_1,v_2,v_3)=f\{1+e^{-i\pi(v_2+v_3)}+e^{-i\pi(v_1+v_3)}+e^{-i\pi(v_1+v_2)}\}$;\textbf{原子形状因子}$f_j=\int dVn_j(\vec{r})e^{-i\vec{G}\cdot\vec{r}}$,球对称极限$f_j=4\pi\int drn_j(r)r^2\frac{\sin{Gr}}{Gr}$;\textbf{第一布里渊区}倒格子的维格纳-塞茨原胞.晶格常数$a$
   (1)sc$\rightarrow$sc($2\pi/a$);
   bcc$\rightarrow$棱形十二面体(长对角线为$2\cdot\frac{\sqrt{2}\pi}{a}$,短对角线为$2\cdot\frac{\pi}{a}$);
   fcc$\rightarrow$截角八面体(八面体每个角被切,使得相邻三个面的正方形边能围成正六边形.
   小正方形和六边形的边长$l=\frac{\sqrt{2}\pi}{2a}$)
 
-  \item \textbf{声子-振动}
-  (1)无阻尼单原子链:$u_{s\pm 1}=ue^{isKa}exp^{\pm iKa}$
-  色散关系:$w^2=(2C/M)(1-\cos{Ka});w^2=(4C/M)\sin^2{\frac{1}{2}Ka}$;
-  群速:$v_{g}=\frac{dw}{dK}=\sqrt{\frac{Ca^2}{M}}\cos{\frac{Ka}{2}}$;
-  长波极限($Ka\ll 1$):$w^2=(C/M)K^{2}a^{2},v=w/K$
-  (2)无阻尼双原子链:原胞p个原子,3个声学支,3p-3个光学支.$M_1\frac{d^2 u_s}{dt^2}=C(v_s+v_{s-1}-2u_s);M_2\frac{d^2 v_s}{dt^2}=C(u_{s+1}+u_{s}-2v_s)$.
-  试探解$u_s=ue^{isKa}e^{-iwt},v_s=ve^{isKa}e^{-iwt}$,行列式系数为0:$M_1 M_2 w^4-2C(M_1+M_2)w^2+2C^2(1-\cos{Ka})=0$;长波极限($Ka\ll 1$):
-  光学支$w^2=2C(\frac{1}{M_1}+\frac{1}{M_2})$,声学支$w^2=\frac{C}{2(M_1+M_2)}K^2 a^2$;光学支下原子反向震动即质心固定,由光的电场来激发.
-  (3)波矢选择定则:波矢$\vec{k}$非弹性散射到$\vec{k'}$,
-  同时产生/吸收波矢为$\vec{K}$的声子:$\vec{k}=\vec{k'}\pm\vec{K}+\vec{G}$,
-  $\vec{G}$是倒格矢;
-  (4)声子能量:$\epsilon=(n+\frac{1}{2})\hbar\omega$.若$u=u_0\cos{Kx}\cos{\omega t}$
-  $E_k=\int\frac{1}{2}\rho(\frac{\partial u}{\partial t})^2=\frac{1}{4}\rho V\omega^2u_0^2\langle\sin^2{\omega t}\rangle=\frac{1}{8}\rho V\omega^2u_0^2=\frac{1}{2}(n+\frac{1}{2})\hbar\omega$;
-  动能守恒:$\frac{\hbar^2 k^2}{2M_n}=\frac{\hbar^2 k'^2}{2M_n}\pm\hbar\omega$
-  (5)有阻尼单原子链:$m\partial_t^2u_j=C(u_{j+1}+u_{j-1}-2u_j)-\Gamma\partial_tu_j$.
-  色散关系:$\omega(k)=\sqrt{\omega_{k_0}^2-(\frac{\Gamma}{2m})^2}-\frac{i\Gamma}{2m}(\omega_{k_0}=\sqrt{\frac{4C}{m}}|\sin{\frac{ka}{2}}|)$
-  弛豫时间(a)$\omega_{k_0}\geq\Gamma/2m:\tau_k=2m/\Gamma$;
-  (b)$\omega_{k_D}<\Gamma/2m:\tau_k=\frac{\Gamma}{2m\omega_{k_0}^2}(1+\sqrt{1-(\frac{2m\omega_{k_0}}{\Gamma})^2})$
+  \textbf{声子-振动}
+  \textbf{(1)无阻尼单原子链}:$u_{s\pm 1}=ue^{isKa}exp^{\pm iKa}$,
+  色散关系$w^2=(2C/M)(1-\cos{Ka})=\omega_m^2\sin^2{\frac{1}{2}Ka}$;
+  $w^2=(4C/M)\sin^2{\frac{1}{2}Ka}$;
+  态密度:$D(\omega)=\frac{Na}{\pi}/|\partial_K\omega|$,$\partial_K\omega=\frac{a}{2}\omega_m\cos{\frac{1}{2}Ka}=\frac{a}{2}(\omega_m^2-\omega^2)^{\frac{1}{2}}$
+  群速:$v_{g}=\partial_{K}\omega=\sqrt{Ca^2/M}\cos{\frac{Ka}{2}}$;
+  [长波极限($Ka\ll 1$):$w^2=(C/M)K^{2}a^{2}$,$v=w/K$
+  离散化为连续:$M\partial_t^2u_s=\sum_pC_p(u_{s+p}-u_s)=\sum_{p>0}C_{p}[(u_{s+p}-u_s)+(u_{s-p}-u_s)]=\sum_{p>0}C_p\{[u(x+pa,t)-u(x,t)]+[u(x-pa,t)-u(x,t)]\}=\sum_{p>0}C_pp^2a^2\partial_x^2u(x,t)$,试探解$u_{s+p}=ue^{-i[\omega t-(s+p)Ka]}$,
+  $\omega^2=\frac{2}{M}\sum_{p>0}C_p(1-cos{pKa})\approx K^2(a^2/M)\sum_{p>0}p^2C_p=v^2K^2\rightarrow\partial_t^2u=v^2\partial_x^2u$]\textbf{(2)无阻尼双原子链}:原胞p个原子,3个声学支,3p-3个光学支.$M_1\frac{d^2 u_s}{dt^2}=C(v_s+v_{s-1}-2u_s);M_2\frac{d^2 v_s}{dt^2}=C(u_{s+1}+u_{s}-2v_s)$.
+  试探解$u_s=ue^{isKa}e^{-iwt},v_s=ve^{isKa}e^{-iwt}$,行列式系数为0:$M_1 M_2 w^4-2C(M_1+M_2)w^2+2C^2(1-\cos{Ka})=0$;长波极限($Ka\ll 1$):光学支$w^2=2C(\frac{1}{M_1}+\frac{1}{M_2})$,声学支$w^2=\frac{C}{2(M_1+M_2)}K^2 a^2$;光学支下原子反向震动即质心固定,由光的电场来激发.\textbf{(3)波矢选择定则}:波矢$\vec{k}$非弹性散射到$\vec{k'}$,同时产生/吸收波矢为$\vec{K}$的声子:$\vec{k}=\vec{k'}\pm\vec{K}+\vec{G}$,$\vec{G}$是倒格矢;\textbf{(4)声子能量}:$\epsilon=(n+\frac{1}{2})\hbar\omega$.若$u=u_0\cos{Kx}\cos{\omega t}$$E_k=\int\frac{1}{2}\rho(\frac{\partial u}{\partial t})^2=\frac{1}{4}\rho V\omega^2u_0^2\langle\sin^2{\omega t}\rangle=\frac{1}{8}\rho V\omega^2u_0^2=\frac{1}{2}(n+\frac{1}{2})\hbar\omega$;动能守恒:$\frac{\hbar^2 k^2}{2M_n}=\frac{\hbar^2 k'^2}{2M_n}\pm\hbar\omega$\textbf{(5)有阻尼单原子链}:$m\partial_t^2u_j=C(u_{j+1}+u_{j-1}-2u_j)-\Gamma\partial_tu_j$.色散关系:$\omega(k)=\sqrt{\omega_{k_0}^2-(\frac{\Gamma}{2m})^2}-\frac{i\Gamma}{2m}(\omega_{k_0}=\sqrt{\frac{4C}{m}}|\sin{\frac{ka}{2}}|)$弛豫时间
+  (a)$\omega_{k_0}\geq\Gamma/2m:\tau_k=2m/\Gamma$;
+  (b)$\omega_{k_D}<\Gamma/2m:\tau_k=\frac{\Gamma}{2m\omega_{k_0}^2}(1+\sqrt{1-(\frac{2m\omega_{k_0}}{\Gamma})^2})$\textbf{(6)2D正方晶格}:$M\partial_{t}^2{u_{l,m}}=C[(u_{l+1,m}+u_{l-1,m}-2u_{l,m})+(u_{l,m+1}+u_{l,m-1}-2u_{l,m})]$.设$u_{l,m}=u_0e^{i(lK_xa+mK_ya-\omega t)}$,色散关系$\omega^2 M=2C(2-\cos{K_{x}a}-\cos{K_{y}a})$(a)$K=K(1,0),\omega^2=\frac{2C}{M}(1-\cos{Ka})$;(b)$K=K(1,1)/\sqrt{2},\omega^2=\frac{4C}{M}(1-\cos{\frac{1}{\sqrt{2}}Ka})$,长波极限($Ka\ll 1$)$\omega^2\approx\frac{Ca^2}{M}(K_x^2+K_y^2)$,群速度$v=\partial_{K}\omega=(\frac{Ca^2}{M})^{\frac{1}{2}}$.\textbf{(7)变C等M双原子链}.$M\partial_t^2u_s=C(v_{s-1}-u_s)+10C(v_s-u_s),M\partial_t^2v_s=10C(u_s-v_s)+C(u_{s+1}-v_s)$.试$u_s=ue^{isKa}e^{-i\omega t},v_s=ve^{isKa}e^{-i\omega t}$.行列式$|^{M\omega^2-11C,C(10+e^{-iKa})}_{C(e^{iKa+10}),M\omega^2-11C}|=0$,$\omega_{\pm}^2=\frac{C}{M}[11\pm\sqrt{121-20(1-\cos{Ka})}]$\textbf{(8)}已知$\omega=\omega(K)$,则$K=\omega^{-1}(\omega)$,轨道总数$N(\omega)=(\frac{L}{2\pi})^3\frac{4\pi}{3}K^3$,态密度$D(\omega)=|\partial_\omega N|$
 
-  \item \textbf{热学基础}
-  (0)定容热容$C_V=(\frac{\partial U}{\partial T})_V$,
-  声子温度$\tau=k_{B}T$,
-  晶格内能$U_{lat}\sum_{K}\sum_{p}\langle n_{K,p}\rangle\hbar\omega_{K,p}$
-  (1)普朗克分布$\langle n\rangle=\frac{1}{e^{\frac{\hbar\omega}{\tau}}-1}$
-  (2)$U=\sum_{K}\sum_{p}\frac{\hbar\omega_{K,p}}{e^{\frac{\hbar\omega_{K,p}}{\tau}}-1}=\sum_{p}\int d\omega D_{p}(\omega)\frac{\hbar\omega}{e^{\frac{\hbar\omega}{\tau}}-1}$,
-  $C_{lat}=k_{B}\sum_{p}\int d\omega D_{p}(\omega)\frac{x^2 e^x}{(e^x -1)^2}$($x=\hbar\omega/\tau=\hbar\omega/k_{B}T$),$D(\omega)$即为态密度
-  (3)一维$D(\omega)$:$L=Na$,每个间隔$\Delta K=\frac{\pi}{L}$内一个模式,每个$K$三个偏振态(两横一纵)$D(\omega)d\omega=\frac{L}{\pi}\frac{dK}{d\omega}d\omega
-  =\frac{L}{\pi}\frac{d\omega}{d\omega/dK}$(色散关系$\omega(K)$)
-  (4)三维$D(\omega)$:$\forall i, K_{i}=\pm\frac{2n\pi}{L}$,$\vec{K}$单位体积内模式数$(\frac{L}{2\pi})^3=\frac{V}{8\pi^3}$,
+  \textbf{热学基础}
+  \textbf{(0)}$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V}$,定容热容$C_V=(\frac{\partial U}{\partial T})_V$,声子温度$\tau=k_{B}T$,晶格内能$U_{lat}\sum_{K}\sum_{p}\langle n_{K,p}\rangle\hbar\omega_{K,p}$\textbf{(1)普朗克分布}$\langle n\rangle=(e^{\hbar\omega/\tau}-1)^{-1}$
+  \textbf{(2)}$U=\sum_{K}\sum_{p}\hbar\omega_{K,p}(e^{\hbar\omega_{K,p}/\tau}-1)^{-1}=\sum_{p}\int d\omega D_{p}(\omega)\hbar\omega (e^{\hbar\omega/\tau}-1)^{-1}$,
+  $C_{lat}=k_{B}\sum_{p}\int d\omega D_{p}(\omega)\frac{x^2 e^x}{(e^x -1)^2}$($x=\hbar\omega/\tau=\hbar\omega/k_{B}T$),$D(\omega)$即为态密度\textbf{(3)}一维$D(\omega)$:$L=Na$,每个间隔$\Delta K=\frac{\pi}{L}$内一个模式,每个$K$三个偏振态(两横一纵)$D(\omega)d\omega=\frac{L}{\pi}\frac{dK}{d\omega}d\omega=\frac{L}{\pi}\frac{d\omega}{d\omega/dK}$(色散关系$\omega(K)$)
+  \textbf{(4)}三维$D(\omega)$:$\forall i, K_{i}=\pm\frac{2n\pi}{L}$,$\vec{K}$单位体积内模式数$(\frac{L}{2\pi})^3=\frac{V}{8\pi^3}$,
   每种偏振模式总数$N=(\frac{L}{2\pi})^3(\frac{4\pi K^3}{3})$,态密度$D(\omega)=\frac{dN}{d\omega}=(\frac{VK^2}{2\pi^2})(\frac{dK}{d\omega})$
   
-  \item \textbf{德拜模型}
-  (0)石墨烯模型(2D).
-  C-C距离$d$,声速$v$,
-  晶格常数$a=\sqrt{3}d$,
-  原胞面积$A=\frac{\sqrt{3}a^2}{2}$,
-  德拜波矢$\pi k_D^2=\frac{(2\pi)^2}{A}$,
-  德拜温度$\theta_D=\frac{\hbar\omega_D}{k_B}=\frac{\hbar v k_D}{k_B}$.
-  $(\theta_D|_{d=1.42\r{A}}=2.13\times10^3K)$
-  (1)3D下,假设(每种偏振声速恒定,$\omega=vK$)
-  态密度$D(\omega)=\frac{V\omega^2}{2\pi^{2}v^3}$,
-  截止频率$\omega_{D}^3=6\pi^{2}v^{3}N/V$,
-  截止波矢$K_{D}=\omega_{D}/v=(6\pi^{2}\frac{N}{V})^{\frac{1}{3}}$,
-  单偏振态内能$U_i=\int d\omega D(\omega)\langle n(\omega)\rangle\hbar\omega
-  =\int_{0}^{\omega_{D}}d\omega(\frac{V\omega^{2}}{2\pi^{2}v^{3}})(\frac{\hbar\omega}{e^{\frac{\hbar\omega}{\tau}}-1})$,
-  总内能$U=3U_i=\frac{3V\hbar}{2\pi^2 v^3}\int_{0}^{\omega_{D}}d\omega\frac{\omega^3}{e^{\frac{\hbar\omega}{\tau}}-1}$
-  $=\frac{3Vk_{B}^{4}T^{4}}{2\pi^2 v^3 \hbar^3}\int_{0}^{x_{D}}dx\frac{x^3}{e^x - 1}$(其中$x=\hbar\omega/\tau$,$x_{D}=\hbar\omega_{D}/\tau=\theta/T$),
-  德拜温度$\theta=\frac{\hbar v}{k_{B}}(\frac{6\pi^2N}{V})^{\frac{1}{3}}$,$U=9Nk_{B}T(\frac{T}{\theta})^3\int_{0}^{x_D}dx\frac{x^3}{e^x -1}$
-  e.g.金刚石模型(3D)
-  C-C距离$d$,声速$v$,
-  晶格常数$a=4d/\sqrt{3}$,
-  原胞体积$\Omega=\frac{a^3}{4}$,
-  德拜波矢$\frac{4}{3}\pi k_D^3=\frac{(2\pi)^3}{\Omega}$,
-  德拜温度$\theta_D=\frac{\hbar\omega_D}{k_B}=\frac{\hbar v k_D}{k_B}$.
-  $(\theta_D|_{d=1.42\r{A}}=2.13\times10^3K)$
-  (2)德拜模型低温极限($T^3$律)($\int_{0}^{\infty}dx\frac{x^3}{e^x -1}=\frac{\pi^4}{15}$):$U\approxeq3\pi^2 Nk_{B}T^4/5\theta^3$,热容$C_{V}\approxeq\frac{12\pi^4}{5}Nk_{B}(\frac{T}{\theta})^3\approxeq 234Nk_{B}(\frac{T}{\theta})^3$
-  
-  \item \textbf{爱因斯坦模型}
-  爱因斯坦模型($D(\omega)=N\delta(\omega-\omega_{0})$):一维内能$U=n\langle n\rangle\hbar\omega=\frac{N\hbar\omega}{e^{\frac{\hbar\omega}{\tau}}-1}$,
-  一维比热$C_{V}=\frac{\partial U}{\partial T}_{V}=Nk_{B}(\frac{\hbar\omega}{\tau})^2\frac{e^{\hbar\omega/\tau}}{(e^{\hbar\omega/\tau}-1)^2}$.
-  3D乘系数3.
-  
-  \item \textbf{声子热学}
-  (1)\textbf{态密度}$D(\omega)$一般形式:$D(\omega)=\frac{V}{(2\pi)^3}\int_{\text{K中}\partial\omega=0}\frac{dS_{\omega}}{v_{g}}$
-  (2)非谐作用($U(x)=cx^2-gx^3-fx^4$):
-  平均位移$\langle x\rangle=\frac{\int_{-\infty}^{+\infty}dx xe^{-\beta U(x)}}{\int_{-\infty}^{+\infty}dx e^{-\beta U(x)}}$($\beta=\frac{1}{k_{B}T}$),
-  $\int dx xe^{-\beta U}\approxeq(\frac{3\pi^{\frac{1}{2}}}{4})(\frac{g}{c^{\frac{5}{2}}})\beta^{-\frac{3}{2}},\int dxe^{-\beta U}\approxeq(\frac{\pi}{\beta c})^{\frac{1}{2}}$,
-  $\langle x\rangle=\frac{3g}{4c^2}k_{B}T$
-  (3)热导.一维下热流量$j_{U}=-K\frac{dT}{dx}$,热导率$K=\frac{1}{3}Cvl$($C$:单位体积比热;$v$:粒子平均速度;$l$:平均自由程).
-  (4)过程.$\vec{K}_{1}+\vec{K}_{2}=\vec{K}_{3}+\vec{G}$.正常过程($N$):$\vec{G}=0$;倒逆过程($U$):$\vec{G}\neq 0$
-
-  \item \textbf{自由电子}
-  (0)一维无限深井:$\mathcal{H}\psi_{n}=-\frac{\hbar^2}{2m}\frac{d^2\psi_{n}}{dx^2}=\epsilon_{n}\psi_{n};\epsilon_{n}=\frac{\hbar^2}{2m}(\frac{n\pi}{L})^2$
-  (1)费米能$\epsilon_{F}$:N电子系统基态下的最高能级;e.g.一维无限深井+泡利原理:$2n_F=N,n=n_F,\epsilon_F=\frac{\hbar^2}{2m}(\frac{N\pi}{2L})^2$;
-  (2)温度变量.$f(\epsilon,T,\mu)=\frac{1}{e^{[\epsilon-\mu(T)]/k_{B}T}+1}$($T=0$时$\mu=\epsilon_F$).取高温极限时成为玻尔兹曼分布或者麦氏分布.
-  (3)(a)3D:$-\frac{\hbar^2}{2m}\nabla^2\psi_{k}(\vec{r})=\epsilon_{\vec{k}}\psi_{k}(\vec{r}),\psi_{\vec{k}}(\vec{r})=e^{i\vec{k}\cdot\vec{r}},(\forall i,k_i=\frac{2n\pi}{L})$
+  \textbf{德拜模型}
+  \textbf{(0)石墨烯模型(2D)}.C-C距离$d$,声速$v$,晶格常数$a=\sqrt{3}d$,原胞面积$A=\frac{\sqrt{3}a^2}{2}$,德拜波矢$\pi k_D^2=\frac{(2\pi)^2}{A}$,德拜频率$\omega_D=vk_D$,德拜温度$\theta_D=\frac{\hbar\omega_D}{k_B}=\frac{\hbar v k_D}{k_B}$.$(\theta_D|_{d=1.42\r{A}}=2.13\times10^3K)$(1)3D下,假设(每种偏振声速恒定,$\omega=vK$)态密度$D(\omega)=\frac{V\omega^2}{2\pi^{2}v^3}$,德拜/截止频率$\omega_{D}^3=6\pi^{2}v^{3}N/V$,截止波矢$K_{D}=\omega_{D}/v=(6\pi^{2}\frac{N}{V})^{\frac{1}{3}}$,单偏振态内能$U_i=\int d\omega D(\omega)\langle n(\omega)\rangle\hbar\omega=\int_{0}^{\omega_{D}}d\omega(\frac{V\omega^{2}}{2\pi^{2}v^{3}})(\frac{\hbar\omega}{e^{\frac{\hbar\omega}{\tau}}-1})$,总内能$U=3U_i=\frac{3V\hbar}{2\pi^2 v^3}\int_{0}^{\omega_{D}}d\omega\frac{\omega^3}{e^{\frac{\hbar\omega}{\tau}}-1}=\frac{3Vk_{B}^{4}T^{4}}{2\pi^2 v^3 \hbar^3}\int_{0}^{x_{D}}dx\frac{x^3}{e^x - 1}$(其中$x=\hbar\omega/\tau$,$x_{D}=\hbar\omega_{D}/\tau=\theta/T$),德拜温度$\theta=\frac{\hbar v}{k_{B}}(\frac{6\pi^2N}{V})^{\frac{1}{3}}$,$U=9Nk_{B}T(\frac{T}{\theta})^3\int_{0}^{x_D}dx\frac{x^3}{e^x -1}$e.g.金刚石模型(3D)C-C距离$d$,声速$v$,晶格常数$a=4d/\sqrt{3}$,原胞体积$\Omega=\frac{a^3}{4}$,德拜波矢$\frac{4}{3}\pi k_D^3=\frac{(2\pi)^3}{\Omega}$,德拜温度$\theta_D=\frac{\hbar\omega_D}{k_B}=\frac{\hbar v k_D}{k_B}$.$(\theta_D|_{d=1.54\r{A}}=2.39\times10^3K)$(2)德拜模型低温极限($T^3$律)($\int_{0}^{\infty}dx\frac{x^3}{e^x -1}=\frac{\pi^4}{15}$):$U\approxeq3\pi^2 Nk_{B}T^4/5\theta^3$,热容$C_{V}\approxeq\frac{12\pi^4}{5}Nk_{B}(\frac{T}{\theta})^3\approxeq 234Nk_{B}(\frac{T}{\theta})^3$;\textbf{爱因斯坦模型}$N\omega_0$振子系统($D(\omega)=N\delta(\omega-\omega_{0})$):一维内能$U=N\langle n\rangle\hbar\omega=N\hbar\omega/(e^{\hbar\omega/\tau}-1)$,一维比热$C_{V}=(\frac{\partial U}{\partial T})_{V}=Nk_{B}(\frac{\hbar\omega}{\tau})^2\frac{e^{\hbar\omega/\tau}}{(e^{\hbar\omega/\tau}-1)^2}$.3D再乘系数3.
+   
+  \textbf{声子热学}
+  \textbf{(1)态密度}$D(\omega)$一般形式:$D(\omega)=\frac{V}{(2\pi)^3}\int_{\text{K中}\partial\omega=0}\frac{dS_{\omega}}{v_{g}}$\textbf{(2)非谐作用}($U(x)=cx^2-gx^3-fx^4$):平均位移$\langle x\rangle=\frac{\int_{-\infty}^{+\infty}dx xe^{-\beta U(x)}}{\int_{-\infty}^{+\infty}dx e^{-\beta U(x)}}$($\beta=\frac{1}{k_{B}T}$),$\int dx xe^{-\beta U}\approxeq(\frac{3\pi^{\frac{1}{2}}}{4})(\frac{g}{c^{\frac{5}{2}}})\beta^{-\frac{3}{2}},\int dxe^{-\beta U}\approxeq(\frac{\pi}{\beta c})^{\frac{1}{2}}$,$\langle x\rangle=\frac{3g}{4c^2}k_{B}T$\textbf{(3)热导}.一维下热流量$j_{U}=-K\frac{dT}{dx}$,热导率$K=\frac{1}{3}Cvl$($C$:单位体积比热;$v$:粒子平均速度;$l$:平均自由程).\textbf{(4)过程}.$\vec{K}_{1}+\vec{K}_{2}=\vec{K}_{3}+\vec{G}$.正常($N$):$\vec{G}=0$;倒逆($U$):$\vec{G}\neq 0$
+   \textbf{自由电子}
+  \textbf{(0)一维无限深井}:$\mathcal{H}\psi_{n}=-\frac{\hbar^2}{2m}\frac{d^2\psi_{n}}{dx^2}=\epsilon_{n}\psi_{n};\epsilon_{n}=\frac{\hbar^2}{2m}(\frac{n\pi}{L})^2$
+  \textbf{(1)费米能}$\epsilon_{F}$:N电子系统基态下的最高能级;e.g.一维无限深井+泡利原理:$2n_F=N$,$n=n_F$,$\epsilon_F=\frac{\hbar^2}{2m}(\frac{N\pi}{2L})^2$;
+  \textbf{(2)温度变量}.$f(\epsilon,T,\mu)=(e^{[\epsilon-\mu(T)]/k_{B}T}+1)^{-1}$($T=0$时$\mu=\epsilon_F$).取高温极限时成为玻尔兹曼分布/麦氏分布.
+  \textbf{(3)(a)3D:}
+  $-\frac{\hbar^2}{2m}\nabla^2\psi_{k}(\vec{r})=\epsilon_{\vec{k}}\psi_{k}(\vec{r}),\psi_{\vec{k}}(\vec{r})=e^{i\vec{k}\cdot\vec{r}},(\forall i,k_i=\frac{2n\pi}{L})$, 
   $\epsilon_{\vec{k}}=\frac{\hbar^2}{2m}(k_x^2+k_y^2+k_z^2)$.
   $\hat{p}\psi_{\vec{k}}(\vec{r})=\hbar\vec{k}\psi_{\vec{k}}(\vec{r}),\vec{v}=\frac{\hbar\vec{k}}{m}$.
   F波矢$k_F$,
-  F能$\epsilon_F=\frac{\hbar^2}{2m}k_{F}^2$.
-  $k$空间的每个体积元$(\frac{2\pi}{L})^3$存在一个波矢$(k_x,k_y,k_z)$.
+  F能$\epsilon_F=\frac{\hbar^2}{2m}k_{F}^2$.$K$空间的每个体积元$(\frac{2\pi}{L})^3$存在一个波矢$(k_x,k_y,k_z)$.
   F球+泡利定理:$2\cdot\frac{4\pi k_F^2/3}{(2\pi/L)^3}=N$.
-  F波矢$k_F=(\frac{3\pi^2N}{V})^{\frac{1}{3}}$,
-  F能$\epsilon_{F}=\frac{\hbar^2}{2m}(\frac{3\pi^2N}{V})^{\frac{2}{3}}$,
+  F波矢$k_F=(\frac{3\pi^2N}{V})^{\frac{1}{3}}=(3\pi^2 n)^{\frac{1}{3}}$,
+  F能$\epsilon_{F}=\frac{\hbar^2}{2m}(\frac{3\pi^2N}{V})^{\frac{2}{3}}=\frac{\hbar^2}{2m}(3\pi^2n)^{\frac{2}{3}}$,
   F速度$v_F=(\frac{\hbar k_F}{m})=\frac{\hbar}{m}(\frac{3\pi^2N}{V})^{\frac{1}{3}}$.
   F温度$T_F=\epsilon_F/k_B$.
-  态密度$N(U\leq\epsilon)=\frac{V}{3\pi^2}(\frac{2m\epsilon}{\hbar^2})^{\frac{3}{2}},D(\epsilon)=\frac{dN}{d\epsilon}=\frac{V}{2\pi^2}(\frac{2m}{\hbar^2})^{\frac{3}{2}}\epsilon^{\frac{1}{2}}=\frac{3N}{2\epsilon}$
-  (b)2D:
+  态密度$N(U\leq\epsilon)=\frac{V}{3\pi^2}(\frac{2m\epsilon}{\hbar^2})^{\frac{3}{2}},D(\epsilon)=\frac{dN}{d\epsilon}=\frac{V}{2\pi^2}(\frac{2m}{\hbar^2})^{\frac{3}{2}}\epsilon^{\frac{1}{2}}=\frac{3N}{2\epsilon}$,\textbf{0K}:$U_0=2\sum_{k<k_F}\frac{\hbar^2k^2}{2m}$,\textbf{K}中状态数体密度为$\frac{V}{8\pi^3}$,$\frac{U_0}{V}=\frac{2}{8\pi^3}\int_{k<k_F}d^3k\frac{\hbar^2k^2}{2m}=\frac{1}{\pi^2}\frac{\hbar^2k_F^5}{10m},N=2\cdot\frac{4\pi k_F^3}{3}\frac{V}{8\pi^3}$,$U_0=\frac{3}{5}N\epsilon_F$,压强$P=-(\partial_VU_0)_N=-\frac{3}{5}(\partial_V\epsilon_F)_N=\frac{2}{3}\frac{U_0}{V}$,体模量$B=-V(\partial_VP)=-V\partial_V[\frac{N\hbar^2}{5m}(\frac{3\pi^2N}{V})^{\frac{2}{3}}\cdot\frac{1}{V}]=\frac{10}{9}\frac{U_0}{V}$
+ \textbf{(b)2D}:
   $\pi k_F^2\cdot\frac{A}{(2\pi)^2}\cdot 2=N,k_F=\sqrt{2\pi N/A}=\sqrt{2\pi n}$.
-  色散关系:$\epsilon=\hbar^2 k^2/2m,d\epsilon=\hbar^2kdk/m.$
-  态密度$D(\epsilon)d\epsilon=\frac{1}{A}\cdot2\pi kdk\cdot\frac{A}{(2\pi)^2}\cdot 2=\frac{kdk}{\pi d\epsilon}d\epsilon=\frac{m}{\pi\hbar^2}d\epsilon$
-  $n=\int_{-\infty}^{+\infty}D(\epsilon)n_F(\epsilon)d\epsilon=\frac{m}{\pi\hbar^2}\int_{0}^{+\infty}\frac{d\epsilon}{e^{(\epsilon-\mu)/k_BT}+1}$
-  $=\frac{mk_BT}{\pi\hbar^2}\ln{(e^{\mu/k_BT}+1)}$.
+  色散关系:$\epsilon=\hbar^2 k^2/2m,d\epsilon=\hbar^2kdk/m$.
+  态密度$D(\epsilon)d\epsilon=\frac{1}{A}\cdot2\pi kdk\cdot\frac{A}{(2\pi)^2}\cdot 2=\frac{kdk}{\pi d\epsilon}d\epsilon=\frac{m}{\pi\hbar^2}d\epsilon$$n=\int_{-\infty}^{+\infty}D(\epsilon)n_F(\epsilon)d\epsilon=\frac{m}{\pi\hbar^2}\int_{0}^{+\infty}\frac{d\epsilon}{e^{(\epsilon-\mu)/k_BT}+1}$$=\frac{mk_BT}{\pi\hbar^2}\ln{(e^{\mu/k_BT}+1)}$.
   化学势$\mu(T)=k_BT\ln(e^{\frac{\pi n \hbar^2}{mk_BT}}-1)$
-  (4)比热容.
-  总电子内能$U_{e}\approx\frac{NT}{T_F}k_B T$,电子比热$C_{e}=\frac{\partial U}{\partial T}\approx Nk_B \frac{T}{T_F}$.低温极限($k_B T\ll \epsilon_F$):$\Delta U=\int_0^{\infty}d\epsilon\epsilon D(\epsilon)f(\epsilon)-\int_0^{\epsilon_F}d\epsilon\epsilon D(\epsilon)$
-  $=\int_{\epsilon_F}^{\infty}d\epsilon(\epsilon-\epsilon_F)f(\epsilon)D\epsilon + \int_0^{\epsilon_F}d\epsilon(\epsilon_F-\epsilon)[1-f(\epsilon)]D(\epsilon)$.电子热容$C_e=\frac{dU}{dT}=\int_{0}^{\infty}d\epsilon(\epsilon-\epsilon_F)\frac{df}{dT}D(\epsilon)\approx D(\epsilon_F)\int_0^{\infty}d\epsilon(\epsilon-\epsilon_F)\frac{df}{dT}$
-  低温极限($\tau=k_B T,x=\frac{\epsilon-\epsilon_F}{\tau}$)$\int_{-\infty}^{+\infty}dxx^2\frac{e^x}{(e^x +1)^2}=\frac{\pi^2}{3},C_e=\frac{1}{3}\pi^2D(\epsilon_F)k_B^2T$
-  ($D(\epsilon_F)=\frac{3N}{2\epsilon_F}$),$C_e=\frac{1}{2}\pi^2Nk_BT/T_F$.
-  (5)金属比热.$\frac{C}{T}=\gamma+AT^2$($\gamma$索末菲常量).
-  (6)电导率.$\vec{F}=-e(\vec{E}+\frac{1}{c}\vec{v}\times\vec{B})$.
+  \textbf{(4)比热容}.
+  总电子内能$U_{e}\approx\frac{NT}{T_F}k_B T$,
+  电子比热$C_{e}=\frac{\partial U}{\partial T}\approx Nk_B \frac{T}{T_F}$.
+  低温极限($k_B T\ll \epsilon_F$):$\Delta U=\int_0^{\infty}d\epsilon\epsilon D(\epsilon)f(\epsilon)-\int_0^{\epsilon_F}d\epsilon\epsilon D(\epsilon)$$=\int_{\epsilon_F}^{\infty}d\epsilon(\epsilon-\epsilon_F)f(\epsilon)D\epsilon + \int_0^{\epsilon_F}d\epsilon(\epsilon_F-\epsilon)[1-f(\epsilon)]D(\epsilon)$.
+  电子热容$C_e=\frac{dU}{dT}=\int_{0}^{\infty}d\epsilon(\epsilon-\epsilon_F)\frac{df}{dT}D(\epsilon)\approx D(\epsilon_F)\int_0^{\infty}d\epsilon(\epsilon-\epsilon_F)\frac{df}{dT}$低温极限($\tau=k_B T,x=\frac{\epsilon-\epsilon_F}{\tau}$)$\int_{-\infty}^{+\infty}dxx^2\frac{e^x}{(e^x +1)^2}=\frac{\pi^2}{3},C_e=\frac{1}{3}\pi^2D(\epsilon_F)k_B^2T$($D(\epsilon_F)=\frac{3N}{2\epsilon_F}$),$C_e=\frac{1}{2}\pi^2Nk_BT/T_F$.\textbf{(5)金属比热}.$\frac{C}{T}=\gamma+AT^2$($\gamma$索末菲常量).
+  \textbf{(6)电导率}.$\vec{F}=-e(\vec{E}+\frac{1}{c}\vec{v}\times\vec{B})$.
   若$\vec{F}=-e\vec{E},\delta\vec{k}=-e\vec{E}t/\hbar,\vec{v}=\delta\vec{k}/m=-e\vec{E}\tau/m$.
   电流密度$\vec{j}=nq\vec{v}=ne^2\tau\vec{E}/m$,($\vec{j}=\sigma\vec{E}$)$\sigma=\frac{ne^2\tau}{m},\rho=\sigma^{-1}$.
-  (7)磁场下运动.(CGS制)$\hbar(\frac{d}{dt}+\frac{1}{\tau})\delta\vec{k}=\vec{F}=-e(\vec{E}+\vec{v}\times\vec{E})$.
-  若$\vec{B}=B\hat{z}$,
-  $\{v_x=-\frac{e\tau}{m}E_x-\omega_c\tau v_y,v_y=-\frac{e\tau}{m}E_y+\omega_c\tau v_x,v_z=-\frac{e\tau}{m}E_z\}$,
-  回旋频率$\omega_c=\frac{eB}{mc}$
-  (8)霍尔效应.霍尔系数$R_H=\frac{E_y}{j_x B}=-\frac{1}{nec}$(CGS).
-  (9)金属热导率.$K_e=\frac{1}{3}Cvl=\frac{\pi^2}{3}\frac{nk_B^2T}{mv_F^2}v_Fl=\frac{\pi^2 n k_B^2 T\tau}{3m}$
-  (10)洛伦兹常量$L=\frac{K}{\sigma T}=\frac{\pi^2}{3}(\frac{k_B}{e})^2=2.45\times 10^{-8}(W\cdot\Omega/deg^2)$
-
-  \item \textbf{近自由电子模型}
-  (0)一维晶体布拉格衍射条件$(\vec{k}+\vec{G})^2=\vec{k}^2\rightarrow k=\pm\frac{1}{2}G=\pm\frac{n\pi}{a}$(倒格矢$G=\frac{2\pi n}{a}$)
-  (1)驻波.与时间无关.$\psi(+)=e^{i\pi x/a}+e^{-i\pi x/a}=2\cos{\pi x/a},\psi(-)=e^{i\pi x/a}-e^{-i\pi x/a}=2i\sin{\pi x/a}$.
+  [电子漂移速度v:$m(\partial_tv+v/\tau)=-eE$,试$E=E_0e^{-i\omega t},v=v_0e^{-i\omega t}$,$v=\frac{-(1+i\omega\tau)}{1+(\omega\tau)^2}\frac{e\tau}{m}E,\sigma(\omega)=j/E=-env/E=\frac{e^2\tau n}{m}(\frac{1+i\omega\tau}{1+(\omega\tau)^2})$]
+  \textbf{(7)磁场下运动}.(CGS制)$\hbar(\frac{d}{dt}+\frac{1}{\tau})\delta\vec{k}=\vec{F}=-e(\vec{E}+\vec{v}\times\vec{E})$.若$\vec{B}=B\hat{z}$,$\{v_x=-\frac{e\tau}{m}E_x-\omega_c\tau v_y,v_y=-\frac{e\tau}{m}E_y+\omega_c\tau v_x,v_z=-\frac{e\tau}{m}E_z\}$,回旋频率$\omega_c=\frac{eB}{mc}$
+  [漂移速度理论:$m(\partial_t+\tau^{-1})v_x=-e(E_x+\frac{B}{c}v_y),m(\partial_t+\tau^{-1})v_y=-e(E_y-\frac{B}{c}v_x),m(\partial_t+\tau^{-1})v_z=-eE_z$,$j=-nev$,$v_x=\frac{1}{1+(\omega_c\tau)^2}(-\frac{e\tau}{m}E_x+\frac{\omega_c\tau^2e}{m}E_y),v_y=\frac{1}{1+(\omega_c\tau)^2}(-\frac{\omega_c\tau^2e}{m}E_x-\frac{e\tau}{m}E_y),v_z=-\frac{e\tau}{m}E_z$,$[j_x,j_y,j_z]^{T}=\frac{\sigma_0}{1+(\omega_c\tau)^2}[1,-\omega_c\tau,0;\omega_c\tau,1,0;0,0,1+(\omega_c\tau)^2][E_x,E_y,E_z]^{T}$,其中$\sigma_0=ne^2\tau/m,\omega_c=Be/mc$.若$j_y=0,E_y=-\omega_c\tau E_x,j_x=\sigma_0E_x\rightarrow$自由电子理论太简单]
+  \textbf{(8)霍尔效应.霍尔系数}$R_H=\frac{E_y}{j_x B}=-\frac{1}{nec}$(CGS).
+  \textbf{(9)金属热导率}.$K_e=\frac{1}{3}Cvl=\frac{\pi^2}{3}\frac{nk_B^2T}{mv_F^2}v_Fl=\frac{\pi^2 n k_B^2 T\tau}{3m}$(10)洛伦兹常量$L=\frac{K}{\sigma T}=\frac{\pi^2}{3}(\frac{k_B}{e})^2=2.45\times 10^{-8}(W\cdot\Omega/deg^2)$.
+  \textbf{(10)金属受力}自由电子.($n_{Cu}\approx 10^{6}$)
+  $k_F=(3\pi^2n)^{\frac{1}{3}}\propto n^{\frac{1}{3}};\epsilon_F=\hbar^2 k_F^2/2m=\hbar^2(3\pi^2n)^{\frac{2}{3}}\propto n^\frac{2}{3}$
+  $D(\epsilon)\propto\epsilon^{\frac{1}{2}}.\langle\epsilon\rangle=\frac{\int_0^{\epsilon_F}\epsilon D(\epsilon)d\epsilon}{\int_0^{\epsilon_F}D(\epsilon)d\epsilon}=\frac{3}{5}\epsilon_F$
+  $E=N\langle\epsilon\rangle\propto V^{-\frac{2}{3}},P=-\frac{dE}{dV}=\frac{2}{5}n\epsilon_F\propto\epsilon_F^{\frac{5}{2}}$.
+  $\frac{dP}{d\epsilon_F}=n\rightarrow\Delta P\approx n\Delta \epsilon_F$.
+  \textbf{(11)求第一布里渊区能带}3D$\epsilon(\vec{K})=\frac{\hbar^2}{2m}[(K_x+g_1\frac{2\pi}{a})^2+(K_y+g_2\frac{2\pi}{a})^2+(K_z+g_3\frac{2\pi}{a})^2],$
+   
+  \textbf{近自由电子模型}
+  \textbf{(0)一维晶体布拉格衍射条件}$(\vec{k}+\vec{G})^2=\vec{k}^2\rightarrow k=\pm\frac{1}{2}G=\pm\frac{n\pi}{a}$(倒格矢$G=\frac{2\pi n}{a}$)
+  \textbf{(1)驻波}.与时间无关.$\psi(+)=e^{i\pi x/a}+e^{-i\pi x/a}=2\cos{\pi x/a},\psi(-)=e^{i\pi x/a}-e^{-i\pi x/a}=2i\sin{\pi x/a}$.
   $\rho(+)=|\psi(+)|^2\propto\cos^2{\pi x/a},\rho(-)=|\psi(-)|^2\propto\sin^2{\pi x/a}$.大小关系:$\langle\psi(-)|U|\psi(-)\rangle\leq\langle e^{\mp i\pi x/a}|U|e^{\pm i\pi x/a}\rangle\leq\langle\psi(+)|U|\psi(+)\rangle$.
   若一维$\psi(x)=\sqrt{2}\cos{\pi x/a},\sqrt{2}\sin{\pi x/a}$,电子势能$U(x)=U\cos{2\pi x/a}$,
   则一级近似能隙$E_g=U(+)-U(-)=\int_{0}^{1}dx U(x)[|\psi(+)|^2-|\psi(-)|^2]=U$.
-  (2)布洛赫函数.若势周期,则$\psi_{\vec{k}}(\vec{r})=u_{\vec{k}}(\vec{r})e^{i\vec{k}\cdot\vec{r}}$(其中$u_{\vec{k}}(\vec{r})=u_{\vec{k}}(\vec{r}+\vec{T})$).
-  若非简并,$\psi(x+a)=C\psi(x),C=e^{i2\pi s/N}->\psi(x)=u_{\vec{k}}(x)e^{i2\pi sx/N}$.
-  (3)克勒尼希-彭尼模型Kölnig-Penney model(周期势阱).$-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2}+U(x)\psi=\epsilon\psi$.
+  \textbf{(2)布洛赫函数}.若势周期,则$\psi_{\vec{k}}(\vec{r})=u_{\vec{k}}(\vec{r})e^{i\vec{k}\cdot\vec{r}}$(其中$u_{\vec{k}}(\vec{r})=u_{\vec{k}}(\vec{r}+\vec{T})$).
+  若非简并,$\psi(x+a)=C\psi(x),C=e^{i2\pi s/N}\rightarrow\psi(x)=u_{\vec{k}}(x)e^{i2\pi sx/N}$.
+  \textbf{(3)KP模型Kölnig-Penney}(周期$\delta$势阱).$-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2}+U(x)\psi=\epsilon\psi$.
   $x\in(0,a):\psi=Ae^{iKx}+B^{-iKx},\epsilon=\frac{\hbar^2 K^2}{2m};x\in(-b,0):\psi=Ce^{Qx}+De^{-Qx},U_0-\epsilon=\frac{\hbar^2 Q^2}{2m}$.
   函数连续+导数连续,有四阶系数行列式为0:$[(Q^2-K^2)/2QK]\sinh{Qb}\sin{Ka}+\cosh{Qb}\cos{Ka}=\cos{k(a+b)}$.取极限$b=0,U_0=\infty(Q\gg K,Qb\ll 1)$,即为周期性$\delta$函数,$P=\frac{Q^2ba}{2}$结论化为$(P/Ka)\sin{Ka}+\cos{Ka}=\cos{ka}$.
-  (4)周期势下的电子波函数.$U(x)=\sum_{G}U_{G}e^{iGx}$,若为实则$U(x)=\sum_{G>0}2U_G\cos{Gx}$.$\psi=\sum_{k}C(k)e^{ikx}$.
+  \textbf{(4)周期势下的电子波函数}.$U(x)=\sum_{G}U_{G}e^{iGx}$,若为实则$U(x)=\sum_{G>0}2U_G\cos{Gx}$.$\psi=\sum_{k}C(k)e^{ikx}$.
   波动方程$\sum_{k}\frac{\hbar^2}{2m}k^2C(k)e^{ikx}+\sum_{G}\sum_{k}U_G C(k)e^{i(k+G)x}=\epsilon\sum_{k}e^{ikx}$.
   中心方程$(\lambda_k-\epsilon)C(k)+\sum_{G}U_GC(k-G)=0$(其中$\lambda_k=\frac{\hbar^2 k^2}{2m}$)
-  (5)求解行列式
-  $$
-  \left |\begin{array}{ccc}
-   \lambda_{k-g}-\epsilon & U & 0  \\
-   U & \lambda_{k}-\epsilon & U  \\
-   0 & U & \lambda_{k+g}-\epsilon   \\
-        \end{array}\right|
-  $$
+  \textbf{(5)}求解行列式$\det\{\{\lambda_{k-g}-\epsilon,U,0\},\{U,\lambda_{k}-\epsilon,U\},\{0,U,\lambda_{k+g}-\epsilon\}\}$
+  % $$
+  % \left |\begin{array}{ccc}
+  %  \lambda_{k-g}-\epsilon & U & 0  \\
+  %  U & \lambda_{k}-\epsilon & U  \\
+  %  0 & U & \lambda_{k+g}-\epsilon   \\
+  %       \end{array}\right|
+  % $$
   每一个$k$每个$\epsilon$将在不同能带上.
-  (6)中心方程求解K-P方程(周期$\delta$势函数).$U(x)=Aa\sum_{s}\delta(x-sa),U_G=\int_0^{1}dxU(x)cos(Gx)=A.$
-  中心方程变为$(\lambda_k-\epsilon)C(k)+Af(k)=0$,其中$f(k)=\sum_{n}C(k-2\pi n/a)=f(k\pm 2\pi n/a)$.
-  从而有$\frac{mAa^2}{2\hbar^2}(Ka)^{-1}\sin{Ka}+\cos{Ka}=\cos{ka}$.
-  (7)布里渊区边界附近的近似解.
+  \textbf{(6)中心方程求解K-P方程}(周期$\delta$势函数).$U(x)=Aa\sum_{s}\delta(x-sa),U_G=\int_0^{1}dxU(x)cos(Gx)=A.$中心方程变为$(\lambda_k-\epsilon)C(k)+Af(k)=0$,其中$f(k)=\sum_{n}C(k-2\pi n/a)=f(k\pm 2\pi n/a)$.从而有$\frac{mAa^2}{2\hbar^2}(Ka)^{-1}\sin{Ka}+\cos{Ka}=\cos{ka}$.极限$P\ll 1,$
+  \textbf{(7)布里渊区边界附近近似解}.
   $k^2=(\frac{1}{2}G)^2,(k-G)^2=(\frac{1}{2}G-G)^2\rightarrow k=\pm\frac{1}{2}G$.
   ($k=\frac{1}{2}G,\lambda=\hbar^2(\frac{1}{2}G)^2/2m$)$(\lambda-\epsilon)C(\pm\frac{1}{2}G)+UC(\mp\frac{1}{2}G)=0$.
   行列式$|^{\lambda-\epsilon,U}_{U,\lambda-\epsilon}|=0$,解得$\epsilon=\lambda\pm U,E_g=2U$.
   若在$\frac{1}{2}G$附近,则$(\lambda_k-\epsilon)C(k)+UC(k-G)=0,(\lambda_{k-G})C(k-G)+UC(k)=0(\lambda_k=\hbar^2k^2/2m)$,
   系数行列式$|^{\lambda_k-\epsilon,U}_{U,\lambda_{k-G}-\epsilon}|=0\rightarrow\epsilon=\frac{1}{2}(\lambda_{k-G}+\lambda_k)\pm[\frac{1}{4}(\lambda_{k-G}-\lambda_k)^2+U^2]^\frac{1}{2}$
   用小量$\widetilde{K}=k-\frac{1}{2}G$展开,有$\epsilon_{\widetilde{K}}\approx\frac{\hbar^2}{2m}(\frac{1}{4}G^2+\widetilde{K}^2)\pm U[1+2(\frac{\lambda}{U^2})(\frac{\hbar^2\widetilde{K}^2}{2m})]$.
-  (8)轨道数目.N原胞一维晶体:$k=\pm\frac{2n\pi}{L}$.每原胞对应一个k+泡利定理$\rightarrow$每个能带2N个轨道.
-
-  \item \textbf{金属受力}自由电子模型.($n_{Cu}\approx 10^{6}$)
-  $k_F=(3\pi^2n)^{\frac{1}{3}}\propto n^{\frac{1}{3}};\epsilon_F=\hbar^2 k_F^2/2m=\hbar^2(3\pi^2n)^{\frac{2}{3}}\propto n^\frac{2}{3}$
-  $D(\epsilon)\propto\epsilon^{\frac{1}{2}}.\langle\epsilon\rangle=\frac{\int_0^{\epsilon_F}\epsilon D(\epsilon)d\epsilon}{\int_0^{\epsilon_F}D(\epsilon)d\epsilon}=\frac{3}{5}\epsilon_F$
-  $E=N\langle\epsilon\rangle\propto V^{-\frac{2}{3}},P=-\frac{dE}{dV}=\frac{2}{5}n\epsilon_F\propto\epsilon_F^{\frac{5}{2}}$.
-  $\frac{dP}{d\epsilon_F}=n\rightarrow\Delta P\approx n\Delta \epsilon_F$
-
-\end{itemize}
+  \textbf{(8)轨道数.N原胞一维}:$k=\pm\frac{2n\pi}{L}$.每原胞对应一个k+泡利定理$\rightarrow$每能带2N轨道.
+  \textbf{(9)正方晶格}$U(x)=-4U\cos{\frac{2\pi x}{a}}\cos{\frac{2\pi y}{a}},\vec{r}=x\hat{i}+y\hat{j},\vec{G}=G_1\hat{b_1}+G_2\hat{b_2}=\frac{2\pi}{a}(g_1\hat{b_1}+g_2\hat{b_2}).$;$U(\vec{r})=-U(e^{i\frac{2\pi}{a}x}+e^{-i\frac{2\pi}{a}x})(e^{i\frac{2\pi}{a}y}+e^{-i\frac{2\pi}{a}y})=-U[e^{i\frac{2\pi}{a}(x+y)}+e^{i\frac{2\pi}{a}(x-y)}+e^{-i\frac{2\pi}{a}(x-y)}+e^{-i\frac{2\pi}{a}(x+y)}]=U_{G(11)}e^{iG(11)\cdot \vec{r}}+U_{G(\overline{1}1)}e^{iG(\overline{1}1)\cdot \vec{r}}+U_{G(1\overline{1})}e^{iG(1\overline{1})\cdot \vec{r}}+U_{G(\overline{11})}e^{iG(\overline{11})\cdot\vec{r}}=\sum_{G(11)}e^{iG(11)\cdot\vec{r}}$.中心方程$(\lambda_k-\epsilon)C(\vec{K})+U_G(11)C(\vec{K}-\vec{G}(11))+U_{\vec{G}}(\overline{11})C(\vec{K}-\vec{G}(\overline{1}1))+U_G(1\overline{1})C(\vec{K}-\vec{G}(1\overline{1}))+U_G(\overline{1}1)C(\vec{K}-\vec{G}(\overline{1}1))$.若$\vec{K}=\vec{G}(\frac{1}{2}\frac{1}{2})=\frac{1}{2}\vec{G}(11),|^{\lambda_{\frac{1}{2}G(11)}-\epsilon,-U}_{-U,\lambda_{-\frac{1}{2}G(11)}-\epsilon}|=0,
+  \epsilon=\frac{\hbar^2\pi^2}{ma^2}\pm U$
+   
+  \textbf{紧束缚模型}\textbf{(1)}$E(\vec{k}) = \epsilon_{i} - \sum_{s}J(\vec{R_s})e^{-i\vec{k}\cdot\vec{R_s}}(\vec{R_s}=\vec{R_n}-\vec{R_m})$,\textbf{(2)1D,s}:$E(\vec{k}) = \epsilon_{s} - J_{0} - J_{1}e^{-ika} - J_{1}e^{ika}=\epsilon_{s} - J_{0} -  2J\cos(ka)$;\textbf{(3)2D,sc:}$E = \epsilon - 2t\left(\cos(k_{x}a) + \cos(k_{y}a)\right)$;Honeycomb:$\phi(\vec{r}) = c_{A}\phi_{A}(\vec{r}) + c_{B}\phi_{B}(\vec{r})= \frac{1}{\sqrt{N}}\sum_{\vec{R}_{m}}e^{i\vec{k}\cdot\vec{R}_{m}}\left[c_{A}\varphi(\vec{r}-\vec{R}_{m}^{A}) + c_{B}\varphi(\vec{r}-\vec{R}_{m}^{B})\right],E(\vec{k}) = \epsilon_{1}\pm J\sqrt{3+2\cos{(\sqrt{3}k_{y}a)}+4\cos{\left(\frac{\sqrt{3}k_{y}a}{2}\right)}\cos{\left(\frac{3k_{x}a}{2}\right)}}$(4)3D,(sc):$\epsilon(\vec{k}) = \epsilon_{s} - J_{0} - 2J_{1}(\cos{k_{x}a}+\cos{k_{y}a}+\cos{k_{z}a})$;(bcc):$\epsilon(\vec{k}) = -\alpha - 8\gamma\cos{\left(\frac{k_{x}a}{2}\right)}\cos{\left(\frac{k_{y}a}{2}\right)}\cos{\left(\frac{k_{z}a}{2}\right)}$;(fcc)$\epsilon(\vec{k}) = -\alpha - 4\gamma\left[\cos{\left(\frac{k_{y}a}{2}\right)}\cos{\left(\frac{k_{z}a}{2}\right)}+\cos{\left(\frac{k_{z}a}{2}\right)}\cos{\left(\frac{k_{x}a}{2}\right)}+\cos{\left(\frac{k_{x}a}{2}\right)}\cos{\left(\frac{k_{y}a}{2}\right)}\right]$
+\textbf{(5)简并:}$\phi(\vec{r}) = \frac{1}{\sqrt{N}}\sum_{\vec{R}_{m}}\sum_{j}e^{i\vec{k}\cdot\vec{R}_{m}}c_{j}\varphi_{j}(\vec{r}-\vec{R}_{m})$\textbf{(6)周期δ势}.
+   
+  \textbf{(补充)近自由电子近似(s,p)}\textbf{(1)非简并微扰:}$\varphi_{k}(x) = \varphi_{k}^{0}(x) + \sum_{k'(k'\neq k)}\frac{\langle k'|V(x)|k\rangle}{E_{k}^{0} - E_{k'}^{0}}\varphi_{k'}(x)(\langle k'|V(x)|k\rangle = \frac{1}{L}\int e^{-i(k'-k)x}V(x)\mathrm{d}x=V_{G}(G = k'-k))$,即$\varphi_{k} = \varphi_{k}^{0}(x) + \sum_{k'(k'\neq k)}\frac{\langle k'|V(x)|k\rangle}{E_{k}^{0}-E_{k'}^{0}}\varphi_{k'}^{0}(x)= \varphi_{k}^{0}(x) + \sum_{k'(k'\neq k)}\frac{V_{G}}{E_{k}^{0} - E_{k'}^{0}}\varphi_{k'}^{0}(x)$,1级:$\langle k|V(x)|k\rangle = \frac{1}{L}\int_{0}^{L}V(x)\mathrm{d}x = \langle V\rangle = 0$;2级:$E_{k}^{2} = \sum_{k'}\frac{|\langle k'|V(x)|k\rangle|^{2}}{E_{k}^{0} - E_{k'}^{0}} = \sum_{G}\frac{|V_{G}|^{2}}{\frac{\hbar^{2}}{2m}\left[k^{2}-\left(k + G\right)^{2}\right]}$(I)$(k + G)^{2} \gg k^{2}$,自由电子;(II)$(k + G)^{2} = k^{2}$,\textbf{(2)简并微扰}:$\{^{(E_{k}^{0}-E)a+V_{G}^{*}b=0}_{V_{G}a+(E_{k'}^{0}-E)b=0}, |^{(E_{k}^{0}-E),V_{G}^{*}}_{V_{G},(E_{k'}^{0}-E)}|=0$,$E_{k\pm} = \frac{1}{2}\left\{\left(E_{k}^{0} + E_{k'}^{0}\right)\pm\sqrt{(E_{k}^{0} + E_{k'}^{0})^{2} + 4|V_{G}|^{2}}\right\}$.(I)$E_{k}^{0} = E_{k'}^{0}$(BZ边界):$E_{k\pm} = E_{k}^{0}\pm|V_{G}|$;(II)$|E_{k}^{0} - E_{k'}^{0}|\gg|V_{G}|$(远离BZ):$E_{k\pm}=\{^{E_{k'}^{0} + \frac{|V_{G}|^{2}}{E_{k'}^{0} - E_{k}^{0}}}_{E_{k}^{0}  + \frac{|V_{G}|^{2}}{E_{k'}^{0} - E_{k}^{0}}}$(III)靠近BZ边界($|E_{k}^{0} - E_{k'}^{0}|\ll|V_{G}|$):$E_{k\pm} = \frac{1}{2}\left\{E_{k}^{0} + E_{k'}^{0} \pm\left[2|V_{G}| + \frac{(E_{k'}^{0} - E_{k}^{0})^{2}}{4|V_{G}|}\right]\right\}$,其中$E_{k}^{0} + E_{k'}^{0}=2E_{0} + \frac{\hbar^{2}}{m}\left(k + \frac{G}{2}\right)^{2},(E_{k'}^{0} - E_{k}^{0})^{2}=4\left(\frac{\hbar^{2}}{2m}\right)^{2}G^{2}\left(k + \frac{G}{2}\right)^{2}$,即$E_{k\pm} \approx (E_{0}\pm |V_{G}|) + \frac{\hbar^{2}}{2m}\left(k + \frac{G}{2}\right)^{2} \pm \left(\frac{\hbar^{2}}{2m}\right)^{2} \frac{G^{2}}{2|V_{G}|}\left(k + \frac{G}{2}\right)^{2}$
+   
+   \textbf{半导体}价带顶($\bigcap$),导带底($\bigcup$)\textbf{(1)电子群速度}:$\vec{v}_{g} = \nabla_{\vec{k}}\omega(\vec{k})= \frac{1}{\hbar}\nabla_{\vec{k}}E(\vec{k})$\textbf{(2)有效质量}$\frac{1}{m^{*}} = \frac{1}{\hbar^{2}}\frac{\mathrm{d}^2 E}{\mathrm{d}k^2}$,特定方向:$\left(\frac{1}{m{*}}\right)_{\mu\nu}=\frac{1}{\hbar^{2}}\frac{\mathrm{d}^{2}E}{\mathrm{d}k_{\mu}\mathrm{d}k_{\nu}}$;另一种定义:$m^{*} = \hbar^{2}k\left(\frac{\partial E}{\partial k}\right)^{-1}$用于线性色散$E = a(|\vec{k}-\vec{k}_{0}|)$:$m^{*} = \frac{\hbar|\vec{k}|}{v_{g}} = \frac{\hbar}{v_{g}}|\vec{k}-\vec{k}_{0}|$.能隙$\Delta$的关系:$\Delta = 2m_{0}v_{g}^{2}$.\textbf{(3)空穴}:$\vec{k}_{h} = -\vec{k}_{e};E_{h}(\vec{k}_{h}) = - E_{e}(\vec{k}_{e});\vec{v}_{h} = -\frac{1}{\hbar}\nabla_{\vec{k}_{h}}E_{h}(\vec{k}_{h}) = \frac{1}{\hbar}\nabla_{\vec{k}_{e}}E_{e}(\vec{k}_{e}) = \vec{v}_{e}$.\textbf{(4)激子}$\frac{1}{\mu^{*}} = \frac{1}{m_{C}^{*}} + \frac{1}{m_{hh}^{*}},(m_{C}^{*} = 0.067m_{e},  m_{hh}^{*} = 0.45m_{e})$,长度$a_{0}^{*} = \frac{\epsilon_{r}m_{e}}{\mu^{*}}\cdot a_{0}(a_{0} = \frac{\epsilon_{0}h^{2}}{\pi m_{e}e^{2}} \approx 0.53\text{Å})$\textbf{(5)粒子浓度}:$\mathrm{d}n = f(E, T)g(E)\mathrm{d}E(f(E,T) = \frac{1}{1+e^{(E-\mu)/k_{B}T}})$.$E - \mu\gg k_{B}T$极限F-D 分布退化为 B 分布:$f(E, T) \approx e^{-(E-\mu)/k_{B}T}$.导带找到e:$f_{C}\approx e^{-(E-\mu)/k_{B}T}$;价带找到h:$f_{h} = 1 - f_{V}=e^{-(\mu-E)/k_{B}T}$.g(E)因近似抛物线色散($E - E_{C} = \frac{(k-k_{C})^{2}}{2m_{C}^{*}},E - E_{V} =-\frac{(k-k_{V})^{2}}{2m_{h}^{*}}$),即态密度:$g_{C}(E) = a(m_{C}^{*})^{\frac{3}{2}}(E - E_{C})^{\frac{1}{2}};g_{V}(E) = a(m_{h}^{*})^{\frac{3}{2}}(E_{V} - E)^{\frac{1}{2}}$,$\therefore n = \int_{E_{C}}^{\infty}f_{C}g_{C}\mathrm{d}E\approx a(m_{C}^{*})^{\frac{3}{2}}\int_{E_{C}}^{\infty}(E-E_{C})^{\frac{1}{2}}e^{-\frac{E-\mu}{k_{B}T}}\mathrm{d}E= N_{c} e^{-\frac{E_{C}-\mu}{k_{B}T}}(N_{C} = 2(\frac{k_{B}}{2\pi\hbar^{2}})^{\frac{3}{2}}(m_{C}^{*}T)^{\frac{3}{2}})$,同理 $p \approx N_{V}e^{-\frac{\mu - E_{V}}{k_{B}T}}(N_{V} = 2(\frac{k_{B}}{2\pi\hbar^{2}})^{\frac{3}{2}}(m_{h}^{*}T)^{\frac{3}{2}})$.\textbf{Law of Mass Action:}$np\approx WT^{3}e^{-\frac{E_{g}}{k_{B}T}}$(前提:$|\mu - E|\gg k_{B}T$)\textbf{(6)化学势}本征半导体$n$=$p$, $\frac{N_{V}}{N_{C}} = e^{\frac{2\mu-E_{C}-E_{V}}{k_{B}T}};\mu = \frac{1}{2}(E_{C}+ E_{V}) + \frac{3}{4}k_{B}T\ln{\frac{m_{h}^{*}}{m_{C}^{*}}}$\text{(7)电导率}(I)载流子迁移率($\mu_{e}, \mu_{h}$)$\mu = \frac{|v|}{E}$(电荷 $q$ 的漂移速度 $v =\frac{q\tau E}{m}$,$\tau$为碰撞时间)$\mu_{e/h} = \frac{e\tau_{e/h}}{m_{e/h}}$.半导体:$\sigma = ne\mu_e + pe\mu_h$\textbf{(7)掺杂}半导体原子价态为$\nu$,则$n$型掺杂(杂质价态为$\nu+1$);p型掺杂(杂质价态为 $\nu-1$)(I)浅掺杂能级:类H.(i)掺杂e:$E_{d}=-\frac{m_{c}^{*}}{m_{e}}\frac{1}{\epsilon_{r}^{2}\times\frac{13.6\text{eV}}{n^{2}}}$;(2)掺杂h:$E_{a}=-\frac{m_{V}^{*}}{m_{e}}\frac{1}{\epsilon_{r}^{2}}\times\frac{13.6\text{eV}}{n^{2}}$.参与导电.\textbf{(8)非本征载流子浓度}掺杂较少,$\mu$还在能隙中:$np=WT^{3}e^{-\frac{E_{g}}{k_{B}T}}$.全电离时电荷守恒:$N-p=N_{D}-N_{A}$. \text{半导体pn结}.p型:$\mu(E_{F})$比$E_{i}$更靠近价带顶;n型:$\mu(E_{F})$比$E_{i}$ 更靠近导带底.e,h扩散,通过$\mu(E_{F})$ 拉平.(I)金属-半导体接触:(i)肖特基:半导体$\mu(E_{F})\uparrow$,e从半导体到金属;内建电场,导带能量$\uparrow$,导带底和费米能级距离$\uparrow$(ii)欧姆:半导体$\mu(E_{F})$低于金属,对e无势垒.(II)金属-氧化绝缘体-半导体(MOS)费米能级独立,类电容.(i)正电压:e从半导体远端到绝缘端.$\mu(E_{F})$更靠近导带底, n型强化;(ii)反电压:e向半导体远端移动.超限后,发生反型($\mu(E_{F})$更靠近价带顶)
+   \textbf{(9)布洛赫振荡}运动方程$\hbar\frac{\mathrm{d}k}{\mathrm{d}t}=-eE$,解$k(t)=k(0)-\frac{eE}{\hbar}t$.能带色散$\epsilon(k)=\epsilon_{0}[1-\cos{(ak)}]$,电子群速度$v(k)=\frac{1}{\hbar}\frac{\mathrm{d}\epsilon}{\mathrm{d}k}=\frac{\epsilon_{0}a}{\sin{(ak)}}$.$k(0)=x(0)=0$,$x(t)=\int_{0}^{t}v[k(t')]\mathrm{d}t'=\frac{\epsilon_{0}}{eE}\left[\cos{(\frac{eEa}{\hbar}t)}-1\right]$.振荡频率$\omega_{\text{BO}}=eEa/\hbar$.观测条件$\tau\gg 2\pi/\omega_{\text{BO}}=h/eEa$.
+   
+   \textbf{布洛赫电子动力学}\textbf{(1)运动特征}$\hbar\frac{\mathrm{d}\vec{k}}{\mathrm{d}t}=-e\vec{v}\times\vec{B}$.e群速度$\vec{v}=\frac{1}{\hbar}\nabla_{k}E(\vec{k});\frac{\mathrm{d}E}{\mathrm{d}t}=\nabla_{k}(\vec{k})\frac{\mathrm{d}\vec{k}}{\mathrm{d}t}=0$. 实空间和倒空间运动方向垂直.\textbf{(2)回旋频率}$k_{z}=0$.周期$T=\frac{2\pi K}{\frac{evB}{\hbar}}=\frac{2\pi}{eB}\frac{\hbar K}{v}=\frac{2\pi m}{eB}$;回旋频率$\omega_{c} = \frac{2\pi}{T} = \frac{eB}{m_{c}^{*}}(m_{c}^{*}\ncong m^{*})$\textbf{(3)磁场中的分立能}(1.抛物线色散2.忽略自旋)朗道能级$E(k) = \frac{\hbar^{2}}{2m}k_{z}^{2} + \left(n + \frac{1}{2}\right)\hbar\omega_{c}$.(I)简并度(i)无磁场:$E(\vec{k}) = \frac{\hbar^{2}}{2m}(k_{x}^{2} + k_{y}^{2})$(ii)有磁场:相邻的两个朗道环$L_{n},L_{n+1}$所围的全部态简并到同一能级.态数目$n_{k} = \Delta A \times \frac{S}{4\pi^{2}}=\pi\left[\Delta(k_{x}^{2} + k_{y}^{2})\right]\times \frac{S}{4\pi^{2}}= \frac{2\pi m\Delta E}{\hbar^{2}}\times \frac{S}{4\pi^{2}}=\frac{2\pi m\hbar\omega_{c}}{\hbar^{2}}\times \frac{S}{4\pi^{2}}= \frac{4\pi^{2}eB}{h}\times \frac{S}{4\pi^{2}} = \frac{eBS}{\hbar}$,朗道能级简并度$p = 2n_{k} = \frac{2e}{h}BS = \frac{BS}{\Phi_{0}}(\Phi_{0} = \frac{h}{2e} \approx 2.067\times 10^{-15} (\text{Wb}))$.适用高量子态条件:$\oint\vec{p}\cdot\mathrm{d}\vec{r} = (n + \gamma)\cdot 2\pi\hbar\rightarrow A_{r} = \frac{2\pi\hbar}{eB}(n + \gamma)$. $\because \hat{B} \times \frac{\mathrm{d}\vec{k}}{\mathrm{d}t} = -\frac{eB}{\hbar}\frac{\mathrm{d}\vec{r}_{\perp}}{\mathrm{d}t}, \therefore \frac{A_{k}}{A_{r}} = \left(\frac{eB}{\hbar}\right)^{2}, \mathbf{A_{k} = \frac{2\pi eB}{\hbar}(n + \gamma)}$.变换:$\frac{1}{B} = \frac{2\pi e}{\hbar A_{k}}(n + \gamma)\rightarrow\Delta\left(\frac{1}{B}\right) = \left(\frac{1}{B_{n+1}} - \frac{1}{B_{n}}\right)=\frac{2\pi e}{\hbar}\frac{1}{A_{k}}$\textbf{(II)de Hass-Van Alphen效应}(i)二维情形:$\left|_{\blacktriangleright}^{\vartriangleright}\right|$横轴为磁矩,横轴为磁场.$\Delta\left(\frac{1}{B}\right) = \frac{2\pi e}{\hbar} \cdot\frac{1}{A_{k_{F}}},A_{F}$对应极值轨道.(ii)fcc(Au,Ag,Cu)$n = \frac{4}{a^{3}},k_{F} = \left(3\pi^{2}n\right)^{\frac{1}{3}} = \left(\frac{12\pi^{2}}{a^{3}}\right)^{\frac{1}{3}}\approxeq 4.90 a^{-1},\text{跨越BZ最短距离:}\sqrt{3} b = \left(\frac{2\pi}{a}\right)\approxeq 10.88a^{-1},\frac{4\pi}{a}\approxeq 12.57a^{-1},\text{Au:}\Delta\left(\frac{1}{B}\right) = 2\times 10^{-9} \text{G}^{-1},\text{极值轨道:}S = \frac{2\pi e}{\hbar}\cdot\left[\Delta\left(\frac{1}{B}\right)\right]^{-1}\approxeq 4.8\times 10^{16}\text{cm}^{-2}$\textbf{(4)磁场下2D电子}$E = \left(n + \frac{1}{2}\right)\hbar\omega_{c}$(I)展宽(i)本征:$\delta E \approx \frac{\hbar}{\tau}$,分辨条件$\omega_{c}\cdot\tau \gg 1$;(ii)温度:分辨条件$\hbar\omega_{c} > k_{B}T$(低温极限)(II)简并度:单位面积内每个朗道能级的电子数.单位面积内朗道能级简并度:$n_{L} = \frac{2eB}{h}$(i)电导极小(态密度谷):$N_{L} = n\frac{2eB}{h}$,(ii)电导极大(态密度峰):$N_{L} = \left(n + \frac{1}{2}\right)\frac{2eB}{h}$,电导周期:$\Delta\left(\frac{1}{B}\right) = \frac{2e}{hN_{L}}$(III)霍尔效应.$\overleftrightarrow{\sigma} = \frac{\sigma_{0}}{1+(\omega_{c}\tau)^{2}}\left[^{1,-\omega_{c}\tau}_{\omega_{c}\tau,1}\right]$,霍尔系数$R_{H} = \frac{E_{y}}{j_{x}B} = \frac{\sigma_{xy}}{\sigma_{xx}^{2} + \sigma_{xy}^{2}}\cdot\frac{1}{B}=\frac{-1}{B}\cdot\frac{\omega_{c}\tau}{\sigma_{0}} = -\frac{1}{ne}$.二维各向同性:$\left[_{J_{y}}^{J_{x}}\right]=\left[^{\sigma_{xx},\sigma_{xy}}_{-\sigma_{xy},\sigma_{yy}}\right]\left[^{E_{x}}_{E_{y}}\right]$,霍尔效应:$\left\{^{\rho_{xx} = \frac{E_{x}}{J_{x}} = \frac{\sigma_{xx}}{\sigma_{xx}^{2} + \sigma_{xy}^{2}}}_{\rho_{xy} = \frac{E_{y}}{J_{x}} = \frac{\sigma_{xy}}{\sigma_{xx}^{2} + \sigma_{xy}^{2}}}\right\}$.极限$\omega_{c}\tau\gg 1\rightarrow\sigma_{xy} \gg \sigma_{xx}:\left\{^{\rho_{xx} = \frac{\sigma_{xx}}{\sigma_{xy}^{2}}}_{\rho_{xy} = \frac{1}{\sigma_{xy}} = R_{H}B}\right\};R_{H} = \frac{E_{y}}{J_{x}B}$.\textbf{(5)电阻}(I)电子-声子散射(准弹性散射)$E_{k'} = E_{k} \pm \hbar\omega,\vec{k}' =\vec{k} \pm\vec{q} + \vec{G}$.弛豫时间和散射概率:$\frac{1}{\tau} = \left(\frac{1}{2\pi}\right)^{3}\int\omega_{\vec{k}, \vec{k}'}(1-\cos{\theta})\mathrm{d}\vec{k}'$(i)高T($T > \Theta_{D}):\rho\propto\frac{1}{\tau}\propto T(\text{高温})$
+  (ii)低T($q\ll k_{F}):N_{\text{声子}} \propto T^{3}(\text{低温}):1-\cos{\theta} = 2\sin^{2}\left(\frac{\theta}{2}\right) = \frac{1}{2}\left(\frac{q}{k_{F}}\right)^{2}(\theta\text{很小})$.低温条件:$q\approx E \approx k_{B}T,1-\cos{\theta}\approx T^{2},\omega_{\vec{k},\vec{k}'}\propto T^{3}:\rho\propto \frac{1}{\tau}\propto T^{5}$(II)剩余电阻率(杂质贡献).$\left(\frac{\partial \rho}{\partial T}\right)_{T\rightarrow 0} = 0\Rightarrow \rho_{T\rightarrow 0} = \textit{const.}$ 
+  \textbf{(6)磁阻}(电阻随磁场的变化)(O)理想:一种载流子,完美球形费米面,洛伦兹力平衡于电场力,电子的运动将对是否有磁场不敏感,磁阻为0.(I)真实:(i)$E_F$并不是严格球形,$v_{F},m^{*},\tau$各向异性;(ii)多条能带经过$E_{F}$,各能带$v_{F},m^{*},\tau$不同.[例]两能带:$\frac{\Delta\sigma}{\sigma_{0}} = -\frac{\sigma_{10}\sigma_{20}}{(\sigma_{10} + \sigma_{20})^{2}} (\omega_{c1}\tau_{1} - \omega_{c2}\tau_{2})^{2}\Rightarrow \frac{\Delta \rho}{\rho_{0}} = \frac{\rho(B) - \rho(0)}{\rho(0)}\propto B^{2}>0$\textbf{(7)相位效应}(O)与杂质弹性散射,e相干:$\vec{k}\rightarrow\vec{k}'(|\vec{k}| = |\vec{k}'|),\phi\rightarrow\phi'$;与声子非弹性散射,e非相干:$\phi = e^{-iEt/h}$.相位相干长度$l_{\phi} = v_{F}\tau_{2}$.(I)从 $x'$ 到 $x''$ 的总概率:$P=|\sum_{i}A_{i}|^{2}=|\sum_{i}A_{i}^{2}|+\sum_{i\neq j}A_{i}A_{j}$.(II)弱局域化.环路:$P = |A_{+}|^{2} + |A_{-}|^{2} + A_{+}A_{-}^{*} + A_{+}^{*}A_{-} = 4A^{2}$,大于经典概率$P' = 2\cdot A^{2} = 2A^{2}$,电导变小, 电阻增大.对2D:$\Delta\sigma = -\sigma_{00}\ln{\frac{\tau_{2}}{\tau_{1}}} = \sigma_{00}p\ln{T}$.(III)负磁阻:$\vec{B} = \nabla\times\vec{A},\varphi(\vec{r}) = \varphi_{0}(\vec{r}) = e^{-\frac{ie}{\hbar}\int \vec{A}(\vec{r}')\cdot\mathrm{d}\vec{r}'},A_{+}\rightarrow A_{+}e^{-\frac{ie}{\hbar}\oint\vec{A}\cdot\mathrm{d}\vec{l}} = A_{+}e^{-\frac{ie}{\hbar}\iint\vec{B}\cdot\mathrm{d}\vec{S}} = A_{+}e^{-\frac{ie}{\hbar}\Phi},A_{-}\rightarrow A_{-}e^{\frac{ie}{\hbar}\Phi} = A_{-}e^{i2\pi \Phi/(2\Phi_{0})}(\Phi_{0} = \frac{h}{2e}),P = 2A^{2}\left[1 + \cos^{2}{\left(2\pi\frac{\Phi}{\Phi_{0}}\right)}\right]\leq 4A^{2}$
+   
+  \textbf{输运现象}温度:$\vec{J}_{Q} = -\kappa\nabla T$;浓度:$\vec{J}_{Q} = -D\nabla n$;电势:$\vec{J}_{e} = -\sigma\nabla\varphi$
+  \textbf{(1)非平衡分布函数}:$f_{n}(\vec{r},\vec{k},t)\frac{\mathrm{d}\vec{r}\mathrm{d}\vec{k}}{(2\pi)^{3}}$(单位体积材料中,在$t$的第$n$能带中,在$\left(\vec{r},\vec{k}\right)$处单位体积$\mathrm{d}\vec{r}\mathrm{d}\vec{k}$某自旋的平均电子数)\textbf{(2)非平衡电流}$\vec{J}_{e} = -en(\vec{r},t)\vec{v}_{d}=-\frac{2}{(2\pi)^{3}}\int e\vec{v}_{\vec{k}}f\left(\vec{r},\vec{k},t\right)\mathrm{d}\vec{k}$
+  \textbf{(3)平衡}:$\vec{J} = -\frac{2}{(2\pi)^{3}}\int e\vec{v}_{\vec{k}}f_{0}\mathrm{d}\vec{k} = 0$\textbf{(4)从平衡到非平衡}:$\frac{\mathrm{d}\vec{k}}{\mathrm{d}t} = -\frac{e\vec{E}}{\hbar},\vec{J} = -\frac{2}{(2\pi)^{3}}\int e\vec{v}_{\vec{k}}f\mathrm{d}\vec{k}\neq 0$\textbf{(5)玻尔兹曼方程}$\frac{\partial f}{\partial t} = \left(\frac{\partial f}{\partial t}\right)_{\text{漂移}} + \left(\frac{\partial f}{\partial t}\right)_{\text{碰撞}}$
+  (I)漂移无碰撞:$f\left(\vec{r},\vec{k},\vec{t}\right)=f\left(\vec{r}-\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}\mathrm{d}t, \vec{k} - \frac{\mathrm{d}\vec{k}}{\mathrm{d}t}\mathrm{d}t, t - \mathrm{d}t\right)$
+  (II)碰撞+漂移:$f\left(\vec{r},\vec{k},\vec{t}\right) = f\left(\vec{r}-\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}\mathrm{d}t, \vec{k} - \frac{\mathrm{d}\vec{k}}{\mathrm{d}t}\mathrm{d}t, t - \mathrm{d}t\right) + \left(\frac{\partial f}{\partial t}\right)_{\text{碰撞}}\mathrm{d}t$.
+  稳态玻尔兹曼方程$(\partial_{t}f=0)\dot{\vec{k}}\cdot\frac{\partial f}{\partial\vec{k}} + \dot{\vec{r}}\cdot\frac{\partial f}{\partial\vec{r}}=\left(\frac{\partial f}{\partial t}\right)_{\text{碰撞}}$.
+  近似条件:$f = f_{0} + f_{1} (f_{1}\ll f_{0}),\left(\frac{\partial f}{\partial t}\right) = \frac{f_{0} - f}{\tau} = -\frac{f_{1}}{\tau}$.
+  近似玻尔兹曼方程:$\dot{\vec{k}}\cdot\frac{\partial f_{0}}{\partial\vec{k}} + \dot{\vec{r}}\cdot\frac{\partial f_{0}}{\partial\vec{r}} = -\frac{f_{1}}{\tau}$
+  (III)直流电导率.仅$\vec{E}$下:$-\frac{e\vec{E}}{\hbar}\cdot\frac{\partial f_{0}}{\partial\vec{k}} = -\frac{f_{1}}{\tau},\vec{J}_{e} = -\frac{2e}{(2\pi)^{3}}\int f\vec{v}_{\vec{k}}\mathrm{d}\vec{k} = -\frac{e}{4\pi^{3}}\int(f_{0}+f_{1})\vec{v}_{\vec{k}}\mathrm{d}\vec{k}=-\frac{e}{4\pi^{3}}\int f_{1}\vec{v}_{\vec{k}}\mathrm{d}\vec{k}$.已知$f_{1} = \frac{e\tau\vec{E}}{\hbar}\cdot\frac{\partial f_{0}}{\partial\vec{k}};\frac{\partial f_{0}}{\partial\vec{k}} = \frac{\partial f_{0}}{\partial\epsilon}\cdot\frac{\partial\epsilon}{\partial\vec{k}};\vec{k} = \frac{1}{\hbar}\frac{\partial\epsilon}{\partial\vec{k}}$,$\vec{J}_{e} = \frac{e^{2}}{4\pi^{3}}\int\tau\frac{\partial f_{0}}{\partial\epsilon}\vec{k}_{\vec{k}}(\vec{v}_{\vec{k}}\cdot\vec{E})\mathrm{d}\vec{k}=\frac{e^{2}}{4\pi^{3}}\int\tau\frac{\vec{v}_{\vec{k}}(\vec{v}_{\vec{k}}\cdot\vec{E})}{\hbar v_{k}}\left(-\frac{\partial f_{0}}{\partial\epsilon}\right)\mathrm{d}S\mathrm{d}\epsilon= \frac{e^{2}}{4\pi^{3}\hbar}\int\tau\frac{\vec{v}_{k}(\vec{v}_{\vec{k}}\cdot\vec{E})}{v_{k}}\mathrm{d}S_{F},\vec{J}_{e} = \left[\frac{e^{2}}{4\pi^{3}\hbar}\int\tau\frac{\vec{v}_{\vec{k}}\vec{v}_{\vec{k}}}{v_{k}}\mathrm{d}S_{F}\right]\cdot\vec{E}=\overleftrightarrow{\sigma}\cdot\vec{E}$
+  [例]立方晶系:$\sigma=\sigma_{xx}=\sigma_{yy}=\sigma_{zz}=\frac{\left(\sigma_{xx}+\sigma_{yy}+\sigma_{zz}\right)}{3}$=$\frac{e^{2}}{4\pi^{3}\hbar}\int\tau\frac{v_{k_{x}}^{2}}{v_{k}}\mathrm{d}S_{F}=\frac{1}{12\pi^{3}}\frac{e^{2}}{\hbar}\int\tau v_{k}\mathrm{d}S_{F}$.
+  若$m^{*},\tau$
+  各向同性:$\sigma = \frac{\tau}{12\pi^{3}}\frac{e^{2}}{m^{*}}\int k_{F}\mathrm{d}S_{F}$.球面费米面:$\sigma=\frac{\tau}{3\pi^{2}}\frac{e^{2}k_{F}^{3}}{m^{*}}=\frac{ne^{2}\tau_{E_{F}}}{m^{*}}$\textbf{(6)热电势}.$T,\mu$因素:$\frac{\partial f_{0}}{\partial T}=-\frac{\partial f_{0}}{\partial\epsilon}\cdot\frac{\epsilon-\mu}{T},\frac{\partial f_{0}}{\partial\mu} = -\frac{\partial f_{0}}{\partial\epsilon}$,
+  无电场方程:$-\frac{\partial f_{0}}{\partial\epsilon}\vec{v}_{\vec{k}}\cdot\left[\frac{\epsilon_{k}-\mu}{T}\nabla T + \nabla\mu\right] = -\frac{f_{1}}{\tau}$.
+  电流密度:$\vec{J}_{e}=\frac{e}{4\pi^{3}}\int\tau\frac{(\vec{v}_{\vec{k}}\vec{v}_{\vec{k}})\cdot\nabla\mu}{\hbar v_{k}}\left(-\frac{\partial f_{0}}{\partial\epsilon}\right)\mathrm{d}S\mathrm{d}\epsilon + \frac{e}{4\pi^{3}}\int\tau\frac{(\vec{v}_{\vec{k}}\vec{v}_{\vec{k}})\cdot\nabla T}{\hbar v_{k}}\left(\frac{\epsilon - \mu}{T}\right)\left(-\frac{\partial f_{0}}{\partial\epsilon}\right)\mathrm{d}S\mathrm{d}\epsilon$.化学势梯度$\frac{\nabla\mu}{e}$与外场电场$\vec{E}$等价.\textbf{(7)热流}类比电流$\vec{J}_{e} = \frac{e^{2}}{4\pi^{3}}\int\tau\frac{(\vec{v}_{\vec{k}}\vec{v}_{\vec{k}})\cdot\left(\vec{E} + \frac{\nabla\mu}{e}\right)}{\hbar v_{k}}\left(-\frac{\partial f_{0}}{\partial\epsilon}\right)\mathrm{d}S\mathrm{d}\epsilon + \frac{e}{4\pi^{3}}\int\tau\frac{(\vec{v}_{\vec{k}}\vec{v}_{\vec{k}})\cdot\nabla T}{\hbar v_{k}}\left(\frac{\epsilon-\mu}{T}\right)\left(-\frac{\partial f_{0}}{\partial\epsilon}\right)\mathrm{d}S\mathrm{d}\epsilon$,定义热流:$\vec{J}_{Q} = \frac{1}{4\pi^{3}}\int(\epsilon_{k} - \mu)\vec{v}_{k} f_{1}\mathrm{d}\vec{k}=-\frac{e}{4\pi^{3}}\int\vec{E}\cdot[\tau\frac{(\vec{v}_{\vec{k}}\vec{v}_{\vec{k}})(\epsilon_{k} - \mu)}{\hbar v_{k}}(-\frac{\partial f_{0}}{\partial\epsilon})\mathrm{d}S\mathrm{d}\epsilon] - \frac{1}{4\pi^{3}}\int\nabla T\cdot[\tau\frac{(\vec{v}_{\vec{k}}\vec{v}_{\vec{k}})}{\hbar v_{k}}\frac{(\epsilon - \mu)^{2}}{T}(-\frac{\partial f_{0}}{\partial\epsilon})\mathrm{d}S\mathrm{d}\epsilon]$.设$\zeta_{n} = \frac{\tau}{12\pi^{3}\hbar}\int v_{k}(\epsilon_{k} - \mu)^{n}\left(-\frac{\partial f_{0}}{\partial\epsilon}\right)\mathrm{d}S\mathrm{d}\epsilon$,则$\vec{J}_{e} = e^{2}\zeta_{0}\vec{E} - \frac{e}{T}\zeta_{1}(-\nabla T),\vec{J}_{Q} = -e\zeta_{1}\vec{E} + \frac{1}{T}\zeta_{2}(-\nabla T)$.无外加$\vec{E}:\vec{J}_{e} = 0\Rightarrow e^{2}\zeta_{0}\vec{E} - \frac{e}{T}\zeta_{1}(-\nabla T) = 0,\vec{E} = \frac{1}{eT}\frac{\zeta_{1}}{\zeta_{0}}(-\nabla T)$,热流密度:$\vec{J}_{Q} = \frac{1}{T}\left(\zeta_{2} - \frac{\zeta_{1}^{2}}{\zeta_{0}}\right)(-\nabla T)$,热导率:$\kappa = \frac{1}{T}\left(\zeta_{2} - \frac{\zeta_{1}^{2}}{\zeta_{0}}\right)$,电导率:$\sigma = e^{2}\zeta_{0}$.\textbf{(8)补充:热电势}热电场:$\vec{E} = \frac{1}{eT}\frac{\zeta_{1}}{\zeta_{0}}(-\nabla T)$,热电系数(单位温度差下材料中电势差的变化量):$S = -\frac{1}{eT}\frac{\zeta_{1}}{\zeta_{0}} = -\frac{\pi^{3}}{3}\frac{k_{B}^{2}T}{e}\left[\frac{\partial\ln{\sigma}}{\partial\epsilon}\right]_{E_{F}}\propto T\left(\frac{\partial\ln{\langle\tau\rangle}}{\partial\epsilon} + \frac{\partial\ln{\langle v_{k}\rangle}}{\partial\epsilon} + \frac{\partial\ln{S}}{\partial\epsilon}\right)_{E_{F}}$
+  
+   \textbf{多电子}\textbf{(0)原始哈密顿量:}$\hat{H}_{T} = \sum_{i}\frac{|\vec{p_{i}}|^2}{2m}+\sum_{n}\frac{|\vec{p_{n}}|^2}{2M_{n}}+\frac{1}{2}\sum_{ij}'\frac{e^2}{|\vec{r_{i}}-\vec{r_{j}}|} + \frac{1}{2}\sum_{nn'}'\frac{Z_{n}Z_{n'}e^{2}}{|\vec{R_{n}}-\vec{R_{n'}}|} +\sum_{n,i}V_{n}(\vec{r_{i}}-\vec{R_{n}})+\hat{H}_{R}$(价电子动能,原子实动能,电子间库伦势,原子实间库伦势,电子和原子实之间,相对论修正)\textbf{(1)B-O绝热近似}.(I)电子:$\hat{H}_{e} = \sum_{i}\left[\frac{|\vec{p_{i}}|^2}{2m}+\sum_{n}V_{n}(\vec{r_{i}}-\vec{R_{n}})\right] + \frac{1}{2}\sum_{ij}'\frac{e^{2}}{|\vec{r_{i}}-\vec{r_{j}}|} + \hat{H}_{R}$,原子实:$\hat{H}_{c} = \sum_{n}\frac{|\vec{p_{n}}|^2}{2M_{n}} + \frac{1}{2} \sum_{nn'}'\frac{Z_{n}Z_{n'}e^2}{|\vec{R_{n}}-\vec{R_{n'}}|} + V_{\text{ec}}(\{\vec{R_{n}}\})$(II)$\{-\frac{\hbar^{2}}{2m}\sum_{j}\nabla_{j}^{2}-\sum_{j,l}\frac{Z_{l}e^{2}}{|r_{j}-R_{l}|}+\frac{1}{2}\sum_{j\neq j'}\frac{e^{2}}{|r_{j}-r_{j'}|} - E\}\Psi(r_{1},r_{2},\cdots,r_{N}) = 0,\hat{P}_{jj'}\Psi = -\Psi,.n(r) = n(r;R_{1},\dots,R_{\mathcal{N}}),E = E(R_{1},\dots,R_{\mathcal{N}})$\textbf{(2)}$H_{2}$\textbf{Model}:(I)HL:$\Psi_{HL}=A[\varphi_{H}(r_{1}-R_{1})\varphi_{H}(r_{2}-R_{2})+\varphi_{H}(r_{1}-R_{2})\varphi_{H}(r_{2}-R_{1})]\chi_{0}$(HL = Heitler-London).$\varphi_{H}(r)$ 是电子轨道在基态的波函数; $\chi_{0}$ 代表自旋单子波函数.(II)Mullikan Ansatz:$\Psi_{\text{HF}} = \frac{1}{\sqrt{2}}\mathrm{Det}[\varphi_{m}(r_{1})\alpha(1)\varphi_{m}(r_{2})\beta(2)]$(HF = Hatree-Fock).(III)JC:$\Psi_{JC} = \Psi(r_{1},r_{2})\chi_{0}$\textbf{(III)Hartree-Fock}对e:$\hat{H} = -\sum_{i}\frac{\hbar^2}{2m_{e}}\nabla_{\vec{r_{i}}}^{2} + \sum_{i}V_{\text{ion}}(\vec{r_{i}}) + \frac{e^2}{2}\sum_{(i\neq j)}\frac{1}{|\vec{r_{i}}-\vec{r_{j}}|}$,多体态:$\Psi^{H}(\{\vec{r}_{i}\}) = \phi_{1}(\vec{r}_{1})\dots\phi_{N}(\vec{r}_{N})$, $E^{H} = \langle\Psi^{H}|\hat{H}|\Psi^{H}\rangle = \sum_{i}\langle\phi_{i}|\frac{-\hbar^{2}\nabla_{\vec{r}}^2}{2m_{e}} + V_{\text{ion}}(\vec{r})|\phi_{i}\rangle + \frac{e^{2}}{2}\sum_{ij(i\neq j)}\langle\phi_{i}\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{i}\phi_{j}\rangle$, $\delta[E^{H}- \sum_{i}\epsilon_{i}(\langle\phi_{i}|\phi_{i}\rangle-1)] = 0,\langle\delta\phi_{i}|-\frac{\hbar^2\nabla_{\vec{r}}^2}{2m_{e}}+V_{\text{ion}}(\vec{r})|\phi_{i}\rangle + e^{2}\sum_{i\neq j}\langle\delta\phi_{i}\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{i}\phi_{j}\rangle - \epsilon_{i}\langle\delta\phi_{i}|\phi_{i}\rangle=\langle\delta\phi_{i}|[-\frac{\hbar^2\nabla_{\vec{r}}^2}{2m_{e}}+V_{\text{ion}}+e^2\sum_{i\neq j}\langle\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{j}\rangle-\epsilon]|\phi_{i}\rangle = 0$.Hatree:$[-\frac{\hbar^2\nabla{\vec{r}}^{2}}{2m_{e}}+V_{\text{ion}}(\vec{r})+e^2\sum_{j\neq i}\langle\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{i}\rangle]\phi_{i}(\vec{r}) = \epsilon_{i}\phi_{i}(\vec{r})$,Hatree势:$V_{i}^{H}(\vec{r}) = e^2\sum_{i\neq j}\langle\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{j}\rangle$.平均场近似:Hatree-Fock多体态:$\Psi^{\text{HF}}(\{\vec{r}_{i}\}) = \frac{1}{\sqrt{N!}}\left|
+\begin{array}{ccc} 
+    \phi_{1}(\vec{r}_{1})   & \cdots & \phi_{1}(\vec{r}_{N}) \\
+    \vdots  & \ddots & \vdots \\
+    \phi_{N}(\vec{r}_{1})   & \cdots & \phi_{N}(\vec{r}_{N}) \\
+\end{array}
+\right|$.$(\phi_{i}(\vec{r}) \approx \psi_{i}(\vec{r})\chi_{i}(\sigma))$,总能量:$E^{\text{HF}} = \langle\Psi^{\text{HF}}|\hat{H}|\Psi^{\text{HF}}\rangle=\sum_{i}\langle\phi_{i}|\frac{-\hbar^2\nabla_{\vec{r}}^{2}}{2m_{e}}+V_{\text{ion}}(\vec{r})|\phi_{i}\rangle + \frac{e^{2}}{2}\sum_{ij(i\neq j)}\langle\phi_{i}\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{i}\phi_{j}\rangle - \frac{e^2}{2}\sum_{ij(i\neq j)}\langle\phi_{i}\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{j}\phi_{i}\rangle$,$[\frac{-\hbar^2\nabla_{\vec{r}}^{2}}{2m_{e}}+V_{\text{ion}}+V_{i}^{H}(\vec{r})]\phi_{i}(\vec{r}) - e^2\sum_{j\neq i}\langle\phi_{j}|\frac{1}{|\vec{r}-\vec{r}'|}|\phi_{i}\rangle\phi_{j}(\vec{r})=\epsilon_{i}\phi_{i}(\vec{r})$.密度:$\rho_{i}(\vec{r}) = |\phi_{i}(\vec{r})|^2,\rho(\vec{r}) = \sum_{i}\rho_{i}(\vec{r});V_{i}^{H}(\vec{r}) = e^{2}\sum_{j\neq i}\int\frac{\rho_{j}(\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}' = e^{2}\int\frac{\rho(\vec{r}')-\rho_{i}(\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}';\textbf{单粒子交换密度:}\rho_{i}^{X}(\vec{r},\vec{r}') = \sum_{j\neq i}\frac{\phi_{i}(\vec{r}')\phi_{i}^{*}(\vec{r})\phi_{j}(\vec{r})\phi_{j}^{*}(\vec{r}')}{\phi_{i}(\vec{r})\phi_{i}^{*}(\vec{r})}$;HF势:$V_{i}^{HF}(\vec{r}) = e^{2}\int\frac{\rho(\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}'-e^2\int\frac{\rho_{i}(\vec{r}')+\rho_{i}^{X}(\vec{r},\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}',\text{单HF:}[\frac{-\hbar^2\nabla_{\vec{r}}^{2}}{2m_{e}}+V_{ion}(\vec{r})+V_{i}^{HF}(\vec{r})]\phi_{i}(\vec{r}) = \epsilon_{i}\phi_{i}(\vec{r})$.\textbf{(IV)Jellium Model(均匀电子气)}$\phi_{i}(\vec{r}) = \frac{e^{i\vec{k}_{i}\cdot\vec{r}}}{\sqrt{\Omega}}$($\Omega$为晶胞体积.均匀电子气的波矢的数值范围为$k\in[0,k_{F}]$).$\frac{4\pi}{3}r_{s} = \frac{\Omega}{N} = n^{-1} = \frac{3\pi^2}{k_{F}^{3}},\frac{\hbar^{2}}{2m_{e}a_{0}^{2}} = \frac{e^{2}}{2a_{0}} = 1\mathrm{Ry}$.态方程$[-\frac{\hbar^{2}\nabla_{\vec{r}}^{2}}{2m_{e}}-e^{2}\int\frac{\rho_{\vec{k}}^{HF}(\vec{r},\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}']\phi_{\vec{k}}(\vec{r}) = \epsilon_{\vec{k}}\phi_{\vec{k}}(\vec{r})$.平面波证明:$-\frac{\hbar^{2}\nabla^{2}}{2m_{e}}\frac{e^{i\vec{k}\cdot\vec{r}}}{\sqrt{\Omega}} = \frac{\hbar^{2}\hat{k}^{2}}{2m_{e}}\frac{e^{i\vec{k}\cdot\vec{r}}}{\sqrt{\Omega}},e^{2}[\int\frac{\rho_{\vec{k}}^{HF}(\vec{r},\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}']\phi_{\vec{k}}(\vec{r}) = \frac{-e^{2}}{\sqrt{\Omega}}\int\frac{\rho_{\vec{k}}^{HF}(\vec{r},\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}'e^{i\vec{k}\cdot\vec{r}}=\frac{-e^{2}}{\sqrt{\Omega}}\sum_{\vec{k}'}\int\frac{\phi_{\vec{k}}(\vec{r}')\phi_{\vec{k}}^{*}(\vec{r})\phi_{\vec{k}'}(\vec{r})\phi_{\vec{k}'}^{*}(\vec{r}')}{\phi_{\vec{k}}(\vec{r})\phi_{\vec{k}}^{*}(\vec{r})}\frac{1}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}'e^{i\vec{k}\cdot\vec{r}}=\frac{-e^{2}}{\sqrt{\Omega}}\sum_{\vec{k}'}\int\frac{e^{-i(\vec{k}-\vec{k}')\cdot(\vec{r}-\vec{r}')}}{\Omega}\frac{\mathrm{d}\vec{r}'e^{i\vec{k}\cdot\vec{r}}}{|\vec{r}-\vec{r}'|}$,$(\int\frac{1}{r}e^{i\vec{k}\cdot\vec{r}}\mathrm{d}\vec{r} = \frac{4\pi^2}{k^{2}}$,$\sum_{\vec{k}}f(\vec{k}) = \frac{\Omega}{(2\pi)^{3}}\int f(\vec{k})\mathrm{d}\vec{k})$,$\frac{-4\pi^{2}}{\sqrt{\Omega}}[\int_{k'<k_{F}}\frac{\mathrm{d}\vec{k}'}{(2\pi)^3}\frac{1}{|\vec{k}-\vec{k}'|^{2}}]e^{i\vec{k}\cdot\vec{r}} = -\frac{e^{2}}{\pi}k_{F}F(\frac{k}{k_{F}})\frac{e^{i\vec{k}\cdot\vec{r}}}{\sqrt{\Omega}}$.$(F(x) = 1 + \frac{1 - x^2}{2x}\ln{|\frac{1+x}{1-x}|})$.(II)$\phi_{\vec{k}}(\vec{r})$能量:$\epsilon_{\vec{k}} = \frac{\hbar^{2}k^{2}}{2m_{e}}-\frac{e^{2}}{\pi}k_{F}F(\frac{k}{k_{F}})$,总能量$E^{HF} = 2\sum_{k<k_{F}}\frac{\hbar^{2}|\vec{k}|^{2}}{2m_{e}} - \frac{e^{2}k_{F}^{2}}{\pi}\sum_{k<k_{F}}\left[1+ \frac{k_{F}^{2}-k^{2}}{2kk_{F}}\ln{\left|\frac{k_{F}+k}{k_{F}-k}\right|}\right]$.平均能:$\frac{E^{HF}}{N} = \frac{3}{5}\epsilon_{F} -  \frac{3}{4}\frac{e^{2}k_{F}}{\pi}=\left[\frac{2.21}{(r_{s}/a_{0})^{2}}-\frac{0.916}{(r_{s}/a_{0})}\right]\mathrm{Ry}$.交换能:$\frac{E^{X}}{N} = -\frac{3e^{2}}{4}\left(\frac{3}{\pi}\right)^{\frac{1}{3}}n^{\frac{1}{3}} = -1.447(a_{0}^{3}n)^{\frac{1}{3}}\mathrm{Ry}$;高密度极限:$\frac{E}{N} = \left[\frac{2.21}{(r_{s}/a_{0})^{2}}-\frac{0.916}{(r_{s}/a_{0})}+0.0622\ln{\frac{r_{s}}{a_{0}}}-0.096+\mathcal{O}\left(\frac{r_{s}}{a_{0}}\right)\right]$
+ 
+\textbf{DFT}(1)$\mathcal{H} = -\sum_{i}\frac{\hbar^{2}}{2m_{e}}\nabla_{\vec{r}_{i}}^{2} + \sum_{i}V_{\text{ion}}(\vec{r}_{i}) + \frac{e^{2}}{2}\sum_{ij(j\neq i)}\frac{1}{|\vec{r}_{i}-\vec{r}_{j}|}=T+W+V$.DF:$F[n(r)] = \langle\Psi|T + W|\Psi\rangle=F[n(\vec{r})] = T^{S}[n(\vec{r})] + \frac{e^{2}}{2}\iint\frac{n(\vec{r})n(\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}\mathrm{d}\vec{r}' + E^{XC}[n(\vec{r})],E[n(\vec{r})] = \langle\Psi|\mathcal{H}|\Psi\rangle = F[n(\vec{r})] + \int V(\vec{r})n(\vec{r})\mathrm{d}\vec{r}$,变分:$\delta n(\vec{r}) = \delta\phi_{i}^{\*}(\vec{r})\phi_{i}(\vec{r})$,约束$\int\delta n(\vec{r})\mathrm{d}\vec{r} = \int\delta\phi_{i}^{\*}(\vec{r})\phi_{i}(\vec{r})\mathrm{d\vec{r}} = 0$,Kohn-Sham:$\left[-\frac{\hbar^{2}}{2m_{e}}\nabla_{\vec{r}}^{2}+V^{\text{eff}}(\vec{r},n(\vec{r}))\right]\phi_{i}(\vec{r}) = \epsilon_{i}\phi_{i}(\vec{r})(V^{\text{eff}}(\vec{r},n(\vec{r})) = V(\vec{r}) + e^{2}\int\frac{n(\vec{r}')}{|\vec{r}-\vec{r}'|}\mathrm{d}\vec{r}' + \frac{\delta E^{XC}[n(\vec{r})]}{\delta n(\vec{r})})$.$E^{XC}[n(\vec{r})] = \int n(\vec{r})\epsilon^{XC}([n],\vec{r})\mathrm{d}\vec{r}$.LDA:$E^{XC}_{\text{LDA}} = \int\epsilon^{XC}[n(\vec{r})]n(\vec{r})\mathrm{d}\vec{r}$;GGA:$E^{XC}_{\text{GGA}} = \int\epsilon^{XC}[n(\vec{r}),|\nabla n(\vec{r})|]n(\vec{r})\mathrm{d}\vec{r}$.
 
   % \begin{table}[htbp]
   %   \caption{布拉维格子及其倒格子的几何参数}
