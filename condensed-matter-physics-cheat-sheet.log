@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.30)  7 JUN 2023 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.30)  8 JUN 2023 20:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,9 +553,7 @@ LaTeX Info: Redefining \lslig on input line 900.
 Package microtype Info: Loading configuration file microtype.cfg.
  (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
-)) (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)) (c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip71
 \f@nch@O@elh=\skip72
@@ -566,6 +564,8 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip77
 \f@nch@O@olf=\skip78
 \f@nch@O@orf=\skip79
+) (c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 ) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
  (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -649,13 +649,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip80
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 106.
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 106.
+(hyperref)                setting the option has no effect on input line 50.
 
-Package hyperref Info: Option `unicode' set `true' on input line 106.
+Package hyperref Info: Option `unicode' set `true' on input line 50.
 (c:/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 ) (c:/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
@@ -665,88 +665,88 @@ File: UTF8.chr 2021/10/16 4.8.5
 ) (./condensed-matter-physics-cheat-sheet.aux)
 \openout1 = `condensed-matter-physics-cheat-sheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -756,27 +756,27 @@ LaTeX Font Info:    ... okay on input line 108.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(5.69046pt, 580.4365pt, 11.38092pt)
-* v-part:(T,H,B)=(2.84544pt, 837.93367pt, 4.26773pt)
+* h-part:(L,W,R)=(2.84544pt, 588.97197pt, 5.69046pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=580.4365pt
-* \textheight=837.93367pt
-* \oddsidemargin=-66.57953pt
-* \evensidemargin=-66.57953pt
-* \topmargin=-106.42455pt
+* \textwidth=588.97197pt
+* \textheight=845.04684pt
+* \oddsidemargin=-69.42455pt
+* \evensidemargin=-69.42455pt
+* \topmargin=-109.26999pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumntrue
+* \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -803,26 +803,26 @@ Package caption Info: End \AtBeginDocument code.
  (c:/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 108.
-LaTeX Info: Redefining \microtypecontext on input line 108.
-Package microtype Info: Applying patch `item' on input line 108.
-Package microtype Info: Applying patch `toc' on input line 108.
-Package microtype Info: Applying patch `eqnum' on input line 108.
-Package microtype Info: Applying patch `footnote' on input line 108.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 52.
+LaTeX Info: Redefining \microtypecontext on input line 52.
+Package microtype Info: Applying patch `item' on input line 52.
+Package microtype Info: Applying patch `toc' on input line 52.
+Package microtype Info: Applying patch `eqnum' on input line 52.
+Package microtype Info: Applying patch `footnote' on input line 52.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 108.
+LaTeX Info: Redefining \showhyphens on input line 52.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package hyperref Info: Link coloring ON on input line 108.
+Package hyperref Info: Link coloring ON on input line 52.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -832,677 +832,146 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count347
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
  (./condensed-matter-physics-cheat-sheet.out) (./condensed-matter-physics-cheat-sheet.out)
 \@outlinefile=\write3
 \openout3 = `condensed-matter-physics-cheat-sheet.out'.
 
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 110.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 53.
  (c:/texlive/2022/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2021/12/12 v2.5.8 Chinese font definition (CTEX)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 3343) in paragraph at lines 110--126
-[]\C70/rm/bx/n/10/66 v \C70/rm/bx/n/10/68 <\OT1/cmr/bx/n/10 (+20) (1)\C70/rm/m/n/10/4e 	 \C70/rm/m/n/10/65 œ\OT1/cmr/m/n/10 (+20) (1;$\OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 a[] \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 (+20) ; \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^L \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^M$\OT1/cmr/m/n/10 (+20) );\C70/rm/m/n/10/53 U
+
+LaTeX Warning: Command \r invalid in math mode on input line 63.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 63.
+
+
+Overfull \hbox (16.54524pt too wide) in paragraph at lines 53--95
+\C70/rm/m/n/10/5f Ã\OT1/cmr/m/n/10 (-20) );CsCl(Cs\C70/rm/m/n/10/4f S \C70/rm/m/n/10/5f Ã\OT1/cmr/m/n/10 (-20) +Cl\C70/rm/m/n/10/89 Ò\OT1/cmr/m/n/10 (-20) );\C70/rm/m/n/10/91 Ñ \C70/rm/m/n/10/52 ^^Z \C70/rm/m/n/10/77 ó \C70/rm/m/n/10/7e Ó \C70/rm/m/n/10/67 „\OT1/cmr/m/n/10 (-20) (fcc+$000&[][][]$);ZnS\C70/rm/m/n/10/7e Ó \C70/rm/m/n/10/67 „\OT1/cmr/m/n/10 (-20) (\C70/rm/m/n/10/91 Ñ \C70/rm/m/n/10/52 ^^Z \C70/rm/m/n/10/77 ó \C70/rm/m/n/10/66 ÿ \C70/rm/m/n/10/63 b\OT1/cmr/m/n/10 (-20) )(Zn$000\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) 0[][]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (-20) 0[]\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 (-20) 0$;S$[][][]\OML/cmm/m/it/10 ; [][][]; [][][]; [][][]$\OT1/cmr/m/n/10 (-20) )[\C70/rm/m/n/10/4f ‹\OT1/cmr/m/n/10 (-20) ].$\OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 (-20) = 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (-20) 7\OML/cmm/m/it/10 ; r[] \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 110--126
-\C70/rm/bx/n/10/7e Ó \C70/rm/bx/n/10/67 „\OT1/cmr/m/n/10 (+20) :NaCl(Cl\C70/rm/m/n/10/97 b \C70/rm/m/n/10/5f Ã\OT1/cmr/m/n/10 (+20) &\C70/rm/m/n/10/89 Ò\OT1/cmr/m/n/10 (+20) +Na\C70/rm/m/n/10/8f ¹ \C70/rm/m/n/10/4e -\OT1/cmr/m/n/10 (+20) &\C70/rm/m/n/10/4f S \C70/rm/m/n/10/5f Ã\OT1/cmr/m/n/10 (+20) );CsCl(Cs\C70/rm/m/n/10/4f S \C70/rm/m/n/10/5f Ã\OT1/cmr/m/n/10 (+20) +Cl\C70/rm/m/n/10/89 Ò\OT1/cmr/m/n/10 (+20) );\C70/rm/m/n/10/91 Ñ
+Overfull \hbox (3.93265pt too wide) in paragraph at lines 53--95
+[][] \OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 u[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (-20) ) = [][] \OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (-20) [(\OML/cmm/m/it/10 u[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (-20) ) + (\OML/cmm/m/it/10 u[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (-20) )] = [][] \OML/cmm/m/it/10 C[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (-20) [\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 pa; t\OT1/cmr/m/n/10 (-20) ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x; t\OT1/cmr/m/n/10 (-20) )] + [\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 pa; t\OT1/cmr/m/n/10 (-20) ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x; t\OT1/cmr/m/n/10 (-20) )]\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 (-20) = [][] \OML/cmm/m/it/10 C[]p[]a[]@[]u\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x; t\OT1/cmr/m/n/10 (-20) )$,\C70/rm/m/n/10/8b Õ
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 110--126
-\C70/rm/m/n/10/52 ^^Z \C70/rm/m/n/10/77 ó \C70/rm/m/n/10/7e Ó \C70/rm/m/n/10/67 „\OT1/cmr/m/n/10 (+20) (fcc+$000&[][][]$);ZnS\C70/rm/m/n/10/7e Ó \C70/rm/m/n/10/67 „\OT1/cmr/m/n/10 (+20) (\C70/rm/m/n/10/91 Ñ \C70/rm/m/n/10/52 ^^Z \C70/rm/m/n/10/77 ó \C70/rm/m/n/10/7e Ó \C70/rm/m/n/10/67 „ \C70/rm/m/n/10/57 ú \C70/rm/m/n/10/78 @ \C70/rm/m/n/10/4e 
- \C70/rm/m/n/10/76 „ \C70/rm/m/n/10/90 è \C70/rm/m/n/10/52 ^^F
+Overfull \hbox (7.76363pt too wide) in paragraph at lines 53--95
+[][]$\OT1/cmr/m/n/10 (-20) (\C70/rm/m/n/10/82 r \C70/rm/m/n/10/65 c \C70/rm/m/n/10/51 s \C70/rm/m/n/10/7c û$\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 K\OT1/cmr/m/n/10 (-20) )$)\OT1/cmr/bx/n/10 (-20) (4)\C70/rm/m/n/10/4e 	 \C70/rm/m/n/10/7e ô$\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (-20) )$:$\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 i; K[] \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 ^^F[]$\OT1/cmr/m/n/10 (-20) ,$[]$\C70/rm/m/n/10/53 U \C70/rm/m/n/10/4f M S \C70/rm/m/n/10/79 ï \C70/rm/m/n/10/51 … \C70/rm/m/n/10/6a ! \C70/rm/m/n/10/5f ^^O \C70/rm/m/n/10/65 p$\OT1/cmr/m/n/10 (-20) ([])[] = []$,\C70/rm/m/n/10/6b Ï \C70/rm/m/n/10/79 Í \C70/rm/m/n/10/50 O \C70/rm/m/n/10/63 / \C70/rm/m/n/10/6a ! \C70/rm/m/n/10/5f ^^O \C70/rm/m/n/10/60 ; \C70/rm/m/n/10/65 p$\OML/cmm/m/it/10 N \OT1/cmr/m/n/10 (-20) = ([])[]([])$,\C70/rm/m/n/10/60 ^^A \C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦$\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (-20) ) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--126
-\C70/rm/m/n/10/66 ÿ \C70/rm/m/n/10/63 b\OT1/cmr/m/n/10 (+20) )(Zn$000\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0[][]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (+20) 0[]\OML/cmm/m/it/10 ; [][]\OT1/cmr/m/n/10 (+20) 0$;S$[][][]\OML/cmm/m/it/10 ; [][][]; [][][]; [][][]$\OT1/cmr/m/n/10 (+20) )eg1.$\OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 (+20) =
+Overfull \hbox (11.19907pt too wide) in paragraph at lines 53--95
+[] [][] []$\OT1/cmr/bx/n/10 (-20) (2)\C70/rm/bx/n/10/97 ^ \C70/rm/bx/n/10/8c ^^P \C70/rm/bx/n/10/4f \ \C70/rm/bx/n/10/75 (\OT1/cmr/m/n/10 (-20) ($\OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) ) = \OML/cmm/m/it/10 cx[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 gx[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 fx[]$\OT1/cmr/m/n/10 (-20) ):\C70/rm/m/n/10/5e s \C70/rm/m/n/10/57 G \C70/rm/m/n/10/4f M \C70/rm/m/n/10/79 û$\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (-20) = []$($\OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 (-20) = []$),$[] \OML/cmm/m/it/10 dxxe[] \U/msb/m/n/10 u \OT1/cmr/m/n/10 (-20) ([])([])\OML/cmm/m/it/10 ^^L[]; [] dxe[] \U/msb/m/n/10 u
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--126
-\OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 682\OML/cmm/m/it/10 ; ^^Z \OT1/cmr/m/n/10 (+20) = [] = 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 2$;eg2.NaCl\C70/rm/m/n/10/4e  \C70/rm/m/n/10/76 „\OT1/cmr/m/n/10 (+20) CsCl:$\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 (+20) =
+Overfull \hbox (5.19415pt too wide) in paragraph at lines 53--95
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 (-20) 2\OML/cmm/m/it/10 J\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 R[]\OT1/cmr/m/n/10 (-20) ) [] [] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 J\OT1/cmr/m/n/10 (-20) (0)$.\C70/rm/m/n/10/80 ý \C70/rm/m/n/10/96 ™$\OT1/cmr/m/n/10 (-20) ^^A\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 (-20) = 4\OML/cmm/m/it/10 J \OT1/cmr/m/n/10 (-20) = []\OML/cmm/m/it/10 e[]$ \C70/rm/bx/n/10/8f Ñ \C70/rm/bx/n/10/81 ê \C70/rm/bx/n/10/75 1 5 \C70/rm/bx/n/10/5b P\OT1/cmr/bx/n/10 (-20) (1)\C70/rm/bx/n/10/97 ^ \C70/rm/bx/n/10/7b € \C70/rm/bx/n/10/5e v$\OML/cmm/m/it/10 '[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) ) = \OML/cmm/m/it/10 '[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) ) + [][] []\OML/cmm/m/it/10 '[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) )(\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 k[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) )\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 k\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--126
-\C70/rm/m/n/10/62 * \C70/rm/m/n/10/8d Ý \C70/rm/m/n/10/4e :$\OML/cmm/m/it/10 a[]; a[]; a[]$\OT1/cmr/m/n/10 (+20) (1)$(\OML/cmm/m/it/10 a[]a[]a[]\OT1/cmr/m/n/10 (+20) )$;(2)$[\OML/cmm/m/it/10 a[]; a[]; a[]\OT1/cmr/m/n/10 (+20) ]$.\C70/rm/m/n/10/4e 
- \C70/rm/m/n/10/52 ^^R \C70/rm/m/n/10/7e ¿ \C70/rm/m/n/10/88 h \C70/rm/m/n/10/79 : \C70/rm/m/n/10/8d ^^_
+Overfull \hbox (6.334pt too wide) in paragraph at lines 53--95
+[] [][] \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) )d\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 (-20) = [] = 0$;2\C70/rm/m/n/10/7e §\OT1/cmr/m/n/10 (-20) :$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) = [][] [] = [][] []$.(I)if $(\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (-20) )[] \OMS/cmsy/m/n/10 ^^] \OML/cmm/m/it/10 k[]$\OT1/cmr/m/n/10 (-20) ,\C70/rm/m/n/10/81 ê \C70/rm/m/n/10/75 1\OT1/cmr/m/n/10 (-20) e;(II)$(\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (-20) )[] = \OML/cmm/m/it/10 k[]$\OT1/cmr/bx/n/10 (-20) (2)\C70/rm/bx/n/10/7b € \C70/rm/bx/n/10/5e v$\OMS/cmsy/m/n/10 f[]$\OT1/cmr/m/n/10 (-20) ,
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 110--126
-\C70/rm/bx/n/10/4f U \C70/rm/bx/n/10/7e Ó \C70/rm/bx/n/10/67 „ \C70/rm/bx/n/10/56 à \C70/rm/bx/n/10/5b P \C70/rm/m/n/10/52 M \C70/rm/m/n/10/63 Ð\OT1/cmr/m/n/10 (+20) :\C70/rm/m/n/10/65 ¹ \C70/rm/m/n/10/54 ^^Q \C70/rm/m/n/10/4e :$[] \OT1/cmr/m/n/10 (+20) = [] + ^^A[] = [] + []$, $\OML/cmm/m/it/10 S[] \OT1/cmr/m/n/10 (+20) =
+Overfull \hbox (16.04095pt too wide) in paragraph at lines 53--95
+\OMS/cmsy/m/n/10 j[]j \OT1/cmr/m/n/10 (-20) = 0$,$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) = []\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (-20) ) \OMS/cmsy/m/n/10 ^^F []g$\OT1/cmr/m/n/10 (-20) .(I)$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) = \OML/cmm/m/it/10 E[][]E[] \OT1/cmr/m/n/10 (-20) = \OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^F j\OML/cmm/m/it/10 V[]\OMS/cmsy/m/n/10 j$\OT1/cmr/m/n/10 (-20) ;(II)$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 E[]\OMS/cmsy/m/n/10 j ^^] j\OML/cmm/m/it/10 V[]\OMS/cmsy/m/n/10 j[]\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 110--126
-[][] \OML/cmm/m/it/10 f[]e[] \OT1/cmr/m/n/10 (+20) = [][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 e[]$\OT1/cmr/m/n/10 (+20) , \C70/rm/m/n/10/51 v \C70/rm/m/n/10/4e -$\OML/cmm/m/it/10 f[] \OT1/cmr/m/n/10 (+20) =
+Overfull \hbox (10.07913pt too wide) in paragraph at lines 53--95
+\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/10 (-20) )[](\OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (-20) )[]$,$\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 (-20) = [][] \OML/cmm/m/it/10 f[]g[]\OT1/cmr/m/n/10 (-20) d\OML/cmm/m/it/10 E \OMS/cmsy/m/n/10 ^^Y \OML/cmm/m/it/10 a\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 m[]\OT1/cmr/m/n/10 (-20) )[] [][](\OML/cmm/m/it/10 E \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (-20) )[]\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 (-20) d\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 (-20) = \OML/cmm/m/it/10 N[]e[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 (-20) = 2([])[](\OML/cmm/m/it/10 m[]T\OT1/cmr/m/n/10 (-20) )[])$,\C70/rm/m/n/10/54 ^^L \C70/rm/m/n/10/74 ^^F $\OML/cmm/m/it/10 p \OMS/cmsy/m/n/10 ^^Y \OML/cmm/m/it/10 N[]e[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 N[] \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--126
-[] \OML/cmm/m/it/10 dVn[]\OT1/cmr/m/n/10 (+20) ([])\OML/cmm/m/it/10 e[]$\OT1/cmr/m/n/10 (+20) .eg1.bcc$&$$(0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0) + ([]\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ; S\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 v[]; v[]; v[]\OT1/cmr/m/n/10 (+20) ) =
+Overfull \hbox (2.02933pt too wide) in paragraph at lines 53--95
+\OT1/cmr/m/n/10 (-20) [\OML/cmm/m/it/10 ^^\[]\OT1/cmr/m/n/10 (-20) (\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 (-20) )d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (-20) d\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) ] \OMS/cmsy/m/n/10 ^^@ [] [] r\OML/cmm/m/it/10 T \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 (-20) [\OML/cmm/m/it/10 ^^\[][]\OT1/cmr/m/n/10 (-20) (\OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 (-20) )d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (-20) d\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) ]$.\C70/rm/m/n/10/8b ¾$\OML/cmm/m/it/10 ^^P[] \OT1/cmr/m/n/10 (-20) = [] [] \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (-20) )[] [] d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (-20) d\OML/cmm/m/it/10 ^^O; [] \OT1/cmr/m/n/10 (-20) = \OML/cmm/m/it/10 e[]^^P[][] \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 ^^P[]\OT1/cmr/m/n/10 (-20) (\OMS/cmsy/m/n/10 ^^@r\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 110--126
-\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (+20) (1 + \OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 (+20) )$;eg2.fcc$&$$(0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0) + (0\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 (+20) ) + ([]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (+20) ) +
+Overfull \hbox (15.13737pt too wide) in paragraph at lines 53--95
+[] [] \OML/cmm/m/it/10 ; ^^[ \OT1/cmr/m/n/10 (-20) = \OML/cmm/m/it/10 e[]^^P[]$\OT1/cmr/m/n/10 (-20) .\OT1/cmr/bx/n/10 (-20) (8)\C70/rm/bx/n/10/88 e \C70/rm/bx/n/10/51 E\OT1/cmr/bx/n/10 (-20) :\C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/75 5 \C70/rm/bx/n/10/52 ¿ \C70/rm/m/n/10/70 í \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/57 :\OT1/cmr/m/n/10 (-20) :$[] = [][](\OMS/cmsy/m/n/10 ^^@r\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (-20) )$,\C70/rm/m/n/10/70 í \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/7c û \C70/rm/m/n/10/65 p\OT1/cmr/m/n/10 (-20) (\C70/rm/m/n/10/53 U \C70/rm/m/n/10/4f M$\OML/cmm/m/it/10 T$\C70/rm/m/n/10/5d î \C70/rm/m/n/10/4e  \C70/rm/m/n/10/67 P \C70/rm/m/n/10/65 ™ \C70/rm/m/n/10/4e -$\OML/cmm/m/it/10 ^^^$\C70/rm/m/n/10/76 „ \C70/rm/m/n/10/53 Ø ^^V \C70/rm/m/n/10/91 Ï\OT1/cmr/m/n/10 (-20) ):$\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 ^^@[][] \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 ^^@[][] [][] /
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 110--126
-\OT1/cmr/m/n/10 (+20) ([]\OML/cmm/m/it/10 ; []; \OT1/cmr/m/n/10 (+20) 0)$,$\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 v[]; v[]; v[]\OT1/cmr/m/n/10 (+20) ) = \OML/cmm/m/it/10 f\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (+20) 1 + \OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) +
+Overfull \hbox (55.22899pt too wide) in paragraph at lines 53--95
+\OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^N^^^[]^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 i ^^@ \OML/cmm/m/it/10 ^^O[]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^N^^^[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^N^^^[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (-20) [\OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i ^^@ \OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) ]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (-20) = 0$.Hatree:$[\OMS/cmsy/m/n/10 ^^@[] \OT1/cmr/m/n/10 (-20) + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([]) + \OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i\OT1/cmr/m/n/10 (-20) ]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (-20) ([]) =
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 110--126
-\OML/cmm/m/it/10 e[]\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 (+20) ;\C70/rm/bx/n/10/53 Ÿ \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/5f b \C70/rm/bx/n/10/72 ¶ \C70/rm/bx/n/10/56 à \C70/rm/bx/n/10/5b P$\OML/cmm/m/it/10 f[] \OT1/cmr/m/n/10 (+20) = [] \OML/cmm/m/it/10 dVn[]\OT1/cmr/m/n/10 (+20) ([])\OML/cmm/m/it/10 e[]$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/74 ^^C \C70/rm/m/n/10/5b ù \C70/rm/m/n/10/79 ð \C70/rm/m/n/10/67 
+Overfull \hbox (31.1912pt too wide) in paragraph at lines 53--95
+\OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (-20) ([])$,Hatree\C70/rm/m/n/10/52 ¿\OT1/cmr/m/n/10 (-20) :$\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([]) = \OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 (-20) .\C70/rm/m/n/10/5e s \C70/rm/m/n/10/57 G : \C70/rm/m/n/10/8f Ñ \C70/rm/m/n/10/4f <\OT1/cmr/m/n/10 (-20) :Hatree-Fock\C70/rm/m/n/10/59 ^^Z \C70/rm/m/n/10/4f S \C70/rm/m/n/10/60 ^^A\OT1/cmr/m/n/10 (-20) :$	[](\OMS/cmsy/m/n/10 f[]g\OT1/cmr/m/n/10 (-20) ) = [] [] \OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (-20) ([]) \OMS/cmsy/m/n/10 ^^Y \OML/cmm/m/it/10  []\OT1/cmr/m/n/10 (-20) ([])\OML/cmm/m/it/10 ^^_[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 ^^[\OT1/cmr/m/n/10 (-20) ))$,\C70/rm/m/n/10/60 ;
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 127--139
-[]\C70/rm/bx/n/10/58 ð \C70/rm/bx/n/10/5b P\OT1/cmr/bx/n/10 (+20) -\C70/rm/bx/n/10/63 / \C70/rm/bx/n/10/52 ¨ \OT1/cmr/bx/n/10 (+20) (1)\C70/rm/bx/n/10/65 à \C70/rm/bx/n/10/96 ; \C70/rm/bx/n/10/5c < \C70/rm/bx/n/10/53 U Ÿ \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/94 þ\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 u[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ue[]exp[]$\OT1/cmr/m/n/10 (+20) ,
+Overfull \hbox (21.4984pt too wide) in paragraph at lines 53--95
+\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([])]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (-20) ([]) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (-20) ([]) = \OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (-20) ([])$.\C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦\OT1/cmr/m/n/10 (-20) :$\OML/cmm/m/it/10 ^^Z[]\OT1/cmr/m/n/10 (-20) ([]) = \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (-20) ([])\OMS/cmsy/m/n/10 j[]\OML/cmm/m/it/10 ; ^^Z\OT1/cmr/m/n/10 (-20) ([]) = [][] \OML/cmm/m/it/10 ^^Z[]\OT1/cmr/m/n/10 (-20) ([]); \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([]) = \OML/cmm/m/it/10 e[] [][] [] []\OT1/cmr/m/n/10 (-20) d[] = \OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (-20) d[];$\C70/rm/bx/n/10/53 U
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 127--139
-\C70/rm/m/n/10/82 r \C70/rm/m/n/10/65 c \C70/rm/m/n/10/51 s \C70/rm/m/n/10/7c û$\OML/cmm/m/it/10 w[] \OT1/cmr/m/n/10 (+20) = (2\OML/cmm/m/it/10 C=M\OT1/cmr/m/n/10 (+20) )(1 \OMS/cmsy/m/n/10 ^^@ [] []\OT1/cmr/m/n/10 (+20) ) = \OML/cmm/m/it/10 ![] [][] []$\OT1/cmr/m/n/10 (+20) ;
+Overfull \hbox (20.5756pt too wide) in paragraph at lines 53--95
+\C70/rm/bx/n/10/7c ’ \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/4e ¤ \C70/rm/bx/n/10/63 b\OT1/cmr/bx/n/10 (-20) :$\OML/cmm/m/it/10 ^^Z[]\OT1/cmr/m/n/10 (-20) ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (-20) ) = [][] []$;HF\C70/rm/m/n/10/52 ¿\OT1/cmr/m/n/10 (-20) :$\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([]) = \OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (-20) d[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (-20) d[]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (-20) [[] + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([]) + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([])]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (-20) ([]) =
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 127--139
-\C70/rm/m/n/10/67 e \C70/rm/m/n/10/6f À \C70/rm/m/n/10/53 Ñ\OT1/cmr/m/n/10 (+20) .\OT1/cmr/bx/n/10 (+20) (3)\C70/rm/bx/n/10/6c â \C70/rm/bx/n/10/77 â \C70/rm/bx/n/10/90 	 \C70/rm/bx/n/10/62 é \C70/rm/bx/n/10/5b š \C70/rm/bx/n/10/52 ^^Y\OT1/cmr/m/n/10 (+20) :\C70/rm/m/n/10/6c â \C70/rm/m/n/10/77 â$[]$\C70/rm/m/n/10/97 ^ \C70/rm/m/n/10/5f 9 \C70/rm/m/n/10/60 ' \C70/rm/m/n/10/65 c \C70/rm/m/n/10/5c ^^D \C70/rm/m/n/10/52 0$[]$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/54 ^^L \C70/rm/m/n/10/65 ö \C70/rm/m/n/10/4e § \C70/rm/m/n/10/75 ^^_\OT1/cmr/m/n/10 (+20) /\C70/rm/m/n/10/54 8
+Overfull \hbox (0.87373pt too wide) in paragraph at lines 53--95
+\OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (-20) ([])(\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (-20) ([]\OML/cmm/m/it/10 ; n\OT1/cmr/m/n/10 (-20) ([])) = \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (-20) ([]) + \OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (-20) d[] + [])$.$\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (-20) [\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (-20) ([])] = [] \OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (-20) ([])\OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 (-20) ([\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (-20) ]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (-20) )d[]$.LDA:$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) = [] \OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 (-20) [\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (-20) ([])]\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (-20) ([])d[]$;GGA:$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 127--139
-\C70/rm/m/n/10/65 6 \C70/rm/m/n/10/6c â \C70/rm/m/n/10/77 â \C70/rm/m/n/10/4e :$[]$\C70/rm/m/n/10/76 „ \C70/rm/m/n/10/58 ð \C70/rm/m/n/10/5b P\OT1/cmr/m/n/10 (+20) :$[] = [] \OMS/cmsy/m/n/10 ^^F [] \OT1/cmr/m/n/10 (+20) + []$,$[]$\C70/rm/m/n/10/66 / \C70/rm/m/n/10/50 ^^R \C70/rm/m/n/10/68 < \C70/rm/m/n/10/77 â\OT1/cmr/m/n/10 (+20) ;\OT1/cmr/bx/n/10 (+20) (4)\C70/rm/bx/n/10/58 ð \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/80 ý
+Overfull \hbox (29.15631pt too wide) in paragraph at lines 53--95
+[]\OML/cmm/m/it/10 ; ^^Z \OT1/cmr/m/n/10 (-20) = [] = []$\OT1/cmr/bx/n/10 (-20) Yan(1)\C70/rm/bx/n/10/54 h \C70/rm/bx/n/10/67 ^^_ \C70/rm/bx/n/10/52 ¿$\OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (-20) ) = \OMS/cmsy/m/n/10 f[]\OML/cmm/m/it/10 :[] \OT1/cmr/m/n/10 (-20) = [] [][] [](\OML/cmm/m/it/10 b[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 (-20) )d\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 (-20) = []\OML/cmm/m/it/10 :V[] \OT1/cmr/m/n/10 (-20) = [] [][] \OML/cmm/m/it/10 e[]V\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 (-20) )d\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 (-20) =
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 127--139
-[] \OMS/cmsy/m/n/10 ^^F \U/msb/m/n/10 ~\OML/cmm/m/it/10 !$\OT1/cmr/bx/n/10 (+20) (5)\C70/rm/bx/n/10/67 	 \C70/rm/bx/n/10/96 ; \C70/rm/bx/n/10/5c < \C70/rm/bx/n/10/53 U Ÿ \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/94 þ\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 m@[]u[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 u[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 u[] \OMS/cmsy/m/n/10 ^^@
+Overfull \hbox (163.09491pt too wide) in paragraph at lines 53--95
+[] [][] []\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 b[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 t[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 (-20) d\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 (-20) = [](8 [] [] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (-20) 4\OML/cmm/m/it/10 n^^Y [] []\OT1/cmr/m/n/10 (-20) )$.$\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (-20) 2\OML/cmm/m/it/10 V[]\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 (-20) = []\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (-20) 2\OML/cmm/m/it/10 V[]\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 (-20) = []\OML/cmm/m/it/10 :[]:\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 bcc\OT1/cmr/m/n/10 (-20) ) : \OML/cmm/m/it/10 a\OT1/cmr/m/n/10 (-20) ([]\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 (-20) ); (\OML/cmm/m/it/10 fcc\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 (-20) ([]\OML/cmm/m/it/10 ; []; \OT1/cmr/m/n/10 (-20) 0)\OML/cmm/m/it/10 ; a\OT1/cmr/m/n/10 (-20) ([]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) 0\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; a\OT1/cmr/m/n/10 (-20) (0\OML/cmm/m/it/10 ; []; []\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 :$\OT1/cmr/bx/n/10 (-20) (3)1D\C70/rm/bx/n/10/59 ^^M
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 127--139
-\OT1/cmr/m/n/10 (+20) 2\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (+20) ) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) ^^@\OML/cmm/m/it/10 @[]u[]$\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/82 r \C70/rm/m/n/10/65 c \C70/rm/m/n/10/51 s \C70/rm/m/n/10/7c û\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 (+20) ) = [] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 127--139
-[]\OMS/cmsy/m/n/10 j [] []j\OT1/cmr/m/n/10 (+20) )$\C70/rm/m/n/10/5f ^^[ \C70/rm/m/n/10/8c k \C70/rm/m/n/10/65 ö \C70/rm/m/n/10/95 ô \OT1/cmr/m/n/10 (+20) (a)$\OML/cmm/m/it/10 ![] \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 (+20) ^^@\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 (+20) 2\OML/cmm/m/it/10 m \OT1/cmr/m/n/10 (+20) : \OML/cmm/m/it/10 ^^\[] \OT1/cmr/m/n/10 (+20) = 2\OML/cmm/m/it/10 m=\OT1/cmr/m/n/10 (+20) ^^@$;
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 127--139
-[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 K[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 K[]\OT1/cmr/m/n/10 (+20) )$,\C70/rm/m/n/10/7f ¤ \C70/rm/m/n/10/90 ^^_ \C70/rm/m/n/10/5e ¦$\OML/cmm/m/it/10 v \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 @[]! \OT1/cmr/m/n/10 (+20) = ([])[]$.\OT1/cmr/bx/n/10 (+20) (7)\C70/rm/bx/n/10/53 Ø\OT1/cmr/bx/n/10 (+20) C\C70/rm/bx/n/10/7b I\OT1/cmr/bx/n/10 (+20) M\C70/rm/bx/n/10/53 Ì
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 127--139
-\C70/rm/bx/n/10/53 Ÿ \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/94 þ\OT1/cmr/m/n/10 (+20) .$\OML/cmm/m/it/10 M@[]u[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 v[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (+20) ) + 10\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 v[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ; M@[]v[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 127--139
-\OT1/cmr/m/n/10 (+20) 10\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 u[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (+20) ) + \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 u[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (+20) )$.\C70/rm/m/n/10/8b Õ$\OML/cmm/m/it/10 u[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ue[]e[]; v[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 140--146
-[]\C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/5b f \C70/rm/bx/n/10/57 ú \C70/rm/bx/n/10/78 @ \OT1/cmr/bx/n/10 (+20) (0)$[] \OT1/cmr/m/n/10 (+20) = [][]$,\C70/rm/m/n/10/5b š ¹ \C70/rm/m/n/10/70 í \C70/rm/m/n/10/5b ¹$\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 (+20) = ([])[]$,\C70/rm/m/n/10/58 ð \C70/rm/m/n/10/5b P
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 140--146
-\C70/rm/m/n/10/6e ) \C70/rm/m/n/10/5e ¦$\OML/cmm/m/it/10 ^^\ \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 k[]T$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/66 v \C70/rm/m/n/10/68 < \C70/rm/m/n/10/51 … \C70/rm/m/n/10/80 ý$\OML/cmm/m/it/10 U[] [][] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 n[]\OMS/cmsy/m/n/10 i\U/msb/m/n/10 ~\OML/cmm/m/it/10 ![]$\OT1/cmr/bx/n/10 (+20) (1)\C70/rm/bx/n/10/66 n \C70/rm/bx/n/10/67 ^^W \C70/rm/bx/n/10/51 K \C70/rm/bx/n/10/52 ^^F
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 140--146
-\C70/rm/bx/n/10/5e ^^C$\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 n\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) = (\OML/cmm/m/it/10 e[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) 1)[]$ \OT1/cmr/bx/n/10 (+20) (2)$\OML/cmm/m/it/10 U \OT1/cmr/m/n/10 (+20) = [][] [][] \U/msb/m/n/10 ~\OML/cmm/m/it/10 ![]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 e[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--146
-\OT1/cmr/m/n/10 (+20) 1)[] = [][] [] \OML/cmm/m/it/10 d!D[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) )\U/msb/m/n/10 ~\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 e[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) 1)[]$, $\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 140--146
-\OML/cmm/m/it/10 k[] [][] [] d!D[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) )[]$($\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 (+20) = \U/msb/m/n/10 ~\OML/cmm/m/it/10 !=^^\ \OT1/cmr/m/n/10 (+20) = \U/msb/m/n/10 ~\OML/cmm/m/it/10 !=k[]T$\OT1/cmr/m/n/10 (+20) ),$\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) )$\C70/rm/m/n/10/53 s \C70/rm/m/n/10/4e :
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 140--146
-\C70/rm/m/n/10/65 c \C70/rm/m/n/10/51 s \C70/rm/m/n/10/7c û$\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 K\OT1/cmr/m/n/10 (+20) )$) \OT1/cmr/bx/n/10 (+20) (4)\C70/rm/m/n/10/4e 	 \C70/rm/m/n/10/7e ô$\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) )$:$\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 i; K[] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^F[]$\OT1/cmr/m/n/10 (+20) ,$[]$\C70/rm/m/n/10/53 U \C70/rm/m/n/10/4f M S \C70/rm/m/n/10/79 ï \C70/rm/m/n/10/51 … \C70/rm/m/n/10/6a !
- []
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 148.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 148.
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 147--149
-[]\C70/rm/bx/n/10/5f · \C70/rm/bx/n/10/62 Ü \C70/rm/bx/n/10/6a ! \C70/rm/bx/n/10/57 ‹ \OT1/cmr/bx/n/10 (+20) (0)\C70/rm/bx/n/10/77 ó \C70/rm/bx/n/10/58 ¨ \C70/rm/bx/n/10/70 ï \C70/rm/bx/n/10/6a ! \C70/rm/bx/n/10/57 ‹\OT1/cmr/bx/n/10 (+20) (2D)\OT1/cmr/m/n/10 (+20) .C-C\C70/rm/m/n/10/8d Ý \C70/rm/m/n/10/79 »$\OML/cmm/m/it/10 d$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/58 ð \C70/rm/m/n/10/90 ^^_$\OML/cmm/m/it/10 v$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/66 v \C70/rm/m/n/10/68 < \C70/rm/m/n/10/5e 8
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 147--149
-\OML/cmm/m/it/10 N\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 n\OMS/cmsy/m/n/10 i\U/msb/m/n/10 ~\OML/cmm/m/it/10 ! \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 N\U/msb/m/n/10 ~\OML/cmm/m/it/10 !=\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 e[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) 1)$,\C70/rm/m/n/10/4e ^^@ \C70/rm/m/n/10/7e ô \C70/rm/m/n/10/6b Ô \C70/rm/m/n/10/70 í$\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 (+20) = ([])[] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--192
-[]\C70/rm/bx/n/10/58 ð \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/5b f \OT1/cmr/bx/n/10 (+20) (1)\C70/rm/bx/n/10/60 ^^A \C70/rm/bx/n/10/5b Æ \C70/rm/bx/n/10/5e ¦$\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) )$\C70/rm/m/n/10/4e ^^@ \C70/rm/m/n/10/82 , \C70/rm/m/n/10/5f b ^^O\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 (+20) ) =
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 150--192
-\C70/rm/m/n/10/57 G \C70/rm/m/n/10/4f M \C70/rm/m/n/10/79 û$\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) = []$($\OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 (+20) = []$),$[] \OML/cmm/m/it/10 dxxe[] \U/msb/m/n/10 u
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 150--192
-\OT1/cmr/m/n/10 (+20) ([])([])\OML/cmm/m/it/10 ^^L[]; [] dxe[] \U/msb/m/n/10 u \OT1/cmr/m/n/10 (+20) ([])[]$,$\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 x\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) = []\OML/cmm/m/it/10 k[]T$\OT1/cmr/bx/n/10 (+20) (3)\C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/5b ü\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/4e ^^@
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 150--192
-\C70/rm/m/n/10/5b P \C70/rm/m/n/10/5e s \C70/rm/m/n/10/57 G \C70/rm/m/n/10/90 ^^_ \C70/rm/m/n/10/5e ¦\OT1/cmr/m/n/10 (+20) ;$\OML/cmm/m/it/10 l$\OT1/cmr/m/n/10 (+20) :\C70/rm/m/n/10/5e s \C70/rm/m/n/10/57 G \C70/rm/m/n/10/81 ê \C70/rm/m/n/10/75 1 \C70/rm/m/n/10/7a \OT1/cmr/m/n/10 (+20) ).\OT1/cmr/bx/n/10 (+20) (4)\C70/rm/bx/n/10/8f Ç \C70/rm/bx/n/10/7a \OT1/cmr/m/n/10 (+20) .$[] + [] = [] + []$.\C70/rm/m/n/10/6b c
- []
-
-
-Underfull \hbox (badness 1701) in paragraph at lines 150--192
-\C70/rm/m/n/10/5e 8\OT1/cmr/m/n/10 (+20) ($\OML/cmm/m/it/10 N$\OT1/cmr/m/n/10 (+20) ):$[] = 0$;\C70/rm/m/n/10/50 ^^R \C70/rm/m/n/10/90 ^^F\OT1/cmr/m/n/10 (+20) ($\OML/cmm/m/it/10 U$\OT1/cmr/m/n/10 (+20) ):$[] \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 (+20) = 0$ \C70/rm/bx/n/10/81 ê \C70/rm/bx/n/10/75 1 5 \C70/rm/bx/n/10/5b P \OT1/cmr/bx/n/10 (+20) (0)\C70/rm/bx/n/10/4e ^^@ \C70/rm/bx/n/10/7e ô \C70/rm/bx/n/10/65 à \C70/rm/bx/n/10/96 P \C70/rm/bx/n/10/6d ñ
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 150--192
-\C70/rm/bx/n/10/4e •\OT1/cmr/m/n/10 (+20) :$\OMS/cmsy/m/n/10 H\OML/cmm/m/it/10  [] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@[][] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^O[] []\OT1/cmr/m/n/10 (+20) ; \OML/cmm/m/it/10 ^^O[] \OT1/cmr/m/n/10 (+20) = []([])[]$ \OT1/cmr/bx/n/10 (+20) (1)\C70/rm/bx/n/10/8d 9 \C70/rm/bx/n/10/7c s
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 150--192
-\C70/rm/bx/n/10/80 ý$\OML/cmm/m/it/10 ^^O[]$\OT1/cmr/m/n/10 (+20) :N\C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b P \C70/rm/m/n/10/7c û \C70/rm/m/n/10/7e ß \C70/rm/m/n/10/57 ú \C70/rm/m/n/10/60 ^^A \C70/rm/m/n/10/4e  \C70/rm/m/n/10/76 „ \C70/rm/m/n/10/67 ^^@ \C70/rm/m/n/10/9a Ø \C70/rm/m/n/10/80 ý \C70/rm/m/n/10/7e §\OT1/cmr/m/n/10 (+20) ;e.g.\C70/rm/m/n/10/4e ^^@ \C70/rm/m/n/10/7e ô \C70/rm/m/n/10/65 à \C70/rm/m/n/10/96 P \C70/rm/m/n/10/6d ñ \C70/rm/m/n/10/4e •\OT1/cmr/m/n/10 (+20) +\C70/rm/m/n/10/6c á
- []
-
-
-Underfull \hbox (badness 2012) in paragraph at lines 150--192
-\C70/rm/m/n/10/52 ) \C70/rm/m/n/10/53 Ÿ \C70/rm/m/n/10/74 ^^F\OT1/cmr/m/n/10 (+20) :$2\OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 N$\OT1/cmr/m/n/10 (+20) ,$\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 n[]$\OT1/cmr/m/n/10 (+20) ,$\OML/cmm/m/it/10 ^^O[] \OT1/cmr/m/n/10 (+20) = []([])[]$; \OT1/cmr/bx/n/10 (+20) (2)\C70/rm/bx/n/10/6e ) \C70/rm/bx/n/10/5e ¦ \C70/rm/bx/n/10/53 Ø
- []
-
-
-Underfull \hbox (badness 6876) in paragraph at lines 150--192
-\C70/rm/m/n/10/9a Ø \C70/rm/m/n/10/6e ) \C70/rm/m/n/10/67  \C70/rm/m/n/10/96 P \C70/rm/m/n/10/65 ö \C70/rm/m/n/10/62 ^^P \C70/rm/m/n/10/4e : \C70/rm/m/n/10/73 » \C70/rm/m/n/10/5c ^^T \C70/rm/m/n/10/51 y \C70/rm/m/n/10/66 ü \C70/rm/m/n/10/52 ^^F \C70/rm/m/n/10/5e ^^C\OT1/cmr/m/n/10 (+20) /\C70/rm/m/n/10/9e ¦ \C70/rm/m/n/10/6c ^^O \C70/rm/m/n/10/52 ^^F \C70/rm/m/n/10/5e ^^C\OT1/cmr/m/n/10 (+20) . \OT1/cmr/bx/n/10 (+20) (3)(a)3D:
- []
-
-
-Underfull \hbox (badness 3396) in paragraph at lines 150--192
-\OMS/cmsy/m/n/10 ^^@[]r[]\OML/cmm/m/it/10  []\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[] []\OT1/cmr/m/n/10 (+20) ([])\OML/cmm/m/it/10 ;  []\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 e[]; \OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 i; k[] \OT1/cmr/m/n/10 (+20) = [])$,
- []
-
-
-Underfull \hbox (badness 4291) in paragraph at lines 150--192
-\C70/rm/m/n/10/77 â$\OML/cmm/m/it/10 k[]$\OT1/cmr/m/n/10 (+20) , F\C70/rm/m/n/10/80 ý$\OML/cmm/m/it/10 ^^O[] \OT1/cmr/m/n/10 (+20) = []\OML/cmm/m/it/10 k[]$\OT1/cmr/m/n/10 (+20) .$\OML/cmm/m/it/10 K$\C70/rm/m/n/10/7a z \C70/rm/m/n/10/95 ô \C70/rm/m/n/10/76 „ \C70/rm/m/n/10/6b Ï \C70/rm/m/n/10/4e * \C70/rm/m/n/10/4f S \C70/rm/m/n/10/79 ï \C70/rm/m/n/10/51 C$\OT1/cmr/m/n/10 (+20) ([])[]$\C70/rm/m/n/10/5b X \C70/rm/m/n/10/57 ( \C70/rm/m/n/10/4e ^^@
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 150--192
-[]$\OT1/cmr/m/n/10 (+20) ,\OT1/cmr/bx/n/10 (+20) 0K\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 (+20) = 2 [][] []$,\OT1/cmr/bx/n/10 (+20) K\C70/rm/m/n/10/4e - \C70/rm/m/n/10/72 ¶ \C70/rm/m/n/10/60 ^^A \C70/rm/m/n/10/65 p \C70/rm/m/n/10/4f S \C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦ \C70/rm/m/n/10/4e :$[]$\OT1/cmr/m/n/10 (+20) ,$[] =
- []
-
-
-Underfull \hbox (badness 5260) in paragraph at lines 150--192
-[] [][] \OML/cmm/m/it/10 d[]k[] \OT1/cmr/m/n/10 (+20) = [][]\OML/cmm/m/it/10 ; N \OT1/cmr/m/n/10 (+20) = 2 \OMS/cmsy/m/n/10 ^^A [][]$\OT1/cmr/m/n/10 (+20) ,$\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 150--192
-[]\OML/cmm/m/it/10 N^^O[]$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/53 ‹ \C70/rm/m/n/10/5f :$\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 @[]U[]\OT1/cmr/m/n/10 (+20) )[] = \OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 @[]^^O[]\OT1/cmr/m/n/10 (+20) )[] = [][]$,\C70/rm/m/n/10/4f S \C70/rm/m/n/10/6a !
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--192
-\C70/rm/m/n/10/65 Ë \C70/rm/m/n/10/98 ‘ \C70/rm/m/n/10/73 ‡$\OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 (+20) = []$ [\C70/rm/m/n/10/6f ^^B \C70/rm/m/n/10/79 û \C70/rm/m/n/10/90 ^^_ \C70/rm/m/n/10/5e ¦ \C70/rm/m/n/10/74 ^^F \C70/rm/m/n/10/8b º\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 @[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 ^^\[]\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 150--192
-\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 eE[]$\OT1/cmr/m/n/10 (+20) ,$\OML/cmm/m/it/10 j \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 nev$\OT1/cmr/m/n/10 (+20) ,$\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 (+20) = [](\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) + []\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ; v[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 150--192
-[]\OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ; v[] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 E[]$\OT1/cmr/m/n/10 (+20) ,$[\OML/cmm/m/it/10 j[]; j[]; j[]\OT1/cmr/m/n/10 (+20) ][] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--192
-[]\OT1/cmr/m/n/10 (+20) [1\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ![]^^\; \OT1/cmr/m/n/10 (+20) 0; \OML/cmm/m/it/10 ![]^^\; \OT1/cmr/m/n/10 (+20) 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0; 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) 1 + (\OML/cmm/m/it/10 ![]^^\\OT1/cmr/m/n/10 (+20) )[]][\OML/cmm/m/it/10 E[]; E[]; E[]\OT1/cmr/m/n/10 (+20) ][]$,\C70/rm/m/n/10/51 v
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--192
-\OML/cmm/m/it/10 ^^[[]E[] \OMS/cmsy/m/n/10 !$\C70/rm/m/n/10/81 ê \C70/rm/m/n/10/75 1 5 \C70/rm/m/n/10/5b P \C70/rm/m/n/10/74 ^^F \C70/rm/m/n/10/8b º \C70/rm/m/n/10/59 * \C70/rm/m/n/10/7b € \C70/rm/m/n/10/53 U\OT1/cmr/m/n/10 (+20) ] \OT1/cmr/bx/n/10 (+20) (8)\C70/rm/bx/n/10/97 ^^M \C70/rm/bx/n/10/5c ^^T \C70/rm/bx/n/10/65 H \C70/rm/bx/n/10/5e ”\OT1/cmr/bx/n/10 (+20) .\C70/rm/bx/n/10/97 ^^M \C70/rm/bx/n/10/5c ^^T \C70/rm/bx/n/10/7c û
+Overfull \hbox (47.17279pt too wide) in paragraph at lines 53--95
+[] [] []\OML/cmm/m/it/10 :[] \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 r[]\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) (1 + 2\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; g\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) ) = [] [] []\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (-20) (1 + 2\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) ) = [][]\OML/cmm/m/it/10 ; k \OT1/cmr/m/n/10 (-20) = []\OML/cmm/m/it/10 ; g\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (-20) ) = [][]\OML/cmm/m/it/10 :$\OT1/cmr/bx/n/10 (-20) (5)$[]\OML/cmm/m/it/10 :E[] \OT1/cmr/m/n/10 (-20) =
  []
 
 (c:/texlive/2022/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2021/12/12 v2.5.8 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
-]
-Underfull \hbox (badness 6641) in paragraph at lines 193--227
-[]\C70/rm/bx/n/10/8f Ñ \C70/rm/bx/n/10/81 ê \C70/rm/bx/n/10/75 1 5 \C70/rm/bx/n/10/5b P \C70/rm/bx/n/10/6a ! \C70/rm/bx/n/10/57 ‹ \OT1/cmr/bx/n/10 (+20) (0)\C70/rm/bx/n/10/4e ^^@ \C70/rm/bx/n/10/7e ô \C70/rm/bx/n/10/66 v \C70/rm/bx/n/10/4f S \C70/rm/bx/n/10/5e ^^C \C70/rm/bx/n/10/62 É \C70/rm/bx/n/10/68 < \C70/rm/bx/n/10/88 M \C70/rm/bx/n/10/5c ^^D \C70/rm/bx/n/10/67 a \C70/rm/bx/n/10/4e ö$\OT1/cmr/m/n/10 (+20) ([] +
- []
-
-
-Underfull \hbox (badness 6032) in paragraph at lines 193--227
-[]\OT1/cmr/m/n/10 (+20) )[] = [] \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 k \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^F[]\OML/cmm/m/it/10 G \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^F[]$\OT1/cmr/m/n/10 (+20) (\C70/rm/m/n/10/50 ^^R \C70/rm/m/n/10/68 < \C70/rm/m/n/10/77 â$\OML/cmm/m/it/10 G \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 193--227
-[]$\OT1/cmr/m/n/10 (+20) ) \OT1/cmr/bx/n/10 (+20) (1)\C70/rm/bx/n/10/9a { \C70/rm/bx/n/10/6c â\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/4e ^^N \C70/rm/m/n/10/65 ö \C70/rm/m/n/10/95 ô \C70/rm/m/n/10/65 à \C70/rm/m/n/10/51 s\OT1/cmr/m/n/10 (+20) .$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 (+20) (+) = \OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 193--227
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10  \OT1/cmr/m/n/10 (+20) (+)\OMS/cmsy/m/n/10 j[] / [][] []\OML/cmm/m/it/10 ; ^^Z\OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 (+20) ) = \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10  \OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 (+20) )\OMS/cmsy/m/n/10 j[] / [][] []$\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/59 ' \C70/rm/m/n/10/5c ^^O \C70/rm/m/n/10/51 s
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 193--227
-\C70/rm/m/n/10/67 ^^_$\OML/cmm/m/it/10 ^^N$\C70/rm/m/n/10/52 ¿ \C70/rm/m/n/10/96 1\OT1/cmr/m/n/10 (+20) ).$\OMS/cmsy/m/n/10 ^^@[][] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10   \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^O $\OT1/cmr/m/n/10 (+20) . $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 (+20) (0\OML/cmm/m/it/10 ; a\OT1/cmr/m/n/10 (+20) ) : \OML/cmm/m/it/10   \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 193--227
-\OML/cmm/m/it/10 Ae[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 B[]; ^^O \OT1/cmr/m/n/10 (+20) = []; \OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 b; \OT1/cmr/m/n/10 (+20) 0) : \OML/cmm/m/it/10   \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 Ce[] \OT1/cmr/m/n/10 (+20) +
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 193--227
-[] []$\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/67  \C70/rm/m/n/10/96 P$\OML/cmm/m/it/10 P \OMS/cmsy/m/n/10 ^^\ \OT1/cmr/m/n/10 (+20) 1\OML/cmm/m/it/10 ;$ \OT1/cmr/bx/n/10 (+20) (7)\C70/rm/bx/n/10/5e ^^C \C70/rm/bx/n/10/91 Ì \C70/rm/bx/n/10/6e 
- \C70/rm/bx/n/10/53 : \C70/rm/bx/n/10/8f ¹ \C70/rm/bx/n/10/75 L \C70/rm/bx/n/10/96 D \C70/rm/bx/n/10/8f Ñ Ñ \C70/rm/bx/n/10/4f < \C70/rm/bx/n/10/89 ã\OT1/cmr/m/n/10 (+20) . $\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 193--227
-\OT1/cmr/m/n/10 (+20) ([]\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (+20) )[]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (+20) )[] = ([]\OML/cmm/m/it/10 G \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 G\OT1/cmr/m/n/10 (+20) )[] \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 k \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^F[]\OML/cmm/m/it/10 G$\OT1/cmr/m/n/10 (+20) . ($\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 193--227
-\C70/rm/m/n/10/52 ^^W \C70/rm/m/n/10/5f ^^O$\OMS/cmsy/m/n/10 j[]j \OT1/cmr/m/n/10 (+20) = 0$,\C70/rm/m/n/10/89 ã \C70/rm/m/n/10/5f —$\OML/cmm/m/it/10 ^^O \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^U \OMS/cmsy/m/n/10 ^^F \OML/cmm/m/it/10 U; E[] \OT1/cmr/m/n/10 (+20) = 2\OML/cmm/m/it/10 U$\OT1/cmr/m/n/10 (+20) . \C70/rm/m/n/10/82 å \C70/rm/m/n/10/57 ($[]\OML/cmm/m/it/10 G$\C70/rm/m/n/10/96 D
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 228--230
-[]\C70/rm/bx/n/10/7d ' \C70/rm/bx/n/10/67 _ \C70/rm/bx/n/10/7f ^^Z \C70/rm/bx/n/10/6a ! \C70/rm/bx/n/10/57 ‹\OT1/cmr/bx/n/10 (+20) (1)$\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^@ [][] \OML/cmm/m/it/10 J\OT1/cmr/m/n/10 (+20) ([])\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 (+20) ([] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-[] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 (+20) )$,\OT1/cmr/bx/n/10 (+20) (2)1D,s\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 J[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 J[]e[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Underfull \hbox (badness 8113) in paragraph at lines 228--230
-\OML/cmm/m/it/10 J[]e[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 J[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) 2\OML/cmm/m/it/10 J []\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 ka\OT1/cmr/m/n/10 (+20) )$;\OT1/cmr/bx/n/10 (+20) (3)2D,sc:$\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^O \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 228--230
-[] [][] \OML/cmm/m/it/10 e[] [] ; E\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^F
- []
-
-
-Underfull \hbox (badness 6380) in paragraph at lines 228--230
-\OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 J[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) 2\OML/cmm/m/it/10 J[]\OT1/cmr/m/n/10 (+20) ([] [] + [] [] + [] [])$;(bcc):$\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10  \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (+20) 8\OML/cmm/m/it/10 ^^M [] [] [] [] [] []$\OT1/cmr/m/n/10 (+20) ;(fcc)$\OML/cmm/m/it/10 ^^O\OT1/cmr/m/n/10 (+20) ([]) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10  \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (8.27985pt too wide) in paragraph at lines 228--230
-\OT1/cmr/m/n/10 (-20) 4\OML/cmm/m/it/10 ^^M []$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-\OML/cmm/m/it/10 '[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (+20) ) + [][] []\OML/cmm/m/it/10 '[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (+20) )$,1\C70/rm/m/n/10/7e §\OT1/cmr/m/n/10 (+20) :$\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 k\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (+20) )\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 k\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 231--232
-[] [][] \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (+20) )d\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 V\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) = 0$;2\C70/rm/m/n/10/7e §\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) = [][] [] =
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 231--232
-\OML/cmm/m/it/10 k[]$\OT1/cmr/m/n/10 (+20) ,\OT1/cmr/bx/n/10 (+20) (2)\C70/rm/bx/n/10/7b € \C70/rm/bx/n/10/5e v \C70/rm/bx/n/10/5f ® \C70/rm/bx/n/10/62 p\OT1/cmr/m/n/10 (+20) :$\OMS/cmsy/m/n/10 f[]\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 j[]j \OT1/cmr/m/n/10 (+20) = 0$,$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 3503) in paragraph at lines 231--232
-[] []$\OT1/cmr/m/n/10 (+20) .(I)$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 E[]$\OT1/cmr/m/n/10 (+20) (BZ\C70/rm/m/n/10/8f ¹
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 231--232
-\OMS/cmsy/m/n/10 f[]$\OT1/cmr/m/n/10 (+20) (III)\C70/rm/m/n/10/97 ` \C70/rm/m/n/10/8f Ñ\OT1/cmr/m/n/10 (+20) BZ\C70/rm/m/n/10/8f ¹ \C70/rm/m/n/10/75 L\OT1/cmr/m/n/10 (+20) ($\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 E[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 E[]\OMS/cmsy/m/n/10 j ^^\ j\OML/cmm/m/it/10 V[]\OMS/cmsy/m/n/10 j$\OT1/cmr/m/n/10 (+20) ):$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-[] []$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/51 v \C70/rm/m/n/10/4e -$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 233--235
-[]\OMS/cmsy/m/n/10 r[]\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (+20) ([])$\OT1/cmr/bx/n/10 (+20) (2)\C70/rm/bx/n/10/67 	 \C70/rm/bx/n/10/65 H \C70/rm/bx/n/10/8d ( \C70/rm/bx/n/10/91 Ï$[] \OT1/cmr/m/n/10 (+20) = [][]$,\C70/rm/m/n/10/72 y \C70/rm/m/n/10/5b š \C70/rm/m/n/10/65 ¹ \C70/rm/m/n/10/54 ^^Q\OT1/cmr/m/n/10 (+20) :$[][] =
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 233--235
-\C70/rm/bx/n/10/7a t\OT1/cmr/m/n/10 (+20) :$[] = \OMS/cmsy/m/n/10 ^^@[]\OT1/cmr/m/n/10 (+20) ; \OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (+20) ([]) = \OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (+20) ([]); [] = \OMS/cmsy/m/n/10 ^^@[]r[]\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 233--235
-\C70/rm/m/n/10/5e & \C70/rm/m/n/10/62 ~ \C70/rm/m/n/10/52 0\OT1/cmr/m/n/10 (+20) e:$\OML/cmm/m/it/10 f[] \OMS/cmsy/m/n/10 ^^Y \OML/cmm/m/it/10 e[]$\OT1/cmr/m/n/10 (+20) ;\C70/rm/m/n/10/4e ÷ \C70/rm/m/n/10/5e & \C70/rm/m/n/10/62 ~ \C70/rm/m/n/10/52 0\OT1/cmr/m/n/10 (+20) h:$\OML/cmm/m/it/10 f[] \OT1/cmr/m/n/10 (+20) = 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 f[] \OT1/cmr/m/n/10 (+20) =
- []
-
-[2]
-Underfull \hbox (badness 1596) in paragraph at lines 236--239
-[] \OMS/cmsy/m/n/10 ^^A [][] \U/msb/m/n/10 u \OT1/cmr/m/n/10 (+20) 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 8 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 (+20) 10[][][]$\OT1/cmr/bx/n/10 (+20) (4)\C70/rm/bx/n/10/78 Á \C70/rm/bx/n/10/57 : \C70/rm/bx/n/10/4e \OT1/cmr/bx/n/10 (+20) 2D\C70/rm/bx/n/10/75 5 \C70/rm/bx/n/10/5b P$\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 236--239
-\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 ^^[[] [] [] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 ^^[[]p [] T$\OT1/cmr/m/n/10 (+20) .(III)\C70/rm/m/n/10/8d ^^_ \C70/rm/m/n/10/78 Á \C70/rm/m/n/10/96 ;\OT1/cmr/m/n/10 (+20) :$[] = \OMS/cmsy/m/n/10 r ^^B []\OML/cmm/m/it/10 ; '\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 4595) in paragraph at lines 240--254
-\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@[] [] \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (+20) d[] = \OMS/cmsy/m/n/10 ^^@[] []\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 f[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (+20) )[]d[] =
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 240--254
-[] [] \OML/cmm/m/it/10 ^^\[][]\OT1/cmr/m/n/10 (+20) ([] \OMS/cmsy/m/n/10 ^^A []\OT1/cmr/m/n/10 (+20) )d[] = [] [] \OML/cmm/m/it/10 ^^\[] [] \OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 ^^O \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 7047) in paragraph at lines 240--254
-\OMS/cmsy/m/n/10 ^^@[]$\OT1/cmr/m/n/10 (+20) . \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/6d A \C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦\OT1/cmr/m/n/10 (+20) :$[] = [] [] \OML/cmm/m/it/10 ^^\[] [] \OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 ^^O \OT1/cmr/m/n/10 (+20) +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--254
-[] [] \OML/cmm/m/it/10 ^^\[] [] [] \OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 ^^O$\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/53 ^^V \C70/rm/m/n/10/5b f \C70/rm/m/n/10/52 ¿
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--254
-\C70/rm/m/n/10/68 ¯ \C70/rm/m/n/10/5e ¦$[]$\C70/rm/m/n/10/4e ^^N \C70/rm/m/n/10/59 ^^V \C70/rm/m/n/10/57 : \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/57 :$[]$\C70/rm/m/n/10/7b I \C70/rm/m/n/10/4e ÷\OT1/cmr/m/n/10 (+20) .\OT1/cmr/bx/n/10 (+20) (7)\C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/6d A \C70/rm/m/n/10/7c { \C70/rm/m/n/10/6b Ô \C70/rm/m/n/10/75 5
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--254
-\C70/rm/m/n/10/6d A$[] \OT1/cmr/m/n/10 (+20) = [] [] \OML/cmm/m/it/10 ^^\[] [] \OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 ^^O \OT1/cmr/m/n/10 (+20) +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--254
-[] [] \OML/cmm/m/it/10 ^^\[] [] [] \OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 ^^O$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/5b š \C70/rm/m/n/10/4e I \C70/rm/m/n/10/70 í \C70/rm/m/n/10/6d A\OT1/cmr/m/n/10 (+20) :$[] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--254
-\OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (+20) )[] [] d\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (+20) d\OML/cmm/m/it/10 ^^O$\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/52 ^^Y$[] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 e[]^^P[][] \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 ^^P[]\OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 ^^@r\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 240--254
-\OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 ; [] \OT1/cmr/m/n/10 (+20) = [][](\OMS/cmsy/m/n/10 ^^@r\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (+20) )$,\C70/rm/m/n/10/70 í \C70/rm/m/n/10/6d A \C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦\OT1/cmr/m/n/10 (+20) :$[] = [] [] (\OMS/cmsy/m/n/10 ^^@r\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (+20) )$,\C70/rm/m/n/10/70 í
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 240--254
-\C70/rm/m/n/10/5b ü \C70/rm/m/n/10/73 ‡\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 ^^T \OT1/cmr/m/n/10 (+20) = [] []$,\C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b ü \C70/rm/m/n/10/73 ‡\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 ^^[ \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 e[]^^P[]$\OT1/cmr/m/n/10 (+20) .\OT1/cmr/bx/n/10 (+20) (8)\C70/rm/bx/n/10/88 e \C70/rm/bx/n/10/51 E\OT1/cmr/bx/n/10 (+20) :\C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/75 5 \C70/rm/bx/n/10/52 ¿
- []
-
-
-Underfull \hbox (badness 6625) in paragraph at lines 240--254
-\C70/rm/m/n/10/70 í \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/57 :\OT1/cmr/m/n/10 (+20) :$[] = [][](\OMS/cmsy/m/n/10 ^^@r\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (+20) )$,\C70/rm/m/n/10/70 í \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/7c û \C70/rm/m/n/10/65 p\OT1/cmr/m/n/10 (+20) (\C70/rm/m/n/10/53 U \C70/rm/m/n/10/4f M \C70/rm/m/n/10/6e ) \C70/rm/m/n/10/5e ¦ \C70/rm/m/n/10/5d î \C70/rm/m/n/10/4e  \C70/rm/m/n/10/67 P \C70/rm/m/n/10/65 ™
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 240--254
-\C70/rm/m/n/10/4e - \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/52 ¿ \C70/rm/m/n/10/5d î \C70/rm/m/n/10/76 „ \C70/rm/m/n/10/53 Ø ^^V \C70/rm/m/n/10/91 Ï\OT1/cmr/m/n/10 (+20) ):$\OML/cmm/m/it/10 S \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@[][] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@[][] [][] /
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-Underfull \hbox (badness 2237) in paragraph at lines 255--262
-[]\C70/rm/bx/n/10/59 ^^Z \C70/rm/bx/n/10/75 5 \C70/rm/bx/n/10/5b P\OT1/cmr/bx/n/10 (+20) (0)\C70/rm/bx/n/10/53 Ÿ \C70/rm/bx/n/10/59 Ë \C70/rm/bx/n/10/54 È \C70/rm/bx/n/10/5b Æ \C70/rm/bx/n/10/98 ^^? \C70/rm/bx/n/10/91 Ï\OT1/cmr/bx/n/10 (+20) :$[] \OT1/cmr/m/n/10 (+20) = [][] [] + [][] [] +
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 255--262
-\C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b P \C70/rm/m/n/10/52 ¨ \C70/rm/m/n/10/80 ý\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/53 Ÿ \C70/rm/m/n/10/5b P ž \C70/rm/m/n/10/52 ¨ \C70/rm/m/n/10/80 ý\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b P \C70/rm/m/n/10/95 ô \C70/rm/m/n/10/5e “ \C70/rm/m/n/10/4f & \C70/rm/m/n/10/52 ¿\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/53 Ÿ \C70/rm/m/n/10/5b P ž \C70/rm/m/n/10/95 ô \C70/rm/m/n/10/5e “ \C70/rm/m/n/10/4f & \C70/rm/m/n/10/52 ¿\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b P
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 255--262
-\C70/rm/m/n/10/54 Œ \C70/rm/m/n/10/53 Ÿ \C70/rm/m/n/10/5b P ž \C70/rm/m/n/10/4e K \C70/rm/m/n/10/95 ô\OT1/cmr/m/n/10 (+20) ,\C70/rm/m/n/10/76 ø \C70/rm/m/n/10/5b ù \C70/rm/m/n/10/8b º \C70/rm/m/n/10/4f î \C70/rm/m/n/10/6b c\OT1/cmr/m/n/10 (+20) )\OT1/cmr/bx/n/10 (+20) (1)B-O\C70/rm/bx/n/10/7e Ý \C70/rm/bx/n/10/70 í \C70/rm/bx/n/10/8f Ñ \C70/rm/bx/n/10/4f <\OT1/cmr/m/n/10 (+20) .(I)\C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b P\OT1/cmr/m/n/10 (+20) :$[] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[][] [] \OT1/cmr/m/n/10 (+20) + [] [][] [] + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) (\OMS/cmsy/m/n/10 f[]g\OT1/cmr/m/n/10 (+20) )$(II)$\OMS/cmsy/m/n/10 f^^@[] [][] r[] ^^@
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[][] [] \OT1/cmr/m/n/10 (+20) + [] [][] [] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 E\OMS/cmsy/m/n/10 g\OT1/cmr/m/n/10 (+20) 	(\OML/cmm/m/it/10 r[]; r[]; []  ; r[]\OT1/cmr/m/n/10 (+20) ) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OT1/cmr/m/n/10 (+20) 0\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (+20) 	 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 (+20) 	\OML/cmm/m/it/10 ; :n\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 (+20) ) = \OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 (+20) ; \OML/cmm/m/it/10 R[]; [] ; R[]\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ; E \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\C70/rm/m/n/10/66 / \C70/rm/m/n/10/75 5 \C70/rm/m/n/10/5b P \C70/rm/m/n/10/8f h \C70/rm/m/n/10/90 S \C70/rm/m/n/10/57 ( ú \C70/rm/m/n/10/60 ^^A \C70/rm/m/n/10/76 „ \C70/rm/m/n/10/6c â \C70/rm/m/n/10/51 ý \C70/rm/m/n/10/65 p\OT1/cmr/m/n/10 (+20) ; $\OML/cmm/m/it/10 ^^_[]$ \C70/rm/m/n/10/4e ã \C70/rm/m/n/10/88 h \C70/rm/m/n/10/81 ê \C70/rm/m/n/10/65 Ë \C70/rm/m/n/10/53 U \C70/rm/m/n/10/5b P \C70/rm/m/n/10/6c â \C70/rm/m/n/10/51 ý
- []
-
-
-Underfull \hbox (badness 7832) in paragraph at lines 255--262
-\OT1/cmr/m/n/10 (+20) = Hatree-Fock).(III)JC:$	[] = 	(\OML/cmm/m/it/10 r[]; r[]\OT1/cmr/m/n/10 (+20) )\OML/cmm/m/it/10 ^^_[]$\OT1/cmr/bx/n/10 (+20) (III)Hartree-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([])\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) + [] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 (+20) ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i\OT1/cmr/m/n/10 (+20) ]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (+20) ([])$,Hatree\C70/rm/m/n/10/52 ¿\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/5e s \C70/rm/m/n/10/57 G : \C70/rm/m/n/10/8f Ñ \C70/rm/m/n/10/4f <\OT1/cmr/m/n/10 (+20) :Hatree-Fock\C70/rm/m/n/10/59 ^^Z \C70/rm/m/n/10/4f S
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\C70/rm/m/n/10/60 ^^A\OT1/cmr/m/n/10 (+20) :$	[](\OMS/cmsy/m/n/10 f[]g\OT1/cmr/m/n/10 (+20) ) = [] []$.$(\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) \OMS/cmsy/m/n/10 ^^Y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OML/cmm/m/it/10  []\OT1/cmr/m/n/10 (+20) ([])\OML/cmm/m/it/10 ^^_[]\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 ^^[\OT1/cmr/m/n/10 (+20) ))$,\C70/rm/m/n/10/60 ; \C70/rm/m/n/10/80 ý \C70/rm/m/n/10/91 Ï\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 (+20) 	[]\OMS/cmsy/m/n/10 j[]j\OT1/cmr/m/n/10 (+20) 	[]\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 255--262
-[][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([])\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) + [] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 i ^^@
- []
-
-
-Underfull \hbox (badness 6526) in paragraph at lines 255--262
-[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]^^^[]\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 (+20) ,$[[] + \OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([])]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OML/cmm/m/it/10 e[] [][]\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 j[]j\OML/cmm/m/it/10 ^^^[]\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (+20) ([])$.\C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 ^^Z[]\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 255--262
-\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([])\OMS/cmsy/m/n/10 j[]\OML/cmm/m/it/10 ; ^^Z\OT1/cmr/m/n/10 (+20) ([]) = [][] \OML/cmm/m/it/10 ^^Z[]\OT1/cmr/m/n/10 (+20) ([]); \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 e[] [][] [] []\OT1/cmr/m/n/10 (+20) d[] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (+20) d[]; []\OML/cmm/m/it/10 ^^Z[]\OT1/cmr/m/n/10 (+20) ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (+20) ) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[][] []$\OT1/cmr/m/n/10 (+20) ;HF\C70/rm/m/n/10/52 ¿\OT1/cmr/m/n/10 (+20) :$\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (+20) d[] \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 255--262
-\OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (+20) d[]]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) = \OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (+20) ([])$.\C70/rm/m/n/10/5e s \C70/rm/m/n/10/97 b \C70/rm/m/n/10/6c â \C70/rm/m/n/10/8b Á \C70/rm/m/n/10/66 ^^N\OT1/cmr/m/n/10 (+20) :$\OMS/cmsy/m/n/10 ^^@[][] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 2828) in paragraph at lines 255--262
-[][]\OML/cmm/m/it/10 ; e[]\OT1/cmr/m/n/10 (+20) [[] []d[]]\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) = [] [] []d[]\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[] [][] [] [][]\OT1/cmr/m/n/10 (+20) d[]\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 255--262
-[] [][] [] [][]$\OT1/cmr/m/n/10 (+20) ,$([] []\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 (+20) d[] = []$,$[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[] [] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (+20) ([])d[])$,$[][[][] [][]]\OML/cmm/m/it/10 e[] \OT1/cmr/m/n/10 (+20) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 k[]F\OT1/cmr/m/n/10 (+20) ([])[]$.$(\OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (+20) ) = 1 + [] [] [])$.(II)$\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([])$\C70/rm/m/n/10/80 ý
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[] [][] []$\OT1/cmr/m/n/10 (+20) .\C70/rm/m/n/10/5e s \C70/rm/m/n/10/57 G \C70/rm/m/n/10/80 ý\OT1/cmr/m/n/10 (+20) :$[] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-[]\OML/cmm/m/it/10 ^^O[] \OMS/cmsy/m/n/10 ^^@ [][] \OT1/cmr/m/n/10 (+20) = [] []$.\C70/rm/m/n/10/4e ¤ \C70/rm/m/n/10/63 b \C70/rm/m/n/10/80 ý\OT1/cmr/m/n/10 (+20) :$[] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
-\OMS/cmsy/m/n/10 ^^@[] [][] \OML/cmm/m/it/10 n[] \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 (+20) 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 (+20) 447(\OML/cmm/m/it/10 a[]n\OT1/cmr/m/n/10 (+20) )[][]$;\C70/rm/m/n/10/9a Ø \C70/rm/m/n/10/5b Æ \C70/rm/m/n/10/5e ¦ \C70/rm/m/n/10/67  \C70/rm/m/n/10/96 P\OT1/cmr/m/n/10 (+20) :$[] =
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-[]\OT1/cmr/bx/n/10 (+20) DFT\OT1/cmr/m/n/10 (+20) (1)$\OMS/cmsy/m/n/10 H \OT1/cmr/m/n/10 (+20) = \OMS/cmsy/m/n/10 ^^@ [][] []r[] \OT1/cmr/m/n/10 (+20) + [][] \OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([]) +
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 263--264
-[] [][] [] \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 T \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 W \OT1/cmr/m/n/10 (+20) + \OML/cmm/m/it/10 V$\OT1/cmr/m/n/10 (+20) .DF:$\OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (+20) [\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) (\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 (+20) )] = \OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 (+20) 	\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 T \OT1/cmr/m/n/10 (+20) +
- []
-
-
-Underfull \hbox (badness 6608) in paragraph at lines 263--264
-\OML/cmm/m/it/10 W\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 (+20) 	\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 (+20) = \OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (+20) [\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) ([])] = \OML/cmm/m/it/10 T[]\OT1/cmr/m/n/10 (+20) [\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) ([])] + [] [] [] []d[]d[] +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-\OT1/cmr/m/n/10 (+20) 0$,Kohn-Sham:$[] \OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (+20) ([]) =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-\OML/cmm/m/it/10 ^^O[]^^^[]\OT1/cmr/m/n/10 (+20) ([])(\OML/cmm/m/it/10 V[]\OT1/cmr/m/n/10 (+20) ([]\OML/cmm/m/it/10 ; n\OT1/cmr/m/n/10 (+20) ([])) = \OML/cmm/m/it/10 V\OT1/cmr/m/n/10 (+20) ([]) + \OML/cmm/m/it/10 e[] [] []\OT1/cmr/m/n/10 (+20) d[] +
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 263--264
-[]\OT1/cmr/m/n/10 (+20) )$.$\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 (+20) [\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) ([])] = [] \OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) ([])\OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 (+20) ([\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 (+20) ]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 (+20) )d[]$.LDA:$\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 (+20) =
- []
-
-[4] (./condensed-matter-physics-cheat-sheet.aux)
+] [2] [3] [4] (./condensed-matter-physics-cheat-sheet.aux)
 Package rerunfilecheck Info: File `condensed-matter-physics-cheat-sheet.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26080 strings out of 478268
- 484990 string characters out of 5850345
- 974730 words of memory out of 5000000
- 43516 multiletter control sequences out of 15000+600000
- 526005 words of font info for 259 fonts, out of 8000000 for 9000
+ 26154 strings out of 478268
+ 486620 string characters out of 5850345
+ 1098523 words of memory out of 5000000
+ 43564 multiletter control sequences out of 15000+600000
+ 531036 words of font info for 280 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,78p,4567b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on condensed-matter-physics-cheat-sheet.pdf (4 pages, 823773 bytes).
+ 75i,14n,78p,13950b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on condensed-matter-physics-cheat-sheet.pdf (4 pages, 849233 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 444 compressed objects within 5 object streams
+ 686 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
  5 named destinations out of 1000 (max. 500000)
  20749 words of extra memory for PDF output out of 24883 (max. 10000000)
 
